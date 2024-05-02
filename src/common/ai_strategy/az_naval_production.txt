@@ -1,0 +1,958 @@
+BFL_vnr_naval_role_ratios_historical = {
+    allowed = {
+		original_tag = BFL
+	}
+	enable = {
+		has_dlc = "Man the Guns"
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = 10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bc
+		value = -100
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_carrier
+		value = -10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = -10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 150
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 30
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = -15
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 1
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = convoy
+		value = 1
+	}
+}
+
+BLI_vnr_naval_role_ratios_historical = {
+    allowed = {
+		original_tag = BLI
+	}
+	enable = {
+		has_dlc = "Man the Guns"
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = 10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bc
+		value = -100
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_carrier
+		value = -5
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = -10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 150
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 30
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = -15
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 1
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = convoy
+		value = 1
+	}
+}
+
+
+BYG_vnr_naval_role_ratios_historical = {
+    allowed = {
+		original_tag = BYG
+	}
+	enable = {
+		has_dlc = "Man the Guns"
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = 10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bc
+		value = -100
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_carrier
+		value = 10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = -10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 150
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 30
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = -15
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = cv_vnr_naval_bomber
+		value = 1
+	}	
+	
+	ai_strategy = {
+		type = unit_ratio
+		id = cv_fighter
+		value = 1
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = cv_fighter
+		value = 1
+	}
+	
+	ai_strategy = {
+		type = equipment_production_factor
+		id = cv_vnr_naval_bomber
+		value = 1
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 1
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = convoy
+		value = 1
+	}
+}
+
+
+CHY_vnr_naval_role_ratios_historical = {
+    allowed = {
+		original_tag = CHY
+	}
+	enable = {
+		has_dlc = "Man the Guns"
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = 5
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_shbb
+		value = 5
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bc
+		value = -100
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_carrier
+		value = 10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = -10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 150
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 30
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = -15
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = -15
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = cv_vnr_naval_bomber
+		value = 1
+	}	
+	
+	ai_strategy = {
+		type = unit_ratio
+		id = cv_fighter
+		value = 1
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = cv_fighter
+		value = 1
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 1
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = convoy
+		value = 1
+	}
+}
+
+
+DH1_vnr_naval_role_ratios_historical_strong = {
+    allowed = {
+		original_tag = DH1
+	}
+	enable = {
+		has_dlc = "Man the Guns"
+		num_of_vnr_naval_factories > 4
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = 10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bc
+		value = -100
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_carrier
+		value = -10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = -10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 60
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 30
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = -15
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 1
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = convoy
+		value = 1
+	}
+}
+
+DH1_vnr_naval_role_ratios_historical_week = {
+    allowed = {
+		original_tag = DH1
+	}
+	enable = {
+		has_dlc = "Man the Guns"
+		num_of_vnr_naval_factories < 5
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = -100
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bc
+		value = -100
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_carrier
+		value = -10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = -10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 150
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 30
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = -15
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 1
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = convoy
+		value = 1
+	}
+}
+
+
+DOH_vnr_naval_role_ratios_historical_strong = {
+    allowed = {
+		original_tag = DOH
+	}
+	enable = {
+		has_dlc = "Man the Guns"
+		num_of_vnr_naval_factories > 30
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = 10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bc
+		value = -100
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_carrier
+		value = -10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = -10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 60
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 30
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = -15
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 1
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = convoy
+		value = 1
+	}
+}
+
+DOH_vnr_naval_role_ratios_historical_week = {
+    allowed = {
+		original_tag = DOH
+	}
+	enable = {
+		has_dlc = "Man the Guns"
+		num_of_vnr_naval_factories < 30
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = -100
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bc
+		value = -100
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_carrier
+		value = -10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = -10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 150
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 30
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = -15
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 1
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = convoy
+		value = 1
+	}
+}
+
+
+HUJ_vnr_naval_role_ratios_historical = {
+    allowed = {
+		original_tag = HUJ
+	}
+	enable = {
+		has_dlc = "Man the Guns"
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = 10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bc
+		value = -100
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_carrier
+		value = 10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = -10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 150
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 30
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = -15
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = cv_vnr_naval_bomber
+		value = 1
+	}	
+	
+	ai_strategy = {
+		type = unit_ratio
+		id = cv_fighter
+		value = 1
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = cv_fighter
+		value = 1
+	}
+	
+	ai_strategy = {
+		type = equipment_production_factor
+		id = cv_vnr_naval_bomber
+		value = 1
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 1
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = convoy
+		value = 1
+	}
+}
+
+
+SAD_vnr_naval_role_ratios_historical = {
+    allowed = {
+		original_tag = SAD
+	}
+	enable = {
+		has_dlc = "Man the Guns"
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = 10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bc
+		value = -100
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_carrier
+		value = -10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = -10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 150
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 30
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = -15
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 1
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = convoy
+		value = 1
+	}
+}
+
+
+SIR_vnr_naval_role_ratios_historical = {
+    allowed = {
+		original_tag = SIR
+	}
+	enable = {
+		has_dlc = "Man the Guns"
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = 10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bc
+		value = -100
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_carrier
+		value = 10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = -10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 150
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 30
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = -15
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = cv_vnr_naval_bomber
+		value = 1
+	}	
+	
+	ai_strategy = {
+		type = unit_ratio
+		id = cv_fighter
+		value = 1
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = cv_fighter
+		value = 1
+	}
+	
+	ai_strategy = {
+		type = equipment_production_factor
+		id = cv_vnr_naval_bomber
+		value = 1
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 1
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = convoy
+		value = 1
+	}
+}
+
+
+TIX_vnr_naval_role_ratios_historical = {
+    allowed = {
+		original_tag = TIX
+	}
+	enable = {
+		has_dlc = "Man the Guns"
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = 10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bc
+		value = -100
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_carrier
+		value = -10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = -30
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 150
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 30
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = -15
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 1
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = convoy
+		value = 1
+	}
+}
+
+YUW_vnr_naval_role_ratios_historical = {
+    allowed = {
+		original_tag = YUW
+	}
+	enable = {
+		has_dlc = "Man the Guns"
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = 10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bc
+		value = -100
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_carrier
+		value = -10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = -10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 150
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 30
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = -15
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 1
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = convoy
+		value = 1
+	}
+}

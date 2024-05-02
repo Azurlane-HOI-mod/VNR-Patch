@@ -1,0 +1,68 @@
+add_namespace = az_vnr_patch
+country_event = {
+	id = az_vnr_patch.1
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = { 
+				has_global_flag =  modoption_fengkuangai_on
+			}
+			set_variable = { vnr_ai_difficulty = 3 }
+			every_country = {
+				remove_ideas = {
+					vnr_hard
+					vnr_normal
+
+					vnr_hard_production
+					vnr_normal_production
+				}
+			}
+			every_country = {
+				limit = { is_ai = yes }
+				add_ideas = {
+					vnr_mad
+					vnr_mad_production
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_global_flag =  modoption_dingzhenai_on
+			}
+			set_variable = { vnr_ai_difficulty = 0 }
+			every_country = {
+				remove_ideas = {
+					vnr_mad
+					vnr_hard
+					vnr_normal
+
+					vnr_mad_production
+					vnr_hard_production
+					vnr_normal_production
+				}
+			}
+		}
+		else = {
+			set_variable = { vnr_ai_difficulty = 1 }
+			every_country = {
+				remove_ideas = {
+					vnr_mad
+					vnr_hard
+
+					vnr_mad_production
+					vnr_hard_production
+				}
+			}
+			every_country = {
+				limit = { is_ai = yes }
+				add_ideas = {
+					vnr_normal
+					vnr_normal_production
+				}
+			}
+		}
+	}
+}

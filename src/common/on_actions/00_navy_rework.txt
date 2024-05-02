@@ -1,0 +1,50 @@
+on_actions = {
+    on_startup = {
+        effect = {
+			set_global_flag = vnr_enabled
+            # show welcome splash
+			set_global_flag = navy_rework_splash_show
+			
+            # show the first panel of intro splash
+			every_country = {
+                limit = { is_ai = no }
+				set_variable = { navy_rework_welcome_splash_variable = 0 }
+			}
+
+            set_variable = { vnr_ai_difficulty = 1 }
+
+            # major naval powers array setup
+
+            add_to_array = { global.vnr_naval_powers = ENG }
+            add_to_array = { global.vnr_naval_powers = FRA }
+            add_to_array = { global.vnr_naval_powers = GER }
+            add_to_array = { global.vnr_naval_powers = ITA }
+            add_to_array = { global.vnr_naval_powers = JAP }
+            add_to_array = { global.vnr_naval_powers = SOV }
+            add_to_array = { global.vnr_naval_powers = USA }
+
+            add_to_array = { global.vnr_naval_powers = BYG }
+            add_to_array = { global.vnr_naval_powers = BFL }
+            add_to_array = { global.vnr_naval_powers = HUJ }
+            add_to_array = { global.vnr_naval_powers = YUW }
+            add_to_array = { global.vnr_naval_powers = TIX }
+            add_to_array = { global.vnr_naval_powers = CHY }
+            add_to_array = { global.vnr_naval_powers = SAD }
+            add_to_array = { global.vnr_naval_powers = DOH }
+
+            add_to_array = { global.vnr_naval_powers = DH1 }
+            add_to_array = { global.vnr_naval_powers = WEX }
+
+            add_to_array = { global.vnr_naval_powers = BLI }
+            add_to_array = { global.vnr_naval_powers = SIR }
+
+            add_to_array = { global.vnr_naval_powers = SR1 }
+            add_to_array = { global.vnr_naval_powers = SR2 }
+            add_to_array = { global.vnr_naval_powers = SR3 }
+            add_to_array = { global.vnr_naval_powers = SR4 }
+
+            # naval treaty violator
+            set_global_flag = { flag = MTG_naval_treaty_violator value = 0 }
+        }
+    }
+}
