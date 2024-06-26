@@ -32,7 +32,7 @@ guiTypes = {
 			name = "Background"
 			quadTextureSprite ="GFX_tiled_plain_bg2"
 		}
-		
+
 		####azurlane####
 		containerWindowType = {
 					name = "shipgirltech_folder"           # Name you added to technology_folders
@@ -2072,6 +2072,32 @@ guiTypes = {
 			}
 
 			instantTextBoxType = {
+				name = "naval_year6"
+				position = { x = 20 y = 1250 }
+				textureFile = ""
+				font = "hoi_36header"
+				borderSize = {x = 0 y = 4}
+				text = "1950"
+				maxWidth = 170
+				maxHeight = 32
+				format = left
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
+				name = "naval_year7"
+				position = { x = 20 y = 1560 }
+				textureFile = ""
+				font = "hoi_36header"
+				borderSize = {x = 0 y = 4}
+				text = "1955"
+				maxWidth = 170
+				maxHeight = 32
+				format = left
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
 				name = "naval_subtitle_destroyer"
 				position = { x = 220 y = 35 }
 				textureFile = ""
@@ -2203,6 +2229,17 @@ guiTypes = {
 					quadTextureSprite ="GFX_tiled_research_red_bg"
 				}
 			}
+			containerWindowType = {
+				name = "tiled_research_bg_4"
+				position = { x=95 y=1225 }
+				size = { width = 2350 height = 450 }
+				clipping = no
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_research_bg"
+				}
+			}
 
 			gridboxtype = {
 				name = "early_ship_hull_light_tree"
@@ -2263,14 +2300,6 @@ guiTypes = {
 			gridboxtype = {
 				name = "naval_radio_guiding_system_tree"
 				position = { x = 550 y = 790 }
-				size = { width = 100 height = 140 }
-				slotsize = { width = 60 height = 50 }
-				format = "UP"
-			}
-
-			gridboxtype = {
-				name = "anti_air_rockets_tree"
-				position = { x = 490 y = 980 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 60 height = 50 }
 				format = "UP"
@@ -2343,7 +2372,7 @@ guiTypes = {
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
-				text = "1940"
+				text = "1939"
 				maxWidth = 170
 				maxHeight = 32
 				format = left
@@ -2352,11 +2381,24 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "naval_year5"
-				position = { x = 1620 y = 20 }
+				position = { x = 1480 y = 20 }
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "1944"
+				maxWidth = 170
+				maxHeight = 32
+				format = left
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
+				name = "naval_year6"
+				position = { x = 1760 y = 20 }
+				textureFile = ""
+				font = "hoi_36header"
+				borderSize = {x = 0 y = 4}
+				text = "1949"
 				maxWidth = 170
 				maxHeight = 32
 				format = left
