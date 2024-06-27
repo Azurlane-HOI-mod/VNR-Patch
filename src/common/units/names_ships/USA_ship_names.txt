@@ -1,9 +1,9 @@
-﻿##### USA BYG  NAME LISTS #####
+﻿##### USA NAME LISTS #####
 ### THEME: FISH (HISTORICAL SUBMARINES) ###
 USA_FISH = {
 	name = NAME_THEME_FISH
 
-	for_countries = { USA BYG  } # HAW, NEE, CSA is separate
+	for_countries = { BYG } # HAW, NEE, CSA is separate
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -48,7 +48,7 @@ USA_FISH = {
 USA_HEROES_NAVY = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { USA BYG  } # HAW, NEE, CSA is separate
+	for_countries = { BYG } # HAW, NEE, CSA is separate
 
 	type = ship
 	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
@@ -123,7 +123,7 @@ USA_HEROES_NAVY = {
 USA_CITIES = {
 	name = NAME_THEME_CITIES
 
-	for_countries = { USA BYG  } # HAW, NEE, CSA is separate
+	for_countries = { BYG } # HAW, NEE, CSA is separate
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser heavy_cruiser }
@@ -149,7 +149,7 @@ USA_CITIES = {
 USA_BATTLES = {
 	name = NAME_THEME_BATTLES
 
-	for_countries = { USA BYG  } # HAW, NEE, CSA is separate
+	for_countries = { BYG } # HAW, NEE, CSA is separate
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
@@ -170,7 +170,7 @@ USA_BATTLES = {
 USA_STATES = {
 	name = NAME_THEME_STATES
 
-	for_countries = { USA BYG  } # HAW, NEE, CSA is separate
+	for_countries = { BYG } # HAW, NEE, CSA is separate
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship ship_hull_carrier carrier }
@@ -190,7 +190,7 @@ USA_STATES = {
 USA_DE_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DE
 
-	for_countries = { USA BYG  }
+	for_countries = { BYG }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
@@ -235,7 +235,7 @@ USA_DE_HISTORICAL = {
 USA_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { USA BYG  }
+	for_countries = { BYG }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -248,7 +248,7 @@ USA_CL_HISTORICAL = {
 		"布鲁克林" "萨凡纳" "纳什维尔" "火奴鲁鲁" "凤凰城" "博伊西" "圣路易斯" "海伦娜" "亚特兰大" "朱诺" 
 		"圣迭戈" "圣胡安" "奥克兰" "克利夫兰" "哥伦比亚" "蒙彼利埃" "丹佛" "圣达菲" "里诺" "伯明翰" "莫比尔" 
 		"比洛克西" "休斯顿" "迈阿密" "弗林特" "文森斯" "帕萨迪纳" "斯普林菲尔德" "托皮卡" "维克斯堡" "德鲁斯" "阿斯托里亚" 
-		"奥克拉荷马城" "威尔克斯·巴雷" "图克森" "普罗维登斯" "小石城" "阿姆斯特丹" "朴茨茅斯" "代顿" "法戈" "斯波堪" "弗雷斯诺" 
+		"奥克拉荷马城" "威尔克斯·巴雷" "图森" "普罗维登斯" "小石城" "阿姆斯特丹" "朴茨茅斯" "代顿" "法戈" "斯波堪" "弗雷斯诺" 
 		"曼彻斯特" "加尔维斯顿" "亨廷顿" "伍斯特" "罗诺基" "塔拉哈西" "纽黑文" "维明顿" "布法罗" "扬斯敦" "纽瓦克" 
 		# CLAA Names
 		"巴耶霍" "夏延" "查塔努加" "加里" "奥马哈" "密尔沃基" "底特律" "里奇蒙"
@@ -264,7 +264,7 @@ USA_CL_HISTORICAL = {
 USA_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { USA BYG  }
+	for_countries = { BYG }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
@@ -287,7 +287,7 @@ USA_CA_HISTORICAL = {
 USA_CLAA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CLAA
 
-	for_countries = { USA BYG  }
+	for_countries = { BYG }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -310,7 +310,7 @@ USA_CLAA_HISTORICAL = {
 USA_MINELAYERS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_MINELAYERS
 
-	for_countries = { USA BYG  }
+	for_countries = { BYG }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer  ship_hull_civilian }
@@ -334,7 +334,7 @@ USA_MINELAYERS_HISTORICAL = {
 USA_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { USA BYG  }
+	for_countries = { BYG }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
@@ -356,7 +356,7 @@ USA_BB_HISTORICAL = {
 USA_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { USA BYG  }
+	for_countries = { BYG }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
@@ -376,7 +376,7 @@ USA_BC_HISTORICAL = {
 USA_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { USA BYG  } # HAW, CSA, NEE is separate
+	for_countries = { BYG } # HAW, CSA, NEE is separate
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -398,7 +398,7 @@ USA_CV_HISTORICAL = {
 USA_CVL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CVL
 
-	for_countries = { USA BYG  } # HAW, CSA, NEE is separate
+	for_countries = { BYG } # HAW, CSA, NEE is separate
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -425,7 +425,7 @@ USA_CVL_HISTORICAL = {
 USA_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { USA BYG  }
+	for_countries = { BYG }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -454,7 +454,7 @@ USA_SS_HISTORICAL = {
 USA_BIRDS = {
 	name = NAME_THEME_BIRDS
 
-	for_countries = { USA BYG  }
+	for_countries = { BYG }
 
 	type = ship
 	
@@ -470,7 +470,7 @@ USA_BIRDS = {
 USA_LEADERS = {
 	name = NAME_THEME_LEADERS
 
-	for_countries = { USA BYG  } # HAW, CSA, NEE is separate
+	for_countries = { BYG } # HAW, CSA, NEE is separate
 
 	type = ship
 
@@ -491,7 +491,7 @@ USA_LEADERS = {
 CSA_DD_CONFEDERATE = {
 	name = NAME_THEME_CONFEDERATE_DESTROYERS
 
-	for_countries = { CSA USA BYG  }
+	for_countries = { CSA BYG }
 	can_use = {
 		OR = {
 			tag = CSA
@@ -546,7 +546,7 @@ CSA_DD_CONFEDERATE = {
 CSA_CL_CONFEDERATE = {
 	name = NAME_THEME_CONFEDERATE_CL
 
-	for_countries = { CSA USA BYG  }
+	for_countries = { CSA BYG }
 	can_use = {
 		OR = {
 			tag = CSA
@@ -564,7 +564,7 @@ CSA_CL_CONFEDERATE = {
 		"布鲁克林" "布鲁克林" "萨凡纳" "纳什维尔" "火奴鲁鲁" "凤凰城" "博伊西" "圣路易斯" "海伦娜" "亚特兰大" "朱诺" 
 		"圣迭戈" "圣胡安" "奥克兰" "克利夫兰" "哥伦比亚" "蒙彼利埃" "丹佛" "圣达菲" "里诺" "伯明翰" "莫比尔" 
 		"比洛克西" "休斯顿" "迈阿密" "弗林特" "文森斯" "帕萨迪纳" "斯普林菲尔德" "托皮卡" "维克斯堡" "德鲁斯" "阿斯托里亚" 
-		"奥克拉荷马城" "威尔克斯·巴雷" "图克森" "普罗维登斯" "小石城" "阿姆斯特丹" "朴茨茅斯" "代顿" "法戈" "斯波堪" "弗雷斯诺" 
+		"奥克拉荷马城" "威尔克斯·巴雷" "图森" "普罗维登斯" "小石城" "阿姆斯特丹" "朴茨茅斯" "代顿" "法戈" "斯波堪" "弗雷斯诺" 
 		"曼彻斯特" "加尔维斯顿" "亨廷顿" "伍斯特" "罗诺基" "塔拉哈西" "纽黑文" "维明顿" "布法罗" "扬斯敦" "纽瓦克" 
 		"巴耶霍" "夏延" "查塔努加" "加里" "奥马哈" "密尔沃基" "底特律" "里奇蒙" "康科德" "辛辛那提" "罗利" 
 		"特林顿" "马波海德" "孟菲斯"
@@ -575,7 +575,7 @@ CSA_CL_CONFEDERATE = {
 CSA_CA_CONFEDERATE = {
 	name = NAME_THEME_CONFEDERATE_CA
 
-	for_countries = { CSA USA BYG  }
+	for_countries = { CSA BYG }
 	can_use = {
 		OR = {
 			tag = CSA
@@ -602,7 +602,7 @@ CSA_CA_CONFEDERATE = {
 USA_BB_CONFEDERATE = {
 	name = NAME_THEME_CONFEDERATE_BB
 
-	for_countries = { CSA USA BYG  }
+	for_countries = { CSA BYG }
 	can_use = {
 		OR = {
 			tag = CSA
@@ -627,7 +627,7 @@ USA_BB_CONFEDERATE = {
 USA_BC_CONFEDERATE = {
 	name = NAME_THEME_CONFEDERATE_BC
 
-	for_countries = { CSA USA BYG  }
+	for_countries = { CSA BYG }
 	can_use = {
 		OR = {
 			tag = CSA
@@ -650,7 +650,7 @@ USA_BC_CONFEDERATE = {
 USA_CV_CONFEDERATE = {
 	name = NAME_THEME_CONFEDERATE_CARRIERS
 
-	for_countries = { CSA USA BYG  }
+	for_countries = { CSA BYG }
 	can_use = {
 		OR = {
 			tag = CSA
@@ -675,7 +675,7 @@ USA_CV_CONFEDERATE = {
 CSA_SS_CONFEDERATE = {
 	name = NAME_THEME_CONFEDERATE_SUBMARINES
 
-	for_countries = { CSA USA BYG  }
+	for_countries = { CSA BYG }
 	can_use = {
 		OR = {
 			tag = CSA

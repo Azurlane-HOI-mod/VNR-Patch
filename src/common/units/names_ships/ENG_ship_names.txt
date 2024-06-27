@@ -3,7 +3,7 @@
 ENG_DD_ALPHABETICAL = {
 	name = NAME_ENG_DD_ALPHABETICAL
 
-	for_countries = { ENG HUJ }
+	for_countries = { HUJ }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
@@ -84,7 +84,7 @@ ENG_DD_ALPHABETICAL = {
 ENG_DD_WEAPONS = {
 	name = NAME_ENG_WEAPONS
 
-	for_countries = { ENG HUJ }
+	for_countries = { HUJ }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
@@ -103,7 +103,7 @@ ENG_DD_WEAPONS = {
 ENG_DE_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DE
 
-	for_countries = { ENG HUJ }
+	for_countries = { HUJ }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
@@ -137,7 +137,7 @@ ENG_DE_HISTORICAL = {
 ENG_CL_TOWN = {
 	name = NAME_ENG_CL_TOWN
 
-	for_countries = { ENG HUJ }
+	for_countries = { HUJ }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -167,7 +167,7 @@ ENG_CL_TOWN = {
 ENG_CL_MYTHOLOGY = {
 	name = NAME_ENG_CL_MYTH
 
-	for_countries = { ENG HUJ }
+	for_countries = { HUJ }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -204,7 +204,7 @@ ENG_CL_MYTHOLOGY = {
 ENG_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { ENG HUJ }
+	for_countries = { HUJ }
 
 	can_use = { 
 		not = { has_government = communism }
@@ -235,7 +235,7 @@ ENG_CL_HISTORICAL = {
 ENG_COUNTIES = {
 	name = NAME_ENG_COUNTY
 
-	for_countries = { ENG HUJ }
+	for_countries = { HUJ }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
@@ -268,7 +268,7 @@ ENG_COUNTIES = {
 ENG_MINELAYERS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_MINELAYERS
 
-	for_countries = { ENG HUJ }
+	for_countries = { HUJ }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer  ship_hull_civilian }
@@ -288,7 +288,7 @@ ENG_MINELAYERS_HISTORICAL = {
 ENG_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { ENG HUJ }
+	for_countries = { HUJ }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
@@ -321,7 +321,7 @@ ENG_BB_HISTORICAL = {
 ENG_BC_HISTORICAL = {
 	name = NAME_ENG_BC_QUALITIES
 
-	for_countries = { ENG HUJ }
+	for_countries = { HUJ }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
@@ -341,10 +341,10 @@ ENG_BC_HISTORICAL = {
 ENG_CV_QUALITIES = {
 	name = NAME_ENG_CV_QUALITIES
 
-	for_countries = { ENG HUJ }
+	for_countries = { HUJ }
 
 	type = ship
-	ship_types = { ship_hull_heavy carrier }
+	ship_types = { ship_hull_carrier carrier }
 
 	prefix = "HMS "
 	fallback_name = "Carrier %s"
@@ -370,10 +370,10 @@ ENG_CV_QUALITIES = {
 ENG_CV_MYTHOLOGY = {
 	name = NAME_ENG_CV_MYTH
 
-	for_countries = { ENG HUJ }
+	for_countries = { HUJ }
 
 	type = ship
-	ship_types = { ship_hull_heavy carrier }
+	ship_types = { ship_hull_carrier carrier }
 
 	prefix = "HMS "
 	fallback_name = "Carrier %s"
@@ -394,7 +394,7 @@ ENG_CV_MYTHOLOGY = {
 ENG_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { ENG HUJ }
+	for_countries = { HUJ }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
@@ -415,7 +415,7 @@ ENG_CA_HISTORICAL = {
 ENG_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { ENG HUJ }
+	for_countries = { HUJ }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -453,7 +453,7 @@ ENG_SS_HISTORICAL = {
 ENG_ADMIRALS = {
 	name = NAME_THEME_ADMIRALS
 
-	for_countries = { ENG HUJ }
+	for_countries = { HUJ }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship battle_cruiser carrier }
@@ -483,7 +483,7 @@ ENG_ADMIRALS = {
 ENG_BATTLES = {
 	name = NAME_THEME_BATTLES
 
-	for_countries = { ENG HUJ }
+	for_countries = { HUJ }
 	ship_types = { ship_hull_light ship_hull_cruiser light_cruiser heavy_cruiser  ship_hull_civilian }
 
 	type = ship
@@ -502,7 +502,7 @@ ENG_BATTLES = {
 ENG_RIVERS = {
 	name = NAME_THEME_RIVERS
 
-	for_countries = { ENG HUJ }
+	for_countries = { HUJ }
 
 	type = ship
 	ship_types = { ship_hull_light ship_hull_cruiser light_cruiser  ship_hull_civilian }
@@ -519,7 +519,7 @@ ENG_RIVERS = {
 ENG_KINGS = {
 	name = NAME_THEME_KINGS # 1066 - 1936
 
-	for_countries = { ENG HUJ }
+	for_countries = { HUJ }
 
 	type = ship
 
@@ -532,5 +532,26 @@ ENG_KINGS = {
 		"英王亨利七世" "英王理查德三世" "英王爱德华五世" "英王爱德华四世" "英王亨利六世" "英王亨利五世" "英王亨利四世"
 		"英王理查德二世" "英王爱德华三世" "英王爱德华二世" "英王爱德华一世" "英王亨利三世" "英王约翰" "英王理查德一世"
 		"英王亨利二世" "英王史蒂芬" "英王亨利一世" "英王威廉二世" "英王威廉一世"
+	}
+}
+
+ENG_CVE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CVE
+
+	for_countries = { HUJ }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "HMS "
+	fallback_name = "Carrier %s"
+
+	unique = {
+		"大胆" "射手" "复仇者" "撕咬者" "冲锋者" "战斗者" "攻击者" "猎人" "追击者" "剑师" "潜行者"
+		"追赶者" "打击者" "搜索者" "破坏者" "追踪者" "投石机" "显贵者" "帝王" "埃米尔" "别姬" "小号手"
+		"女皇" "赫迪夫" "发言者" "地方官" "首相" "沙阿" "巡逻者" "拉哲" "拉尼" "责骂者" "领主"
+		"皇后" "统治者" "仲裁者" "重击者" "拳手" "死神" "活跃" "奈拉纳" "温德克斯" "坎帕尼亚" "普利托里亚城堡"
+		"冲击者" "践踏者" "擒拿者" "啄木鸟" "弹弓" "反射镜" "突刺者" "王权" "国王" "王太子" "边境伯爵"
+		"帕迪夏" "苏丹" "马利克" "阿米尔" "天皇" "可汗" "女苏丹" "公主" "沙皇" "凯撒" "皇家"
 	}
 }

@@ -1,7 +1,7 @@
 ﻿GER_GENERAL_IMPERIAL = {
 	name = NAME_THEME_GENERALS
 	
-	for_countries = { GER TIX }
+	for_countries = { TIX }
 	
 	
 	type = ship
@@ -25,7 +25,7 @@
 GER_CHANCELLOR_IMPERIAL = {
 	name = NAME_THEME_CHANCELLORS
 	
-	for_countries = { GER TIX }
+	for_countries = { TIX }
 	
 	
 	type = ship
@@ -40,7 +40,7 @@ GER_CHANCELLOR_IMPERIAL = {
 GER_CITIES = {
 	name = NAME_THEME_CITIES
 
-	for_countries = { GER TIX }
+	for_countries = { TIX }
 
 	
 	type = ship
@@ -170,7 +170,7 @@ GER_CITIES = {
 GER_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { GER TIX }
+	for_countries = { TIX }
 
 	
 	type = ship
@@ -233,7 +233,7 @@ GER_BB_HISTORICAL = {
 GER_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { GER TIX }
+	for_countries = { TIX }
 
 	
 	type = ship
@@ -261,7 +261,7 @@ GER_BC_HISTORICAL = {
 GER_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { GER TIX }
+	for_countries = { TIX }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -300,7 +300,7 @@ GER_SS_HISTORICAL = {
 GER_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { GER TIX }
+	for_countries = { TIX }
 
 	
 	type = ship
@@ -344,7 +344,7 @@ GER_CA_HISTORICAL = {
 GER_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { GER TIX }
+	for_countries = { TIX }
 
 	
 	type = ship
@@ -474,7 +474,7 @@ GER_CL_HISTORICAL = {
 GER_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { GER TIX }
+	for_countries = { TIX }
 
 	
 	type = ship
@@ -486,7 +486,7 @@ GER_DD_HISTORICAL = {
 GER_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { GER TIX }
+	for_countries = { TIX }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -509,7 +509,7 @@ GER_CV_HISTORICAL = {
 GER_THEME_ANIMALS_IMPERIAL = {
 	name = NAME_THEME_ANIMALS
 
-	for_countries = { GER TIX }
+	for_countries = { TIX }
 
 	
 	type = ship
@@ -572,7 +572,7 @@ GER_THEME_ANIMALS_IMPERIAL = {
 GER_THEME_GERMANIC_IMPERIAL = {
 	name = NAME_THEME_GERMANIC_MYTHOLOGY
 
-	for_countries = { GER TIX }
+	for_countries = { TIX }
 
 	type = ship
 	
@@ -613,7 +613,7 @@ GER_THEME_GERMANIC_IMPERIAL = {
 GER_THEME_BATTLE_IMPERIAL = {
 	name = NAME_THEME_BATTLES
 
-	for_countries = { GER TIX }
+	for_countries = { TIX }
 
 	type = ship
 	
@@ -647,7 +647,7 @@ GER_THEME_BATTLE_IMPERIAL = {
 GER_THEME_FISH_IMPERIAL = {
 	name = NAME_THEME_FISH
 
-	for_countries = { GER TIX }
+	for_countries = { TIX }
 
 	type = ship
 	
@@ -684,7 +684,7 @@ GER_THEME_FISH_IMPERIAL = {
 GER_THEME_RIVERS_IMPERIAL = {
 	name = NAME_THEME_RIVERS
 
-	for_countries = { GER TIX }
+	for_countries = { TIX }
 
 	type = ship
 	

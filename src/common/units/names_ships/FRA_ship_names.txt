@@ -3,7 +3,7 @@
 FRA_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { FRA YUW }
+	for_countries = { YUW }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
@@ -31,7 +31,7 @@ FRA_DD_HISTORICAL = {
 FRA_DE_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_LIGHT_DDS
 
-	for_countries = { FRA YUW }
+	for_countries = { YUW }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
@@ -57,7 +57,7 @@ FRA_DE_HISTORICAL = {
 FRA_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { FRA YUW }
+	for_countries = { YUW }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -79,7 +79,7 @@ FRA_CL_HISTORICAL = {
 FRA_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { FRA YUW }
+	for_countries = { YUW }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
@@ -100,7 +100,7 @@ FRA_CA_HISTORICAL = {
 FRA_MINELAYERS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_MINELAYERS
 
-	for_countries = { FRA YUW }
+	for_countries = { YUW }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer  ship_hull_civilian }
@@ -122,7 +122,7 @@ FRA_MINELAYERS_HISTORICAL = {
 FRA_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { FRA YUW }
+	for_countries = { YUW }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
@@ -143,7 +143,7 @@ FRA_BB_HISTORICAL = {
 FRA_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { FRA YUW }
+	for_countries = { YUW }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
@@ -162,7 +162,7 @@ FRA_BC_HISTORICAL = {
 FRA_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { FRA YUW }
+	for_countries = { YUW }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -181,7 +181,7 @@ FRA_CV_HISTORICAL = {
 FRA_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { FRA YUW }
+	for_countries = { YUW }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -211,7 +211,7 @@ FRA_SS_HISTORICAL = {
 FRA_REGIONS = {
 	name = NAME_THEME_REGIONS
 
-	for_countries = { FRA YUW }
+	for_countries = { YUW }
 
 	type = ship
 
@@ -228,7 +228,7 @@ FRA_REGIONS = {
 FRA_CITIES = {
 	name = NAME_THEME_CITIES
 
-	for_countries = { FRA YUW }
+	for_countries = { YUW }
 
 	type = ship
 
@@ -256,7 +256,7 @@ FRA_CITIES = {
 FRA_COLONIES = {
 	name = NAME_THEME_COLONIES
 
-	for_countries = { FRA YUW }
+	for_countries = { YUW }
 
 	type = ship
 
@@ -276,7 +276,7 @@ FRA_COLONIES = {
 FRA_MARSHALS = {
 	name = NAME_THEME_MARSHALS # 1180 - 1789
 
-	for_countries = { FRA YUW }
+	for_countries = { YUW }
 
 	type = ship
 

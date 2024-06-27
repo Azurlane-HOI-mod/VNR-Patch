@@ -3,7 +3,7 @@
 ITA_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { ITA SAD }
+	for_countries = { SAD }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
@@ -30,7 +30,7 @@ ITA_DD_HISTORICAL = {
 ITA_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { ITA SAD }
+	for_countries = { SAD }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -53,7 +53,7 @@ ITA_CL_HISTORICAL = {
 ITA_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { ITA SAD }
+	for_countries = { SAD }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
@@ -72,7 +72,7 @@ ITA_CA_HISTORICAL = {
 ITA_MINELAYERS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_MINELAYERS
 
-	for_countries = { ITA SAD }
+	for_countries = { SAD }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer  ship_hull_civilian }
@@ -90,7 +90,7 @@ ITA_MINELAYERS_HISTORICAL = {
 ITA_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { ITA SAD }
+	for_countries = { SAD }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
@@ -110,7 +110,7 @@ ITA_BB_HISTORICAL = {
 ITA_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { ITA SAD }
+	for_countries = { SAD }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
@@ -128,7 +128,7 @@ ITA_BC_HISTORICAL = {
 ITA_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { ITA SAD }
+	for_countries = { SAD }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -145,7 +145,7 @@ ITA_CV_HISTORICAL = {
 ITA_SS_NAUTILUS = {
 	name = NAME_THEME_HISTORICAL_NAUTILUS_SUBMARINES
 
-	for_countries = { ITA SAD }
+	for_countries = { SAD }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -157,7 +157,7 @@ ITA_SS_NAUTILUS = {
 ITA_SS_SLA = {
 	name = NAME_THEME_HISTORICAL_SLA_SUBMARINES
 
-	for_countries = { ITA SAD }
+	for_countries = { SAD }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -169,7 +169,7 @@ ITA_SS_SLA = {
 ITA_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { ITA SAD }
+	for_countries = { SAD }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -194,11 +194,11 @@ ITA_SS_HISTORICAL = {
 	}
 }
 
-### THEME: ITALIAN REGIONS ###
+### THEME: SADLIAN REGIONS ###
 ITA_REGIONS = {
 	name = NAME_THEME_REGIONS
 
-	for_countries = { ITA SAD }
+	for_countries = { SAD }
 
 	type = ship
 
@@ -209,11 +209,11 @@ ITA_REGIONS = {
 	}
 }
 
-## THEME: ITALIAN CITIES ###
+## THEME: SADLIAN CITIES ###
 ITA_CITIES = {
 	name = NAME_THEME_CITIES
 
-	for_countries = { ITA SAD }
+	for_countries = { SAD }
 
 	type = ship
 
@@ -226,11 +226,11 @@ ITA_CITIES = {
 	}
 }
 
-## THEME: ITALIAN MYTHOLOGICAL NAMES ###
+## THEME: SADLIAN MYTHOLOGICAL NAMES ###
 ITA_MYTHOLOGY = {
 	name = NAME_THEME_MYTHOLOGY
 
-	for_countries = { ITA SAD }
+	for_countries = { SAD }
 
 	type = ship
 
@@ -242,11 +242,11 @@ ITA_MYTHOLOGY = {
 	}
 }
 
-## THEME: ITALIAN WEATHER NAMES ###
+## THEME: SADLIAN WEATHER NAMES ###
 ITA_WEATHER = {
 	name = NAME_THEME_WEATHER
 
-	for_countries = { ITA SAD }
+	for_countries = { SAD }
 
 	type = ship
 
