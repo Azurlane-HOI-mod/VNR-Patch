@@ -1,0 +1,17 @@
+ideas = {
+    country = {
+		az_vnr_extra = {
+			modifier = {
+				navy_visibility = -0.5
+				naval_speed_factor = 1
+				repair_speed_factor = 2
+				navy_screen_attack_factor = 2
+				navy_screen_defence_factor = 2
+				navy_capital_ship_attack_factor = 2
+				navy_capital_ship_defence_factor = 2
+				navy_anti_air_attack_factor = 1
+				industrial_capacity_dockyard = 5
+			}
+		}
+	}
+}

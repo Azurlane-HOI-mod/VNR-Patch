@@ -636,13 +636,6 @@ DOH_AZURLANE_1 = {
 		"镇海"
 		"华甲"
 		"定安"
-	}
-}
-DOH_AZURLANE_2 = {
-	name = NAME_THEME_DOH_AZURLANE_2
-	for_countries = { DOH DH1 }
-	type = ship
-	unique = {
 		"逸仙"
 		"肇和"
 		"应瑞"

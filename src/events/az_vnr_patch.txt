@@ -11,58 +11,25 @@ country_event = {
 				has_global_flag =  modoption_fengkuangai_on
 			}
 			set_variable = { vnr_ai_difficulty = 3 }
-			every_country = {
-				remove_ideas = {
-					vnr_hard
-					vnr_normal
-
-					vnr_hard_production
-					vnr_normal_production
-				}
-			}
-			every_country = {
-				limit = { is_ai = yes }
-				add_ideas = {
-					vnr_mad
-					vnr_mad_production
-				}
-			}
+			set_variable = { vnr_ai_production = 3 }
+			update_ai_combat_bonus = yes
+			update_ai_production_bonus = yes
+			add_ideas = az_vnr_extra
 		}
 		else_if = {
 			limit = {
 				has_global_flag =  modoption_dingzhenai_on
 			}
 			set_variable = { vnr_ai_difficulty = 0 }
-			every_country = {
-				remove_ideas = {
-					vnr_mad
-					vnr_hard
-					vnr_normal
-
-					vnr_mad_production
-					vnr_hard_production
-					vnr_normal_production
-				}
-			}
+			set_variable = { vnr_ai_production = 0 }
+			update_ai_combat_bonus = yes
+			update_ai_production_bonus = yes
 		}
 		else = {
 			set_variable = { vnr_ai_difficulty = 1 }
-			every_country = {
-				remove_ideas = {
-					vnr_mad
-					vnr_hard
-
-					vnr_mad_production
-					vnr_hard_production
-				}
-			}
-			every_country = {
-				limit = { is_ai = yes }
-				add_ideas = {
-					vnr_normal
-					vnr_normal_production
-				}
-			}
+			set_variable = { vnr_ai_production = 1 }
+			update_ai_combat_bonus = yes
+			update_ai_production_bonus = yes
 		}
 	}
 }

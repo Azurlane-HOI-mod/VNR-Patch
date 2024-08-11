@@ -10,4 +10,83 @@ on_actions = {
 			}
 		}
 	}	
+	on_monthly = { 
+		effect = {
+			if = {
+				limit = {
+					has_global_flag =  modoption_fengkuangai_on
+				}
+				update_ai_combat_bonus = yes
+				update_ai_production_bonus = yes
+				every_country = {
+					limit = {
+						OR = {
+							AND = {
+								is_subject = no
+								is_ai = yes
+							}
+							AND = {
+								is_ai = yes
+								is_subject = yes
+								OVERLORD = {
+									is_ai = yes
+								}
+							}
+							date > 1938.1.1
+							date < 1940.1.1
+						}
+					}
+					add_offsite_building = {
+						type = dockyard
+						level = 2
+					}
+				}
+				every_country = {
+					limit = {
+						OR = {
+							AND = {
+								is_subject = no
+								is_ai = yes
+							}
+							AND = {
+								is_ai = yes
+								is_subject = yes
+								OVERLORD = {
+									is_ai = yes
+								}
+							}
+							date > 1940.1.1
+							date < 1942.1.1
+						}
+					}
+					add_offsite_building = {
+						type = dockyard
+						level = 4
+					}
+				}
+				every_country = {
+					limit = {
+						OR = {
+							AND = {
+								is_subject = no
+								is_ai = yes
+							}
+							AND = {
+								is_ai = yes
+								is_subject = yes
+								OVERLORD = {
+									is_ai = yes
+								}
+							}
+							date > 1942.1.1
+						}
+					}
+					add_offsite_building = {
+						type = dockyard
+						level = 8
+					}
+				}
+			}
+		}
+	}
 }
