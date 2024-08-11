@@ -14,7 +14,12 @@ country_event = {
 			set_variable = { vnr_ai_production = 3 }
 			update_ai_combat_bonus = yes
 			update_ai_production_bonus = yes
-			add_ideas = az_vnr_extra
+			every_country = {
+				limit = {
+					is_ai = yes
+				}
+				add_ideas = az_vnr_extra
+			}
 		}
 		else_if = {
 			limit = {
