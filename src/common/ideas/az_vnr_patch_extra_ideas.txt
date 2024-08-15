@@ -1,6 +1,10 @@
 ideas = {
     country = {
 		az_vnr_extra = {
+			picture = fengkuangai
+			allowed_civil_war = {
+				always = yes
+			}
 			modifier = {
 				navy_visibility = -0.5
 				naval_speed_factor = 0.5

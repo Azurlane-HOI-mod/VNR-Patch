@@ -1,5 +1,6 @@
 ﻿l_simp_chinese:
-  az_vnr_extra: "疯狂AI数值平衡"
+  az_vnr_extra: "疯狂AI-VNR数值平衡"
+  az_vnr_extra_desc: "请注意：AI会获得额外船厂。"
   NAME_THEME_RIVERS_2: "Az河流"
   NAME_THEME_FISH_2: "Az鱼类"
   NAME_THEME_ANIMALS_2: "Az动物"

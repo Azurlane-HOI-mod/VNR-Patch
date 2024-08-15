@@ -8,83 +8,10 @@ on_actions = {
 					days = 3
 				}
 			}
-		}
-	}	
-	on_monthly = { 
-		effect = {
-			if = {
-				limit = {
-					has_global_flag =  modoption_fengkuangai_on
-				}
-				update_ai_combat_bonus = yes
-				update_ai_production_bonus = yes
-				if = {
-					limit = {
-						OR = {
-							AND = {
-								is_subject = no
-								is_ai = yes
-							}
-							AND = {
-								is_ai = yes
-								is_subject = yes
-								OVERLORD = {
-									is_ai = yes
-								}
-							}
-						}
-						date > 1938.1.1
-						date < 1940.1.1
-					}
-					add_offsite_building = {
-						type = dockyard
-						level = 2
-					}
-				}
-				if = {
-					limit = {
-						OR = {
-							AND = {
-								is_subject = no
-								is_ai = yes
-							}
-							AND = {
-								is_ai = yes
-								is_subject = yes
-								OVERLORD = {
-									is_ai = yes
-								}
-							}
-						}
-						date > 1940.1.1
-						date < 1942.1.1
-					}
-					add_offsite_building = {
-						type = dockyard
-						level = 4
-					}
-				}
-				if = {
-					limit = {
-						OR = {
-							AND = {
-								is_subject = no
-								is_ai = yes
-							}
-							AND = {
-								is_ai = yes
-								is_subject = yes
-								OVERLORD = {
-									is_ai = yes
-								}
-							}
-						}
-						date > 1942.1.1
-					}
-					add_offsite_building = {
-						type = dockyard
-						level = 8
-					}
+			every_country = {
+				country_event = {
+					id = az_vnr_patch.2
+					days = 61
 				}
 			}
 		}

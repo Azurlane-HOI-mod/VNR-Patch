@@ -2,16 +2,18 @@ add_namespace = az_vnr_patch
 country_event = {
 	id = az_vnr_patch.1
 	hidden = yes
-
 	is_triggered_only = yes
-
 	immediate = {
 		if = {
-			limit = { 
-				has_global_flag =  modoption_fengkuangai_on
+			limit = {
+				has_global_flag = modoption_fengkuangai_on
 			}
-			set_variable = { vnr_ai_difficulty = 3 }
-			set_variable = { vnr_ai_production = 3 }
+			set_variable = {
+				vnr_ai_difficulty = 3
+			}
+			set_variable = {
+				vnr_ai_production = 3
+			}
 			update_ai_combat_bonus = yes
 			update_ai_production_bonus = yes
 			every_country = {
@@ -23,18 +25,280 @@ country_event = {
 		}
 		else_if = {
 			limit = {
-				has_global_flag =  modoption_dingzhenai_on
+				has_global_flag = modoption_dingzhenai_on
 			}
-			set_variable = { vnr_ai_difficulty = 0 }
-			set_variable = { vnr_ai_production = 0 }
+			set_variable = {
+				vnr_ai_difficulty = 0
+			}
+			set_variable = {
+				vnr_ai_production = 0
+			}
 			update_ai_combat_bonus = yes
 			update_ai_production_bonus = yes
 		}
 		else = {
-			set_variable = { vnr_ai_difficulty = 1 }
-			set_variable = { vnr_ai_production = 1 }
+			set_variable = {
+				vnr_ai_difficulty = 1
+			}
+			set_variable = {
+				vnr_ai_production = 1
+			}
 			update_ai_combat_bonus = yes
 			update_ai_production_bonus = yes
+		}
+	}
+}
+
+country_event = {
+	id = az_vnr_patch.2
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		ROOT = {
+			country_event = az_vnr_patch.201
+			country_event = {
+				id = az_vnr_patch.201
+				days = 365
+			}
+			country_event = {
+				id = az_vnr_patch.201
+				days = 730
+			}
+			country_event = {
+				id = az_vnr_patch.201
+				days = 1095
+			}
+			country_event = {
+				id = az_vnr_patch.201
+				days = 1460
+			}
+			country_event = {
+				id = az_vnr_patch.201
+				days = 1825
+			}
+			country_event = {
+				id = az_vnr_patch.202
+				days = 2190
+			}
+			country_event = {
+				id = az_vnr_patch.202
+				days = 2555
+			}
+			country_event = {
+				id = az_vnr_patch.202
+				days = 2920
+			}
+			country_event = {
+				id = az_vnr_patch.202
+				days = 3285
+			}
+			country_event = {
+				id = az_vnr_patch.202
+				days = 3650
+			}
+			country_event = {
+				id = az_vnr_patch.202
+				days = 4015
+			}
+			country_event = {
+				id = az_vnr_patch.202
+				days = 4380
+			}
+			country_event = {
+				id = az_vnr_patch.202
+				days = 4745
+			}
+			country_event = {
+				id = az_vnr_patch.201
+				days = 5110
+			}
+			country_event = {
+				id = az_vnr_patch.201
+				days = 5475
+			}
+			country_event = {
+				id = az_vnr_patch.201
+				days = 5840
+			}
+			country_event = {
+				id = az_vnr_patch.201
+				days = 6205
+			}
+			country_event = {
+				id = az_vnr_patch.201
+				days = 6570
+			}
+			country_event = {
+				id = az_vnr_patch.201
+				days = 6935
+			}
+			country_event = {
+				id = az_vnr_patch.201
+				days = 7300
+			}
+			country_event = {
+				id = az_vnr_patch.201
+				days = 7665
+			}
+			country_event = {
+				id = az_vnr_patch.201
+				days = 8030
+			}
+			country_event = {
+				id = az_vnr_patch.201
+				days = 8395
+			}
+			country_event = {
+				id = az_vnr_patch.201
+				days = 8760
+			}
+			country_event = {
+				id = az_vnr_patch.201
+				days = 9125
+			}
+			country_event = {
+				id = az_vnr_patch.201
+				days = 9490
+			}
+			country_event = {
+				id = az_vnr_patch.201
+				days = 9855
+			}
+			country_event = {
+				id = az_vnr_patch.201
+				days = 10220
+			}
+			country_event = {
+				id = az_vnr_patch.201
+				days = 10585
+			}
+			country_event = {
+				id = az_vnr_patch.201
+				days = 10950
+			}
+			country_event = {
+				id = az_vnr_patch.201
+				days = 11315
+			}
+			country_event = {
+				id = az_vnr_patch.201
+				days = 11680
+			}
+			country_event = {
+				id = az_vnr_patch.201
+				days = 12045
+			}
+			country_event = {
+				id = az_vnr_patch.201
+				days = 12410
+			}
+		}
+	}
+}
+
+country_event = {
+	id = az_vnr_patch.201
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		update_ai_combat_bonus = yes
+		update_ai_production_bonus = yes
+		if = {
+			limit = {
+				has_global_flag = modoption_fengkuangai_on
+				AND = {
+					is_ai = yes
+					is_major = yes
+				}
+			}
+			add_offsite_building = {
+				type = dockyard
+				level = 10
+			}
+		}
+		else_if = {
+			limit = {
+				has_global_flag = modoption_fengkuangai_on
+				AND = {
+					is_ai = yes
+					is_major = no
+					is_subject = no
+				}
+			}
+			add_offsite_building = {
+				type = dockyard
+				level = 2
+			}
+		}
+		else_if = {
+			limit = {
+				has_global_flag = modoption_fengkuangai_on
+				AND = {
+					is_ai = yes
+					is_major = no
+					is_subject = yes
+					OVERLORD = {
+						is_ai = yes
+					}
+				}
+			}
+			add_offsite_building = {
+				type = dockyard
+				level = 2
+			}
+		}
+	}
+}
+country_event = {
+	id = az_vnr_patch.202
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		update_ai_combat_bonus = yes
+		update_ai_production_bonus = yes
+		if = {
+			limit = {
+				has_global_flag = modoption_fengkuangai_on
+				AND = {
+					is_ai = yes
+					is_major = yes
+				}
+			}
+			add_offsite_building = {
+				type = dockyard
+				level = 25
+			}
+		}
+		else_if = {
+			limit = {
+				has_global_flag = modoption_fengkuangai_on
+				AND = {
+					is_ai = yes
+					is_major = no
+					is_subject = no
+				}
+			}
+			add_offsite_building = {
+				type = dockyard
+				level = 10
+			}
+		}
+		else_if = {
+			limit = {
+				has_global_flag = modoption_fengkuangai_on
+				AND = {
+					is_ai = yes
+					is_major = no
+					is_subject = yes
+					OVERLORD = {
+						is_ai = yes
+					}
+				}
+			}
+			add_offsite_building = {
+				type = dockyard
+				level = 10
+			}
 		}
 	}
 }
