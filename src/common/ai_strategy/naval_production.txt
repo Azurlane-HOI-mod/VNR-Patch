@@ -160,6 +160,8 @@ naval_unit_role_ratios_minors_coastal = {
 			tag = YUW
 			tag = BYG
 			tag = BFL
+			tag = DOH
+			tag = DH1
 		}
 	}
 	enable = { 
@@ -194,6 +196,8 @@ naval_unit_role_ratios_minors_defensive = {
 			tag = YUW
 			tag = BYG
 			tag = BFL
+			tag = DOH
+			tag = DH1
 		}
 	}
 	enable = { 
@@ -240,6 +244,8 @@ naval_unit_role_ratios_minors_offensive = {
 			tag = YUW
 			tag = BYG
 			tag = BFL
+			tag = DOH
+			tag = DH1
 		}
 	}
 	enable = { 
@@ -292,6 +298,8 @@ naval_unit_role_ratios_minors_global = {
 			tag = YUW
 			tag = BYG
 			tag = BFL
+			tag = DOH
+			tag = DH1
 		}
 	}
 	enable = { 
@@ -432,6 +440,7 @@ naval_unit_role_ratios_GER_atwar = {
 	}
 	enable = {
 		has_war_with = HUJ
+		num_of_naval_factories < 35
 	}
 	abort_when_not_enabled = yes
 	
@@ -457,6 +466,54 @@ naval_unit_role_ratios_GER_atwar = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
 		value = 5
+	}
+}
+
+naval_unit_role_ratios_GER_atwar_many_shipyard = {
+	allowed = {
+		has_dlc = "Man the Guns"
+		tag = TIX
+	}
+	enable = {
+		has_war_with = HUJ
+		num_of_naval_factories > 34
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = 80
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 300
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 50
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_medium
+		value = 30
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = 20
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_carrier
+		value = 20
 	}
 }
 
@@ -1787,12 +1844,12 @@ naval_unit_role_ratios_ITA_late_peace = {
 	# allowed = {
 		# has_dlc = "Man the Guns"
 		# OR = {
-			# tag = TIX
-			# tag = YUW
+			# tag = GER
+			# tag = FRA
 			# tag = NFA
-			# tag = HUJ
+			# tag = ENG
 			# tag = GBR
-			# tag = CHY
+			# tag = JAP
 			# tag = CAN
 		# }
 	# }
@@ -1829,19 +1886,19 @@ naval_unit_role_ratios_ITA_late_peace = {
 	# allowed = {
 		# has_dlc = "Man the Guns"
 		# OR = {
-			# tag = TIX
-			# tag = YUW
+			# tag = GER
+			# tag = FRA
 			# tag = NFA
-			# tag = HUJ
+			# tag = ENG
 			# tag = GBR
-			# tag = CHY
-			# tag = BYG
+			# tag = JAP
+			# tag = USA
 			# tag = CSA
 			# tag = TEX
 			# tag = PSA
 			# tag = CAN
 			# tag = RUS
-			# tag = BFL
+			# tag = SOV
 		# }
 	# }
 	# enable = {
@@ -1898,11 +1955,11 @@ naval_unit_role_ratios_ITA_late_peace = {
 	# allowed = {
 		# has_dlc = "Man the Guns"
 		# OR = {
-			# tag = TIX
-			# tag = HUJ
+			# tag = GER
+			# tag = ENG
 			# tag = GBR
-			# tag = CHY
-			# tag = BYG
+			# tag = JAP
+			# tag = USA
 			# tag = CSA
 			# tag = TEX
 			# tag = PSA
@@ -1927,11 +1984,11 @@ naval_unit_role_ratios_ITA_late_peace = {
 	# allowed = {
 		# has_dlc = "Man the Guns"
 		# OR = {
-			# tag = TIX
-			# tag = HUJ
+			# tag = GER
+			# tag = ENG
 			# tag = GBR
-			# tag = CHY
-			# tag = BYG
+			# tag = JAP
+			# tag = USA
 			# tag = CSA
 			# tag = TEX
 			# tag = PSA
@@ -1965,6 +2022,8 @@ we_need_convoys_minors = {
 				tag = BYG
 				tag = SAD
 				tag = BFL
+				tag = DOH
+				tag = DH1
 			}
 		}
 	}
@@ -1988,6 +2047,8 @@ we_need_convoys_majors1 = {
 			tag = BYG
 			tag = SAD
 			tag = BFL
+			tag = DOH
+			tag = DH1
 		}
 	}
 	enable = { stockpile_ratio = { archetype = convoy ratio < 75 } }
@@ -2010,6 +2071,8 @@ we_need_convoys_majors2 = {
 			tag = BYG
 			tag = SAD
 			tag = BFL
+			tag = DOH
+			tag = DH1
 		}
 	}
 	enable = { stockpile_ratio = { archetype = convoy ratio < 125 } }
@@ -2032,6 +2095,8 @@ we_need_convoys_majors3 = {
 			tag = BYG
 			tag = SAD
 			tag = BFL
+			tag = DOH
+			tag = DH1
 		}
 	}
 	enable = { stockpile_ratio = { archetype = convoy ratio > 500 } }
@@ -2047,10 +2112,10 @@ we_need_convoys_majors3 = {
 # we_need_convoys_majors3 = {
 	# allowed = {
 		# OR = {
-			# tag = HUJ
-			# tag = CHY
-			# tag = TIX
-			# tag = BYG
+			# tag = ENG
+			# tag = JAP
+			# tag = GER
+			# tag = USA
 			# tag = CSA
 			# tag = TEX
 			# tag = PSA
@@ -2069,10 +2134,10 @@ we_need_convoys_majors3 = {
 # we_need_convoys_majors4 = {
 	# allowed = {
 		# OR = {
-			# tag = HUJ
-			# tag = CHY
-			# tag = TIX
-			# tag = BYG
+			# tag = ENG
+			# tag = JAP
+			# tag = GER
+			# tag = USA
 			# tag = CSA
 			# tag = TEX
 			# tag = PSA
@@ -2099,6 +2164,8 @@ we_dont_need_convoys_1 = {
 				tag = BYG
 				tag = SAD
 				tag = BFL
+				tag = DOH
+				tag = DH1
 			}
 		}
 	}
@@ -2122,6 +2189,8 @@ we_dont_need_convoys_2 = {
 			tag = BYG
 			tag = SAD
 			tag = BFL
+			tag = DOH
+			tag = DH1
 		}
 	}
 	enable = { stockpile_ratio = { archetype = convoy ratio > 1000 } }
@@ -2144,6 +2213,8 @@ we_need_screen_1 = {
 			tag = BYG
 			tag = SAD
 			tag = BFL
+			tag = DOH
+			tag = DH1
 		}
 	}
 	enable = { has_navy_size = { size < 50 type = screen_ship archetype = ship_hull_light } }

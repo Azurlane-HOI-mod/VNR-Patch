@@ -39,7 +39,7 @@ navy_rework_category = {
 		allowed = {
 			OR = {
 				tag = DOH
-				tag = PRC
+				tag = DH1
 			}
 		}
 		complete_effect = { set_global_flag = naval_lore_gui_show }

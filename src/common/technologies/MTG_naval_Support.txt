@@ -35,6 +35,7 @@ technologies = {
 			ship_heavy_battery_small_1
 			ship_secondaries_1
 			ship_civilian_light_battery_1
+			ship_anti_air_1_h
 			
 			# ship_ap_shell_1
 			# ship_ap_shell_2
@@ -172,6 +173,8 @@ technologies = {
 			dp_light_battery_1
 			dp_light_battery_1_single
 			dp_ship_secondaries_1
+			dp_ship_secondaries_1_bb
+			ship_anti_air_2_h
 		}
 
 
@@ -291,6 +294,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_light_battery_3
 			ship_light_battery_3_double
+			ship_anti_air_3_h
 		}
 
 		folder = {
@@ -401,6 +405,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_light_battery_4
 			ship_light_battery_4_double
+			ship_anti_air_4_h
 		}
 
 		on_research_complete = {
@@ -954,6 +959,7 @@ technologies = {
 			dp_light_battery_2
 			dp_light_battery_2_single
 			dp_ship_secondaries_2
+			dp_ship_secondaries_2_bb
 		}
 
 		path = {
@@ -1000,6 +1006,7 @@ technologies = {
 			dp_light_battery_3
 			dp_light_battery_3_single
 			dp_ship_secondaries_3
+			dp_ship_secondaries_3_bb
 		}
 
 		on_research_complete = {
@@ -1046,6 +1053,7 @@ technologies = {
 			dp_light_battery_4
 			dp_light_battery_4_single
 			dp_ship_secondaries_4
+			dp_ship_secondaries_4_bb
 		}
 
 		on_research_complete = {
@@ -1396,7 +1404,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_torpedo_1
 			torpedo_mounting
-			ship_torpedo_fire_control
+			ship_torpedo_fire_control_1
 			ship_torpedo_bb
 			ship_torpedo_sub_1
 		}
@@ -1442,13 +1450,12 @@ technologies = {
 		xp_research_bonus = 1.50
 		research_cost = 0.5
 
-		start_year = 1936
+		start_year = 1932
 
 		path = {
-			leads_to_tech = homing_torpedo
+			leads_to_tech = oxygen_torpedo
 			research_cost_coeff = 1
 		}
-
 		path = {
 			leads_to_tech = electric_torpedo
 			research_cost_coeff = 1
@@ -1477,7 +1484,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 2 y = 10 }
+			position = { x = 2 y = 7 }
 		}
 
 		ai_will_do = {
@@ -1540,11 +1547,11 @@ technologies = {
 			position = { x = 2 y = 16 }
 		}
 		path = {
-			leads_to_tech = wire_guided_torpedo
+			leads_to_tech = proximity_detonator
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = proximity_detonator
+			leads_to_tech = wire_guided_torpedo
 			research_cost_coeff = 1
 		}
 
@@ -1681,15 +1688,20 @@ technologies = {
 		xp_research_bonus = 1.50
 		research_cost = 0.75
 
-		start_year = 1940
+		start_year = 1936
 
 
 		naval_torpedo_reveal_chance_factor = -0.15
+		
+		path = {
+			leads_to_tech = homing_torpedo
+			research_cost_coeff = 1
+		}
 
-
+		xor = { oxygen_torpedo }
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 3 y = 13 }
+			position = { x = 3 y = 10 }
 		}
 
 		ai_will_do = {
@@ -1699,6 +1711,50 @@ technologies = {
 					tag = CHY
 					tag = BYG
 					tag = TIX
+				}
+				factor = 5
+			}
+		}
+
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			cat_torpedoes
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+
+	oxygen_torpedo = {
+
+		xp_research_type = navy
+		xp_boost_cost = 20
+		xp_research_bonus = 1.50
+		research_cost = 0.75
+
+		start_year = 1936
+
+
+		naval_torpedo_screen_penetration_factor = 0.1
+		
+		path = {
+			leads_to_tech = homing_torpedo
+			research_cost_coeff = 1
+		}
+
+		xor = { electric_torpedo }
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 1 y = 10 }
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				OR = {
+					tag = JAP
+					tag = USA
+					tag = GER
 				}
 				factor = 5
 			}
@@ -1839,6 +1895,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_torpedo_3
 			ship_torpedo_sub_3
+			ship_torpedo_fire_control_2
 		}
 
 
@@ -1873,6 +1930,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_torpedo_4
 			ship_torpedo_sub_4
+			ship_torpedo_fire_control_3
 		}
 
 		on_research_complete = {
@@ -1912,6 +1970,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_torpedo_5
 			ship_torpedo_sub_5
+			ship_torpedo_fire_control_4
 		}
 
 		on_research_complete = {
@@ -2054,7 +2113,7 @@ technologies = {
 #    #  #  # #       #  # #  # #  #  #  #  # #  # #       #   # #    #  #  # #  # #  #   #
 #   ### #  # ###      ##   ##  #  #  #  #  #  ##  ###     #   # ###  #  #  #  ##  ###  ##
 
-#NOTE: FIRE CONTROL SYSTEMS ARE IN ELECTROMECHANICAL HUJINEERING FOLDER!
+#NOTE: FIRE CONTROL SYSTEMS ARE IN ELECTROMECHANICAL ENGINEERING FOLDER!
 
 	fire_control_methods_1 = {
 

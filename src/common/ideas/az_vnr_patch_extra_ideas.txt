@@ -6,15 +6,15 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				navy_visibility = -0.5
+				navy_visibility = -0.25
 				naval_speed_factor = 0.5
 				repair_speed_factor = 2
-				navy_screen_attack_factor = 2
+				navy_screen_attack_factor = 0.5
 				navy_screen_defence_factor = 2
-				navy_capital_ship_attack_factor = 2
+				navy_capital_ship_attack_factor = 1
 				navy_capital_ship_defence_factor = 2
 				navy_anti_air_attack_factor = 1
-				industrial_capacity_dockyard = 5
+				industrial_capacity_dockyard = 3
 			}
 		}
 	}
