@@ -3937,7 +3937,7 @@ technologies = {
 				OR = {
 					tag = CHY
 					tag = BYG
-}
+				}
 				factor = 3
 			}
 		}
@@ -3993,7 +3993,7 @@ technologies = {
 				OR = {
 					tag = CHY
 					tag = BYG
-}
+				}
 				factor = 3
 			}
 		}
