@@ -1092,7 +1092,7 @@ naval_unit_role_ratios_SOV_no_need_to_watch_germany_peace = {
 	enable = {
 		OR = {
 			NOT = { country_exists = TIX }
-			is_ally_with = GER
+			is_ally_with = TIX
 			date > 1941.12.31
 		}
 		has_war_with_major = no
