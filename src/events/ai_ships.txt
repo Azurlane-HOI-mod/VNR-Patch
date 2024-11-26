@@ -1,6 +1,6 @@
 add_namespace = ai_ships
 
-# GER AI template 1940
+# TIX AI template 1940
 country_event = {
 	id = ai_ships.0
 	
@@ -22,7 +22,7 @@ country_event = {
 	}
 }
 
-# GER AI template 1943
+# TIX AI template 1943
 country_event = {
 	id = ai_ships.1
 	
@@ -44,7 +44,7 @@ country_event = {
 	}
 }
 
-# ENG AI template 1940
+# HUJ AI template 1940
 country_event = {
 	id = ai_ships.2
 	
@@ -66,7 +66,7 @@ country_event = {
 	}
 }
 
-# ENG AI template 1943
+# HUJ AI template 1943
 country_event = {
 	id = ai_ships.3
 	
@@ -88,7 +88,7 @@ country_event = {
 	}
 }
 
-# JAP AI template 1940
+# CHY AI template 1940
 country_event = {
 	id = ai_ships.4
 	
@@ -108,7 +108,7 @@ country_event = {
 	}
 }
 
-# JAP AI template 1943
+# CHY AI template 1943
 country_event = {
 	id = ai_ships.5
 	
@@ -128,7 +128,7 @@ country_event = {
 	}
 }
 
-# USA AI template 1940
+# BYG AI template 1940
 country_event = {
 	id = ai_ships.6
 	hidden = yes
@@ -147,7 +147,7 @@ country_event = {
 	}
 }
 
-# USA AI template 1943
+# BYG AI template 1943
 country_event = {
 	id = ai_ships.7
 	hidden = yes
@@ -166,7 +166,7 @@ country_event = {
 	}
 }
 
-# FRA AI template 1940
+# YUW AI template 1940
 country_event = {
 	id = ai_ships.8
 	hidden = yes
@@ -185,7 +185,7 @@ country_event = {
 	}
 }
 
-# FRA AI template 1943
+# YUW AI template 1943
 country_event = {
 	id = ai_ships.9
 	hidden = yes
@@ -204,7 +204,7 @@ country_event = {
 	}
 }
 
-# ITA AI template 1940
+# SAD AI template 1940
 country_event = {
 	id = ai_ships.10
 	hidden = yes
@@ -223,7 +223,7 @@ country_event = {
 	}
 }
 
-# ITA AI template 1943
+# SAD AI template 1943
 country_event = {
 	id = ai_ships.11
 	hidden = yes
@@ -239,6 +239,44 @@ country_event = {
 	immediate = {
 		ITA_AI_variants_1943 = yes
 		set_country_flag = ITA_SHIPS_1943
+	}
+}
+
+# BFL AI template 1940
+country_event = {
+	id = ai_ships.12
+	hidden = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	trigger = {
+		tag = BFL
+		is_ai = yes
+		NOT = { has_country_flag = SOV_SHIPS_1940 }
+		date > 1940.2.1
+		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
+	}
+	immediate = {
+		SOV_AI_variants_1940 = yes
+		set_country_flag = SOV_SHIPS_1940
+	}
+}
+
+# BFL AI template 1943
+country_event = {
+	id = ai_ships.13
+	hidden = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	trigger = {
+		tag = BFL
+		is_ai = yes
+		NOT = { has_country_flag = SOV_SHIPS_1943 }
+		date > 1943.2.1
+		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
+	}
+	immediate = {
+		SOV_AI_variants_1943 = yes
+		set_country_flag = SOV_SHIPS_1943
 	}
 }
 

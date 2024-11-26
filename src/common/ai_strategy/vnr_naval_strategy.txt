@@ -1,0 +1,434 @@
+### HUJ ###
+ENG_protect_home_waters = {
+    allowed = {
+        has_dlc = "Man the Guns"
+        original_tag = HUJ
+    }
+    enable = {
+        has_war_with = TIX
+        TIX = {
+            has_navy_size = { size > 30 }
+        }
+        enable_vnr_naval_ai = yes
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 18
+        value = 800
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 16
+        value = 100
+    }
+	ai_strategy = {
+        type = naval_avoid_region
+        id = 18
+        value = -300
+    }
+}
+
+ENG_secure_mediterranean = {
+    allowed = {
+        has_dlc = "Man the Guns"
+        original_tag = HUJ
+    }
+    enable = {
+        has_war_with = SAD
+        SAD = {
+            has_navy_size = { size > 30 }
+        }
+        enable_vnr_naval_ai = yes
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 29
+        value = 100
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 68
+        value = 20
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 69
+        value = 200
+    }
+}
+
+ENG_avoid_pacific = {
+    allowed = {
+        has_dlc = "Man the Guns"
+        original_tag = HUJ
+    }
+    enable = {
+        has_war_with = CHY
+		has_war_with = TIX
+        enable_vnr_naval_ai = yes
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = naval_avoid_region
+        id = 75
+        value = 100
+    }
+    ai_strategy = {
+        type = naval_avoid_region
+        id = 72
+        value = 20
+    }
+    ai_strategy = {
+        type = naval_avoid_region
+        id = 73
+        value = 200
+    }
+}
+
+### CHY ###
+JAP_destroy_china_navy_quick = {
+    allowed = {
+        has_dlc = "Man the Guns"
+        original_tag = CHY
+    }
+    enable = {
+        has_war_with = DOH
+        NOT = { has_war_with = BYG }
+        enable_vnr_naval_ai = yes
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 75
+        value = 10
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 76
+        value = 200
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 77
+        value = 200
+    }
+}
+
+JAP_pacific_war_naval_stage_one = {
+    allowed = {
+        has_dlc = "Man the Guns"
+        original_tag = CHY
+    }
+    enable = {
+        has_war_with = BYG
+		naval_strength_ratio = {
+			tag = BYG
+			ratio < 0.5
+		}
+        enable_vnr_naval_ai = yes
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 75
+        value = 200
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 78
+        value = 200
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 94
+        value = 50
+    }
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 84
+        value = 130
+    }
+}
+
+JAP_pacific_war_naval_stage_two = {
+    allowed = {
+        has_dlc = "Man the Guns"
+        original_tag = CHY
+    }
+    enable = {
+        has_war_with = BYG
+		OR = {
+			naval_strength_ratio = {
+				tag = BYG
+				ratio = 0.5
+			}
+			naval_strength_ratio = {
+				tag = BYG
+				ratio > 0.5
+			}
+		}
+        enable_vnr_naval_ai = yes
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 75
+        value = 50
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 78
+        value = 50
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 94
+        value = 50
+    }
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 84
+        value = 50
+    }
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 95
+        value = 200
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 97
+        value = 200
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 180
+        value = 100
+    }
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 83
+        value = 130
+    }
+}
+
+### BYG ###
+USA_pacific_war_naval_avoid_first = {
+	allowed = {
+        has_dlc = "Man the Guns"
+		original_tag = BYG
+	}
+	enable = {
+		has_war_with = CHY
+		date < 1943.1.1
+		naval_strength_ratio = {
+			tag = CHY
+			ratio < 5
+		}
+        enable_vnr_naval_ai = yes
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 75
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 76
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 77
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 79
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 90
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 177
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 94
+		value = 100
+	}
+}
+
+USA_pacific_war_naval_counterattack = {
+    allowed = {
+        has_dlc = "Man the Guns"
+        original_tag = BYG
+    }
+    enable = {
+        has_war_with = CHY
+		OR = {
+			date > 1942.12.31
+			naval_strength_ratio = {
+				tag = CHY
+				ratio > 5
+			}
+		}
+        enable_vnr_naval_ai = yes
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 75
+        value = 50
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 78
+        value = 50
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 94
+        value = 50
+    }
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 84
+        value = 150
+    }
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 95
+        value = 200
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 97
+        value = 200
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 180
+        value = 100
+    }
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 83
+        value = 130
+    }
+}
+
+### SAD ###
+ITA_avoid_mediterranean = {
+    allowed = {
+        has_dlc = "Man the Guns"
+        original_tag = SAD
+    }
+    enable = {
+        has_war_with = HUJ
+        has_navy_size = { size < 100 }
+        enable_vnr_naval_ai = yes
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 29
+        value = -100
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 68
+        value = -100
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 69
+        value = -100
+    }
+    ai_strategy = {
+        type = naval_avoid_region
+        id = 29
+        value = 100
+    }
+    ai_strategy = {
+        type = naval_avoid_region
+        id = 68
+        value = 100
+    }
+    ai_strategy = {
+        type = naval_avoid_region
+        id = 69
+        value = 100
+    }
+}
+
+### TIX ###
+GER_forget_sealion = {
+    allowed = {
+        has_dlc = "Man the Guns"
+        original_tag = TIX
+    }
+    enable = {
+        has_war_with = HUJ
+        naval_strength_ratio = {
+            tag = HUJ
+            ratio < 0.7
+        }
+        enable_vnr_naval_ai = yes
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = naval_avoid_region
+        id = 18
+        value = 800
+    }
+    ai_strategy = {
+        type = naval_avoid_region
+        id = 16
+        value = 200
+    }
+}
+
+GER_unrestricted_submarine_warfare = {
+    allowed = {
+        has_dlc = "Man the Guns"
+        original_tag = TIX
+    }
+    enable = {
+        has_war_with = HUJ
+        naval_strength_ratio = {
+            tag = HUJ
+            ratio < 0.7
+        }
+        enable_vnr_naval_ai = yes
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = naval_convoy_raid_region
+        id = 47
+        value = 200
+    }
+    ai_strategy = {
+        type = naval_convoy_raid_region
+        id = 49
+        value = 500
+    }
+    ai_strategy = {
+        type = naval_convoy_raid_region
+        id = 44
+        value = 150
+    }
+    ai_strategy = {
+        type = naval_convoy_raid_region
+        id = 50
+        value = 30
+    }
+}

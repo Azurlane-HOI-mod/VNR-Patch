@@ -2,7 +2,7 @@
 units= {
 
 	##### NAVAL UNITS #####
-	### METRPOLSADN YUWNCE ###
+	### METRPOLITAN FRANCE ###
 	fleet = {
 		name = "北方舰队"
 		naval_base = 575 # 575 # Dunkerque
@@ -277,7 +277,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_heavy_3
-			creator = "YUW" 
+			creator = "FRA" 
 			version_name = "敦刻尔克级"
 		}
 		name = "敦刻尔克" 
@@ -288,7 +288,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_heavy_3
-			creator = "YUW" 
+			creator = "FRA" 
 			version_name = "敦刻尔克级"
 		}
 		name = "斯特拉斯堡" 
@@ -299,7 +299,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_heavy_3
-			creator = "YUW" 
+			creator = "FRA" 
 			version_name = "黎塞留级"
 		}
 		name = "黎塞留" 
@@ -310,7 +310,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "YUW" 
+			creator = "FRA" 
 			version_name = "空想级"
 		}
 		name = "恶毒" 
@@ -321,7 +321,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "YUW" 
+			creator = "FRA" 
 			version_name = "空想级"
 		}
 		name = "不屈" 
@@ -332,7 +332,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "YUW" 
+			creator = "FRA" 
 			version_name = "空想级"
 		}
 		name = "空想" 
@@ -343,7 +343,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "YUW" 
+			creator = "FRA" 
 			version_name = "空想级"
 		}
 		name = "凯旋" 
@@ -354,7 +354,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "YUW" 
+			creator = "FRA" 
 			version_name = "莫加多尔级"
 		}
 		name = "莫加多尔" 
@@ -365,7 +365,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "YUW" 
+			creator = "FRA" 
 			version_name = "莫加多尔级"
 		}
 		name = "伏尔塔" 
@@ -377,7 +377,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_cruiser_3
-			creator = "YUW" 
+			creator = "FRA" 
 			version_name = "拉加利索尼埃级"
 		}
 		name = "让·德·维埃纳" 
@@ -388,7 +388,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_cruiser_3
-			creator = "YUW" 
+			creator = "FRA" 
 			version_name = "拉加利索尼埃级"
 		}
 		name = "马赛曲" 
@@ -399,7 +399,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_cruiser_3
-			creator = "YUW" 
+			creator = "FRA" 
 			version_name = "拉加利索尼埃级"
 		}
 		name = "光荣" 
@@ -410,7 +410,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_cruiser_3
-			creator = "YUW" 
+			creator = "FRA" 
 			version_name = "拉加利索尼埃级"
 		}
 		name = "蒙卡尔姆" 
@@ -421,7 +421,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_cruiser_3
-			creator = "YUW" 
+			creator = "FRA" 
 			version_name = "拉加利索尼埃级"
 		}
 		name = "乔治·莱格" 
@@ -433,7 +433,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "YUW" 
+			creator = "FRA" 
 			version_name = "可畏级"
 		}
 		name = "英雄" 
@@ -444,7 +444,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "YUW" 
+			creator = "FRA" 
 			version_name = "可畏级"
 		}
 		name = "雷鸣" 
@@ -455,7 +455,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "YUW" 
+			creator = "FRA" 
 			version_name = "可畏级"
 		}
 		name = "征服者" 
@@ -466,7 +466,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "YUW" 
+			creator = "FRA" 
 			version_name = "可畏级"
 		}
 		name = "奥古斯塔" 
@@ -477,7 +477,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "YUW" 
+			creator = "FRA" 
 			version_name = "可畏级"
 		}
 		name = "斯法克斯" 
@@ -488,7 +488,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "YUW" 
+			creator = "FRA" 
 			version_name = "可畏级"
 		}
 		name = "卡萨布兰卡" 
@@ -499,7 +499,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "YUW" 
+			creator = "FRA" 
 			version_name = "可畏级"
 		}
 		name = "贝弗济耶" 
@@ -510,7 +510,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "YUW" 
+			creator = "FRA" 
 			version_name = "可畏级"
 		}
 		name = "韦桑" 
@@ -521,7 +521,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "YUW" 
+			creator = "FRA" 
 			version_name = "可畏级"
 		}
 		name = "西迪弗雷" 
@@ -533,7 +533,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "YUW" 
+			creator = "FRA" 
 			version_name = "密涅瓦级"
 		}
 		name = "伊里斯" 
@@ -544,7 +544,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "YUW" 
+			creator = "FRA" 
 			version_name = "密涅瓦级"
 		}
 		name = "密涅瓦" 
@@ -555,7 +555,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "YUW" 
+			creator = "FRA" 
 			version_name = "密涅瓦级"
 		}
 		name = "维纳斯" 
@@ -566,7 +566,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "YUW" 
+			creator = "FRA" 
 			version_name = "密涅瓦级"
 		}
 		name = "朱诺" 
@@ -577,7 +577,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "YUW" 
+			creator = "FRA" 
 			version_name = "曙光级"
 		}
 		name = "曙光" 

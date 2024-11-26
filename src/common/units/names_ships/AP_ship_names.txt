@@ -1,4 +1,4 @@
-### USA ###
+### BYG ###
 USA_AP_HISTORICAL = {
     name = NAME_THEME_HISTORICAL_AP
 
@@ -28,7 +28,7 @@ USA_AP_HISTORICAL = {
     }
 }
 
-### ENG ###
+### HUJ ###
 ENG_AP_HISTORICAL = {
     name = NAME_THEME_HISTORICAL_AP
 
@@ -51,7 +51,7 @@ ENG_AP_HISTORICAL = {
     }
 }
 
-### GER ###
+### TIX ###
 GER_AP_HISTORICAL = {
     name = NAME_THEME_HISTORICAL_AP
 
@@ -67,7 +67,7 @@ GER_AP_HISTORICAL = {
     }
 }
 
-### SOV ###
+### BFL ###
 SOV_AP_HISTORICAL = {
     name = NAME_THEME_HISTORICAL_AP
 
@@ -84,7 +84,7 @@ SOV_AP_HISTORICAL = {
     }
 }
 
-### JAP ###
+### CHY ###
 JAP_AP_HISTORICAL = {
     name = NAME_THEME_HISTORICAL_AP
 

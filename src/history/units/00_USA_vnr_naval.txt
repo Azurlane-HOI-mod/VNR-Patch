@@ -436,7 +436,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_carrier_1
-			creator = "BYG"
+			creator = "USA"
 			version_name = "约克城级"
 		}
 		name = "USS 约克城" 
@@ -447,7 +447,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_carrier_1
-			creator = "BYG"
+			creator = "USA"
 			version_name = "约克城级"
 		}
 		name = "USS 企业" 
@@ -458,7 +458,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_carrier_1
-			creator = "BYG"
+			creator = "USA"
 			version_name = "胡蜂级"
 		}
 		name = "USS 胡蜂"
@@ -470,7 +470,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_cruiser_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "波特兰级/新奥尔良级"
 		}
 		name = "USS 昆西" 
@@ -481,7 +481,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_cruiser_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "波特兰级/新奥尔良级"
 		}
 		name = "USS 文森尼斯" 
@@ -493,7 +493,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_cruiser_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "威奇塔级"
 		}
 		name = "USS 威奇塔" 
@@ -505,7 +505,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_cruiser_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "布鲁克林级"
 		}
 		name = "USS 布鲁克林"
@@ -516,7 +516,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_cruiser_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "布鲁克林级"
 		}
 		name = "USS 费城"
@@ -527,7 +527,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_cruiser_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "布鲁克林级"
 		}
 		name = "USS 萨凡纳"
@@ -538,7 +538,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_cruiser_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "布鲁克林级"
 		}
 		name = "USS 纳什维尔"
@@ -549,7 +549,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_cruiser_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "布鲁克林级"
 		}
 		name = "USS 菲尼克斯"
@@ -560,7 +560,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_cruiser_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "布鲁克林级"
 		}
 		name = "USS 博伊斯"
@@ -571,7 +571,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_cruiser_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "布鲁克林级"
 		}
 		name = "USS 火奴鲁鲁"
@@ -583,7 +583,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "波特级/索莫斯级"
 		}
 		name = "USS 波特" 
@@ -594,7 +594,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "波特级/索莫斯级"
 		}
 		name = "USS 菲尔普斯" 
@@ -605,7 +605,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "波特级/索莫斯级"
 		}
 		name = "USS 克拉克" 
@@ -616,7 +616,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "波特级/索莫斯级"
 		}
 		name = "USS 墨菲特" 
@@ -627,7 +627,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "波特级/索莫斯级"
 		}
 		name = "USS 塞弗里奇" 
@@ -638,7 +638,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "波特级/索莫斯级"
 		}
 		name = "USS 麦道加" 
@@ -649,7 +649,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "波特级/索莫斯级"
 		}
 		name = "USS 温斯洛" 
@@ -660,7 +660,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "波特级/索莫斯级"
 		}
 		name = "USS 巴奇" 
@@ -672,7 +672,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "波特级/索莫斯级"
 		}
 		name = "USS 索莫斯" 
@@ -683,7 +683,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "波特级/索莫斯级"
 		}
 		name = "USS 沃灵顿" 
@@ -694,7 +694,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "波特级/索莫斯级"
 		}
 		name = "USS 桑普森"
@@ -705,7 +705,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "波特级/索莫斯级"
 		}
 		name = "USS 戴维斯"
@@ -716,7 +716,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "波特级/索莫斯级"
 		}
 		name = "USS 朱厄特"
@@ -728,7 +728,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_2
-			creator = "BYG"
+			creator = "USA"
 			version_name = "法拉格特级/马汉级"
 		}
 		name = "USS 马汉" 
@@ -739,7 +739,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_2
-			creator = "BYG"
+			creator = "USA"
 			version_name = "法拉格特级/马汉级"
 		}
 		name = "USS 甘明斯" 
@@ -750,7 +750,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_2
-			creator = "BYG"
+			creator = "USA"
 			version_name = "法拉格特级/马汉级"
 		}
 		name = "USS 杜雷顿" 
@@ -761,7 +761,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_2
-			creator = "BYG"
+			creator = "USA"
 			version_name = "法拉格特级/马汉级"
 		}
 		name = "USS 拉姆森" 
@@ -772,7 +772,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_2
-			creator = "BYG"
+			creator = "USA"
 			version_name = "法拉格特级/马汉级"
 		}
 		name = "USS 弗鲁瑟" 
@@ -783,7 +783,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_2
-			creator = "BYG"
+			creator = "USA"
 			version_name = "法拉格特级/马汉级"
 		}
 		name = "USS 凯斯" 
@@ -794,7 +794,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_2
-			creator = "BYG"
+			creator = "USA"
 			version_name = "法拉格特级/马汉级"
 		}
 		name = "USS 康宁汉" 
@@ -805,7 +805,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_2
-			creator = "BYG"
+			creator = "USA"
 			version_name = "法拉格特级/马汉级"
 		}
 		name = "USS 卡森" 
@@ -816,7 +816,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_2
-			creator = "BYG"
+			creator = "USA"
 			version_name = "法拉格特级/马汉级"
 		}
 		name = "USS 邵" 
@@ -827,7 +827,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_2
-			creator = "BYG"
+			creator = "USA"
 			version_name = "法拉格特级/马汉级"
 		}
 		name = "USS 塔克" 
@@ -838,7 +838,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_2
-			creator = "BYG"
+			creator = "USA"
 			version_name = "法拉格特级/马汉级"
 		}
 		name = "USS 唐恩" 
@@ -849,7 +849,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_2
-			creator = "BYG"
+			creator = "USA"
 			version_name = "法拉格特级/马汉级"
 		}
 		name = "USS 卡辛" 
@@ -860,7 +860,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_2
-			creator = "BYG"
+			creator = "USA"
 			version_name = "法拉格特级/马汉级"
 		}
 		name = "USS 帕金斯" 
@@ -871,7 +871,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_2
-			creator = "BYG"
+			creator = "USA"
 			version_name = "法拉格特级/马汉级"
 		}
 		name = "USS 史密斯" 
@@ -882,7 +882,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_2
-			creator = "BYG"
+			creator = "USA"
 			version_name = "法拉格特级/马汉级"
 		}
 		name = "USS 普雷斯顿" 
@@ -893,7 +893,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_2
-			creator = "BYG"
+			creator = "USA"
 			version_name = "法拉格特级/马汉级"
 		}
 		name = "USS 邓拉普" 
@@ -904,7 +904,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_2
-			creator = "BYG"
+			creator = "USA"
 			version_name = "法拉格特级/马汉级"
 		}
 		name = "USS 范宁" 
@@ -915,7 +915,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_2
-			creator = "BYG"
+			creator = "USA"
 			version_name = "法拉格特级/马汉级"
 		}
 		name = "USS 里德" 
@@ -927,7 +927,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "格里德利级/巴格莱级"
 		}
 		name = "USS 格里德利" 
@@ -938,7 +938,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "格里德利级/巴格莱级"
 		}
 		name = "USS 克雷文" 
@@ -949,7 +949,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "格里德利级/巴格莱级"
 		}
 		name = "USS 麦考"
@@ -960,7 +960,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "格里德利级/巴格莱级"
 		}
 		name = "USS 默里"
@@ -972,7 +972,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "格里德利级/巴格莱级"
 		}
 		name = "USS 巴格莱" 
@@ -983,7 +983,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "格里德利级/巴格莱级"
 		}
 		name = "USS 布鲁" 
@@ -994,7 +994,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "格里德利级/巴格莱级"
 		}
 		name = "USS 黑姆" 
@@ -1005,7 +1005,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "格里德利级/巴格莱级"
 		}
 		name = "USS 麦霍" 
@@ -1016,7 +1016,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "格里德利级/巴格莱级"
 		}
 		name = "USS 拉尔夫·塔尔博特" 
@@ -1027,7 +1027,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "格里德利级/巴格莱级"
 		}
 		name = "USS 亨莱" 
@@ -1038,7 +1038,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "格里德利级/巴格莱级"
 		}
 		name = "USS 帕特森" 
@@ -1049,7 +1049,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BYG"
+			creator = "USA"
 			version_name = "格里德利级/巴格莱级"
 		}
 		name = "USS 贾维斯" 
@@ -1061,7 +1061,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "BYG"
+			creator = "USA"
 			version_name = "鼠海豚级"
 		}
 		name = "USS 海鲢" 
@@ -1072,7 +1072,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "BYG"
+			creator = "USA"
 			version_name = "鼠海豚级"
 		}
 		name = "USS 鲈鱼" 
@@ -1083,7 +1083,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "BYG"
+			creator = "USA"
 			version_name = "鼠海豚级"
 		}
 		name = "USS 链纹狗鱼" 
@@ -1094,7 +1094,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "BYG"
+			creator = "USA"
 			version_name = "鼠海豚级"
 		}
 		name = "USS 鲳鱼" 
@@ -1105,7 +1105,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "BYG"
+			creator = "USA"
 			version_name = "鼠海豚级"
 		}
 		name = "USS 潜水者" 
@@ -1116,7 +1116,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "BYG"
+			creator = "USA"
 			version_name = "鼠海豚级"
 		}
 		name = "USS 鳕鱼" 
@@ -1127,7 +1127,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "BYG"
+			creator = "USA"
 			version_name = "鼠海豚级"
 		}
 		name = "USS 鲹鱼" 

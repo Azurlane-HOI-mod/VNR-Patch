@@ -60,7 +60,7 @@ instant_effect = {
 	add_equipment_production = { 		# "Pinghai"
 		equipment = {
 			type = vnr_ship_hull_cruiser_2
-			creator = "DOH" 
+			creator = "CHI" 
 			version_name = "宁海级"
 		}
 		name = "平海" 

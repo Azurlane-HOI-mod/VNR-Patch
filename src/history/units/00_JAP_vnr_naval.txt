@@ -382,7 +382,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_heavy_1
-				creator = "CHY"
+				creator = "JAP"
 				version_name = "金刚级"
 			}
 			name = "比叡"
@@ -394,7 +394,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_carrier_1
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "苍龙级"
 			}
 			name = "苍龙"
@@ -406,7 +406,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_carrier_1
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "瑞凤级"
 			}
 			name = "瑞凤"
@@ -418,7 +418,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_carrier_1
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "瑞凤级"
 			}
 			name = "翔凤"
@@ -431,7 +431,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_cruiser_3
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "最上级"
 			}
 			name = "铃谷"
@@ -442,7 +442,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_cruiser_3
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "最上级"
 			}
 			name = "熊野"
@@ -453,7 +453,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_cruiser_3
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "利根级"
 			}
 			name = "利根"
@@ -464,7 +464,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_cruiser_3
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "利根级"
 			}
 			name = "筑摩"
@@ -476,7 +476,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_cruiser_1
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "严岛级/冲岛级"
 			}
 			name = "严岛"
@@ -488,7 +488,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "初春型/白露型"
 			}
 			name = "白露"
@@ -499,7 +499,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "初春型/白露型"
 			}
 			name = "时雨"
@@ -510,7 +510,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "初春型/白露型"
 			}
 			name = "村雨"
@@ -521,7 +521,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "初春型/白露型"
 			}
 			name = "春雨"
@@ -532,7 +532,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "初春型/白露型"
 			}
 			name = "五月雨"
@@ -543,7 +543,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "初春型/白露型"
 			}
 			name = "夕立"
@@ -554,7 +554,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "初春型/白露型"
 			}
 			name = "海风"
@@ -565,7 +565,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "初春型/白露型"
 			}
 			name = "山风"
@@ -576,7 +576,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "初春型/白露型"
 			}
 			name = "江风"
@@ -587,7 +587,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "初春型/白露型"
 			}
 			name = "凉风"
@@ -598,7 +598,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "朝潮型"
 			}
 			name = "朝潮"
@@ -609,7 +609,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "朝潮型"
 			}
 			name = "满潮"
@@ -620,7 +620,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "朝潮型"
 			}
 			name = "荒潮"
@@ -632,7 +632,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "鸿型"
 			}
 			name = "鸿"
@@ -643,7 +643,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "鸿型"
 			}
 			name = "鹎"
@@ -654,7 +654,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "鸿型"
 			}
 			name = "隼"
@@ -665,7 +665,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "鸿型"
 			}
 			name = "鹊"
@@ -677,7 +677,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_submarine_2
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "海大VI级"
 			}
 			requested_factories = 1
@@ -687,7 +687,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_submarine_2
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "海大VI级"
 			}
 			requested_factories = 1
@@ -697,7 +697,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_submarine_2
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "海大VI级"
 			}
 			requested_factories = 1
@@ -707,7 +707,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_submarine_2
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "海大VI级"
 			}
 			requested_factories = 1
@@ -718,7 +718,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_cruiser_submarine
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "巡潜III级"
 			}
 			requested_factories = 1
@@ -728,7 +728,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_cruiser_submarine
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "巡潜III级"
 			}
 			requested_factories = 1
@@ -739,7 +739,7 @@ instant_effect =
 		add_equipment_production = {				
 			equipment = {
 				type = vnr_ship_hull_submarine_1
-				creator = "CHY" 
+				creator = "JAP" 
 				version_name = "海中V级"
 			}
 			requested_factories = 1

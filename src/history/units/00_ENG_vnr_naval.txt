@@ -418,7 +418,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_carrier_1
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "皇家方舟级"
 		}
 		name = "HMS 皇家方舟"
@@ -430,7 +430,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_cruiser_3
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "利安德级"
 		}
 		name = "HMS 阿波罗"
@@ -441,7 +441,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_cruiser_3
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "利安德级"
 		}
 		name = "HMS 安菲翁"
@@ -452,7 +452,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_cruiser_3
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "林仙级"
 		}
 		name = "HMS 佩内洛普"
@@ -463,7 +463,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_cruiser_3
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "林仙级"
 		}
 		name = "HMS 曙光女神"
@@ -474,7 +474,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_cruiser_3
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "城级"
 		}
 		name = "HMS 南安普敦"
@@ -485,7 +485,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_cruiser_3
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "城级"
 		}
 		name = "HMS 纽卡斯尔"
@@ -496,7 +496,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_cruiser_3
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "城级"
 		}
 		name = "HMS 格拉斯哥"
@@ -507,7 +507,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_cruiser_3
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "城级"
 		}
 		name = "HMS 伯明翰"
@@ -518,7 +518,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_cruiser_3
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "城级"
 		}
 		name = "HMS 设菲尔德"
@@ -530,7 +530,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "S级"
 		}
 		name = "HMS 海狼"
@@ -541,7 +541,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "S级"
 		}
 		name = "HMS 枪鱼"
@@ -552,7 +552,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "S级"
 		}
 		name = "HMS 太阳鱼"
@@ -563,7 +563,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "灰海豚级"
 		}
 		name = "HMS 灰海豚"
@@ -574,7 +574,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "灰海豚级"
 		}
 		name = "HMS 长须鲸"
@@ -585,7 +585,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "灰海豚级"
 		}
 		name = "HMS 独角鲸"
@@ -597,7 +597,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "E/F/G/H级"
 		}
 		name = "HMS 英勇"
@@ -608,7 +608,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "E/F/G/H级"
 		}
 		name = "HMS 花环"
@@ -619,7 +619,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "E/F/G/H级"
 		}
 		name = "HMS 吉普赛人"
@@ -630,7 +630,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "E/F/G/H级"
 		}
 		name = "HMS 萤火虫"
@@ -641,7 +641,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "E/F/G/H级"
 		}
 		name = "HMS 格拉夫顿"
@@ -652,7 +652,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "E/F/G/H级"
 		}
 		name = "HMS 手榴弹"
@@ -663,7 +663,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "E/F/G/H级"
 		}
 		name = "HMS 灰猎犬"
@@ -674,7 +674,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "E/F/G/H级"
 		}
 		name = "HMS 格里芬"
@@ -685,7 +685,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "E/F/G/H级"
 		}
 		name = "HMS 格伦维尔"
@@ -696,7 +696,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "E/F/G/H级"
 		}
 		name = "HMS 仓促"
@@ -707,7 +707,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "E/F/G/H级"
 		}
 		name = "HMS 浩劫"
@@ -718,7 +718,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "E/F/G/H级"
 		}
 		name = "HMS 赫瓦德"
@@ -729,7 +729,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "E/F/G/H级"
 		}
 		name = "HMS 英雄"
@@ -740,7 +740,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "E/F/G/H级"
 		}
 		name = "HMS 敌意"
@@ -751,7 +751,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "E/F/G/H级"
 		}
 		name = "HMS 热刺"
@@ -762,7 +762,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "E/F/G/H级"
 		}
 		name = "HMS 猎手"
@@ -773,7 +773,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "E/F/G/H级"
 		}
 		name = "HMS 海伯利安"
@@ -784,7 +784,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "HUJ" 
+			creator = "ENG" 
 			version_name = "E/F/G/H级"
 		}
 		name = "HMS 坚强"

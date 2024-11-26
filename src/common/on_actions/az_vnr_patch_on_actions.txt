@@ -8,12 +8,12 @@ on_actions = {
 					days = 3
 				}
 			}
-			every_country = {
-				country_event = {
-					id = az_vnr_patch.2
-					days = 61
-				}
-			}
+			# every_country = {
+			# 	country_event = {
+			# 		id = az_vnr_patch.2
+			# 		days = 61
+			# 	}
+			# }
 		}
 	}
 }

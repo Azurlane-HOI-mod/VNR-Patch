@@ -145,7 +145,7 @@ JAP_SSC_HISTORICAL = {
 }
 
 
-### THEME: CHYANESE PREFECTURES + Other names for Japan###
+### THEME: JAPANESE PREFECTURES + Other names for Japan###
 JAP_PREFECTURES = {
 	name = NAME_THEME_PREFECTURES #battleships and bb converted carriers
 	ship_types = { ship_hull_carrier carrier ship_hull_heavy battleship battle_cruiser ship_hull_cruiser heavy_cruiser }
@@ -166,7 +166,7 @@ JAP_PREFECTURES = {
 		"扶桑" "山城" "近江"
 	}
 }
-## THEME: CHYANESE CITIES ###
+## THEME: JAPANESE CITIES ###
 JAP_CITIES = {
 	name = NAME_THEME_CITIES #not used
 	ship_types = { ship_hull_carrier carrier ship_hull_heavy battleship battle_cruiser ship_hull_cruiser heavy_cruiser }

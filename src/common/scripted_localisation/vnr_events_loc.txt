@@ -51,7 +51,7 @@ defined_text = {
 		trigger = {
 			OR = {
 				original_tag = DOH
-				original_tag = PRC
+				original_tag = DOH
 			}
 		}
 		localization_key = chi_naval_history
@@ -96,7 +96,7 @@ defined_text = {
 		trigger = {
 			OR = {
 				original_tag = DOH
-				original_tag = PRC
+				original_tag = DOH
 			}
 		}
 		localization_key = naval_lore_title_1_chi
@@ -141,7 +141,7 @@ defined_text = {
 		trigger = {
 			OR = {
 				original_tag = DOH
-				original_tag = PRC
+				original_tag = DOH
 			}
 		}
 		localization_key = naval_lore_title_2_chi
@@ -186,7 +186,7 @@ defined_text = {
 		trigger = {
 			OR = {
 				original_tag = DOH
-				original_tag = PRC
+				original_tag = DOH
 			}
 		}
 		localization_key = naval_lore_desc_1_chi
@@ -231,7 +231,7 @@ defined_text = {
 		trigger = {
 			OR = {
 				original_tag = DOH
-				original_tag = PRC
+				original_tag = DOH
 			}
 		}
 		localization_key = naval_lore_desc_2_chi
@@ -276,7 +276,7 @@ defined_text = {
 		trigger = {
 			OR = {
 				original_tag = DOH
-				original_tag = PRC
+				original_tag = DOH
 			}
 		}
 		localization_key = GFX_naval_lore_chi
@@ -375,7 +375,7 @@ defined_text = {
 		localization_key = ship_designer_title_chi
 	}
 	text = {
-		trigger = { original_tag = PRC }
+		trigger = { original_tag = DOH }
 		localization_key = ship_designer_title_prc
 	}
 	text = {

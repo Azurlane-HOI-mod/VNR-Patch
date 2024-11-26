@@ -399,8 +399,8 @@ MTG_naval_treaties = {
 			modifier = {
 				NOT = {
 					OR = {
-						TAG = HUJ
-						TAG = BYG
+						tag = HUJ
+						tag = BYG
 					}
 				}
 				factor = 0
@@ -526,8 +526,8 @@ MTG_naval_treaties = {
 			modifier = {
 				NOT = {
 					OR = {
-						TAG = HUJ
-						TAG = BYG
+						tag = HUJ
+						tag = BYG
 					}
 				}
 				factor = 0

@@ -216,7 +216,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_cruiser_3
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "基洛夫级"
 		}
 		name = "基洛夫"
@@ -227,7 +227,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_cruiser_3
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "基洛夫级"
 		}
 		name = "伏罗希洛夫"
@@ -240,7 +240,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "列宁格勒级"
 		}
 		name = "列宁格勒"
@@ -251,7 +251,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "列宁格勒级"
 		}
 		name = "哈尔科夫"
@@ -262,7 +262,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "列宁格勒级"
 		}
 		name = "莫斯科"
@@ -273,7 +273,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "列宁格勒级"
 		}
 		name = "明斯克"
@@ -284,7 +284,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "列宁格勒级"
 		}
 		name = "巴库"
@@ -295,7 +295,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "列宁格勒级"
 		}
 		name = "第比利斯"
@@ -306,7 +306,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "愤怒级"
 		}
 		name = "愤怒"
@@ -317,7 +317,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "愤怒级"
 		}
 		name = "可怖"
@@ -328,7 +328,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "愤怒级"
 		}
 		name = "决心"
@@ -339,7 +339,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "愤怒级"
 		}
 		name = "活跃"
@@ -350,7 +350,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "愤怒级"
 		}
 		name = "坚定"
@@ -361,7 +361,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "愤怒级"
 		}
 		name = "大胆"
@@ -372,7 +372,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_light_3
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "愤怒级"
 		}
 		name = "活泼"
@@ -386,7 +386,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "Shch V-bis级"
 		}
 		requested_factories = 1
@@ -396,7 +396,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "Shch V-bis级"
 		}
 		requested_factories = 1
@@ -406,7 +406,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "Shch V-bis级"
 		}
 		requested_factories = 1
@@ -416,7 +416,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "Shch V-bis级"
 		}
 		requested_factories = 1
@@ -426,7 +426,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "Shch V-bis级"
 		}
 		requested_factories = 1
@@ -436,7 +436,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "Shch V-bis级"
 		}
 		requested_factories = 1
@@ -446,7 +446,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "Shch X级"
 		}
 		requested_factories = 1
@@ -456,7 +456,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "Shch X级"
 		}
 		requested_factories = 1
@@ -466,7 +466,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "Shch X级"
 		}
 		requested_factories = 1
@@ -476,7 +476,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "Shch X级"
 		}
 		requested_factories = 1
@@ -486,7 +486,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "Shch X级"
 		}
 		requested_factories = 1
@@ -496,7 +496,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "Shch X级"
 		}
 		requested_factories = 1
@@ -506,7 +506,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "Shch X级"
 		}
 		requested_factories = 1
@@ -516,7 +516,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "Shch X级"
 		}
 		requested_factories = 1
@@ -526,7 +526,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "Shch X级"
 		}
 		requested_factories = 1
@@ -536,7 +536,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "Shch X级"
 		}
 		requested_factories = 1
@@ -546,7 +546,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "Shch X级"
 		}
 		requested_factories = 1
@@ -556,7 +556,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "Shch X级"
 		}
 		requested_factories = 1
@@ -566,7 +566,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "S级"
 		}
 		requested_factories = 1
@@ -576,7 +576,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "S级"
 		}
 		requested_factories = 1
@@ -586,7 +586,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = vnr_ship_hull_submarine_2
-			creator = "BFL"
+			creator = "SOV"
 			version_name = "S级"
 		}
 		requested_factories = 1

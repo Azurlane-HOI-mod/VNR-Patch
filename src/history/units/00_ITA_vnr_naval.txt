@@ -325,7 +325,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_heavy_1
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "安德烈亚·多利亚级" 
 			} 
 			name = "RN 安德烈亚·多利亚"
@@ -338,7 +338,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_heavy_1 
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "安德烈亚·多利亚级" 
 			} 
 			name = "RN 卡约·杜伊里奥"
@@ -350,7 +350,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_heavy_3
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "利托里奥级" 
 			} 
 			name = "RN 维托里奥·维内托"
@@ -362,7 +362,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_heavy_3
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "利托里奥级" 
 			} 
 			name = "RN 利托里奥"
@@ -375,7 +375,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_cruiser_3
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "蒙特库科利级/奥斯塔公爵级" 
 			} 
 			name = "RN 欧根亲王"
@@ -387,7 +387,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_cruiser_3 
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "阿布鲁奇公爵级" 
 			} 
 			name = "RN 阿布鲁奇公爵"
@@ -398,7 +398,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_cruiser_3 
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "阿布鲁奇公爵级" 
 			} 
 			name = "RN 朱赛佩·加里波第"
@@ -411,7 +411,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_light_3
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "西北风级/奥里亚尼级" 
 			} 
 			name = "RN 阿尔弗雷多·奥里亚尼"
@@ -422,7 +422,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_light_2 
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "室女星级" 
 			} 
 			name = "RN 英仙座"
@@ -433,7 +433,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_light_2 
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "室女星级" 
 			} 
 			name = "RN 天狼星"
@@ -444,7 +444,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_light_2 
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "室女星级" 
 			} 
 			name = "RN 老人星"
@@ -455,7 +455,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_light_2 
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "室女星级" 
 			} 
 			name = "RN 仙后座"
@@ -466,7 +466,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_light_2 
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "室女星级" 
 			} 
 			name = "RN 半人马座"
@@ -477,7 +477,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_light_2 
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "室女星级" 
 			} 
 			name = "RN 伴女星"
@@ -488,7 +488,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_light_2 
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "室女星级" 
 			} 
 			name = "RN 阿尔德巴兰"
@@ -499,7 +499,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_light_2 
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "室女星级" 
 			} 
 			name = "RN 阿尔泰尔"
@@ -510,7 +510,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_light_2 
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "室女星级" 
 			} 
 			name = "RN 仙女座"
@@ -521,7 +521,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_light_2 
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "室女星级" 
 			} 
 			name = "RN 天蝎座"
@@ -532,7 +532,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_light_2 
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "室女星级" 
 			} 
 			name = "RN 射手座"
@@ -543,7 +543,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_light_2 
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "室女星级" 
 			} 
 			name = "RN 织女星"
@@ -556,7 +556,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_cruiser_submarine 
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "拉莫斯卡级/卡尔维级" 
 			} 
 			name = "RN 恩里科·塔佐利"
@@ -568,7 +568,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_submarine_2 
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "人鱼级/珍珠级" 
 			} 
 			name = "RN 琥珀"
@@ -579,7 +579,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_submarine_2 
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "人鱼级/珍珠级" 
 			} 
 			name = "RN 绿柱石"
@@ -590,7 +590,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_submarine_2 
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "人鱼级/珍珠级" 
 			} 
 			name = "RN 珊瑚"
@@ -601,7 +601,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_submarine_2 
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "人鱼级/珍珠级" 
 			} 
 			name = "RN 碧玉"
@@ -612,7 +612,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_submarine_2 
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "人鱼级/珍珠级" 
 			} 
 			name = "RN 宝石"
@@ -623,7 +623,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_submarine_2 
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "人鱼级/珍珠级" 
 			} 
 			name = "RN 伊里斯"
@@ -634,7 +634,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_submarine_2 
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "人鱼级/珍珠级" 
 			} 
 			name = "RN 孔雀石"
@@ -645,7 +645,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_submarine_2 
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "人鱼级/珍珠级" 
 			} 
 			name = "RN 缟玛瑙"
@@ -656,7 +656,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_submarine_2 
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "人鱼级/珍珠级" 
 			} 
 			name = "RN 珍珠"
@@ -667,7 +667,7 @@ instant_effect = {
 		add_equipment_production = { 
 			equipment = { 
 				type = vnr_ship_hull_submarine_2 
-				creator = "SAD" 
+				creator = "ITA" 
 				version_name = "人鱼级/珍珠级" 
 			} 
 			name = "RN 绿松石"

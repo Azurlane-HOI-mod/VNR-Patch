@@ -100,7 +100,7 @@ ITA_BB_HISTORICAL = {
 
 	unique = {
 		"加富尔伯爵" "朱利奥·凯撒" "利托里奥" "维内托"
-		"卡约·杜伊里奥" "安德烈亚·多利亚" "帝国"
+		"卡约·杜伊里奥" "安德烈亚·多利亚" "罗马" "帝国"
 		"但丁·阿利吉耶里" "艾莉娜王后" "维托里奥·埃曼努埃莱"
 		"威尼斯" "伦巴底"
 	}
@@ -194,7 +194,7 @@ ITA_SS_HISTORICAL = {
 	}
 }
 
-### THEME: SADLIAN REGIONS ###
+### THEME: ITALIAN REGIONS ###
 ITA_REGIONS = {
 	name = NAME_THEME_REGIONS
 
@@ -209,7 +209,7 @@ ITA_REGIONS = {
 	}
 }
 
-## THEME: SADLIAN CITIES ###
+## THEME: ITALIAN CITIES ###
 ITA_CITIES = {
 	name = NAME_THEME_CITIES
 
@@ -226,7 +226,7 @@ ITA_CITIES = {
 	}
 }
 
-## THEME: SADLIAN MYTHOLOGICAL NAMES ###
+## THEME: ITALIAN MYTHOLOGICAL NAMES ###
 ITA_MYTHOLOGY = {
 	name = NAME_THEME_MYTHOLOGY
 
@@ -242,7 +242,7 @@ ITA_MYTHOLOGY = {
 	}
 }
 
-## THEME: SADLIAN WEATHER NAMES ###
+## THEME: ITALIAN WEATHER NAMES ###
 ITA_WEATHER = {
 	name = NAME_THEME_WEATHER
 
