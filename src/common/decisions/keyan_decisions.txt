@@ -162,6 +162,39 @@ keyan_category = {
 				advanced_heavy_armor = 1
 				all_or_nothing_armor_box_armor_scheme = 1
 			}
+
+			create_equipment_variant = {
+				name = "心智魔方试作型主力战列舰"
+				type = vnr_ship_hull_heavy_5
+				parent_version = 0
+				modules = {
+					fixed_ship_battery_slot = ship_heavy_battery_2
+					fixed_ship_anti_air_slot = ship_anti_air_2
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_xzmf
+					fixed_ship_radar_slot = empty
+					fixed_ship_engine_slot = heavy_ship_engine_xzmf
+					fixed_ship_secondaries_slot = empty
+					fixed_ship_armor_slot = ship_armor_bb_3
+					front_1_custom_slot = empty
+					mid_1_custom_slot = empty
+					mid_2_custom_slot = empty
+					mid_3_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}
+			hidden_effect = {
+				add_equipment_production = {
+					equipment = {
+						type = vnr_ship_hull_heavy_5
+						creator = ROOT
+						version_name = "心智魔方试作型主力战列舰"
+					}
+					name = "心智魔方试作型主力战列舰"
+					requested_factories = 1
+					progress = 1
+					amount = 1
+				}
+			}
 		}
 	}
 
@@ -197,6 +230,37 @@ keyan_category = {
 				modern_ship_hull_cruiser = 1
 				helipad = 1
 			}
+
+			create_equipment_variant = {
+				name = "心智魔方试作型先锋巡洋舰"
+				type = vnr_ship_hull_cruiser_6
+				parent_version = 0
+				modules = {
+					fixed_ship_battery_slot = ship_medium_battery_2
+					fixed_ship_anti_air_slot = ship_anti_air_2
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_xzmf
+					fixed_ship_radar_slot = empty
+					fixed_ship_engine_slot = cruiser_ship_engine_xzmf
+					fixed_ship_secondaries_slot = ship_secondaries_1
+					fixed_ship_armor_slot = ship_armor_cruiser_4
+					mid_1_custom_slot = empty
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}
+			hidden_effect = {
+				add_equipment_production = {
+					equipment = {
+						type = vnr_ship_hull_cruiser_6
+						creator = ROOT
+						version_name = "心智魔方试作型先锋巡洋舰"
+					}
+					name = "心智魔方试作型先锋巡洋舰"
+					requested_factories = 1
+					progress = 1
+					amount = 1
+				}
+			}
 		}
 	}
 	chihou_yanfa_completed = {
@@ -230,6 +294,37 @@ keyan_category = {
 				rocket_depth_charges = 1
 				improved_sonar = 1
 			}
+
+			create_equipment_variant = {
+				name = "心智魔方试作型斥候驱逐舰"
+				type = vnr_ship_hull_light_6
+				parent_version = 0
+				modules = {
+					fixed_ship_battery_slot = ship_light_battery_1
+					fixed_ship_anti_air_slot = empty
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+					fixed_ship_radar_slot = empty
+					fixed_ship_engine_slot = light_ship_engine_xzmf
+					fixed_ship_torpedo_slot = ship_torpedo_xzmf
+					front_1_custom_slot = empty
+					mid_1_custom_slot = empty
+					mid_2_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}
+			hidden_effect = {
+				add_equipment_production = {
+					equipment = {
+						type = vnr_ship_hull_light_6
+						creator = ROOT
+						version_name = "心智魔方试作型斥候驱逐舰"
+					}
+					name = "心智魔方试作型斥候驱逐舰"
+					requested_factories = 1
+					progress = 1
+					amount = 1
+				}
+			}
 		}
 	}
 	cike_yanfa_completed = {
@@ -261,6 +356,31 @@ keyan_category = {
 				modern_ship_hull_submarine = 1
 				anechoic_tile = 1
 				advanced_periscope = 1
+			}
+			create_equipment_variant = {
+				name = "心智魔方试作型刺客潜艇"
+				type = vnr_ship_hull_submarine_5
+				parent_version = 0
+				modules = {
+					fixed_ship_torpedo_slot = ship_torpedo_sub_xzmf
+					fixed_ship_engine_slot = sub_ship_engine_xzmf
+					front_1_custom_slot = empty
+					mid_1_custom_slot = empty
+					rear_1_custom_slot = empty
+				}
+			}
+			hidden_effect = {
+				add_equipment_production = {
+					equipment = {
+						type = vnr_ship_hull_submarine_5
+						creator = ROOT
+						version_name = "心智魔方试作型刺客潜艇"
+					}
+					name = "心智魔方试作型刺客潜艇"
+					requested_factories = 1
+					progress = 1
+					amount = 1
+				}
 			}
 		}
 	}
@@ -294,6 +414,34 @@ keyan_category = {
 				carrier_angled_deck = 1
 				full_armored_carrier = 1
 				carrier_steam_catapult = 1
+			}
+
+			create_equipment_variant = {
+				name = "心智魔方试作型航空母舰"
+				type = vnr_ship_hull_super_carrier
+				parent_version = 0
+				modules = {
+					fixed_ship_deck_slot_1 = ship_deck_space_xzmf
+					fixed_ship_deck_slot_2 = empty
+					fixed_ship_anti_air_slot = ship_anti_air_2
+					fixed_ship_radar_slot = empty
+					fixed_ship_engine_slot = carrier_ship_engine_xzmf
+					fixed_ship_secondaries_slot = ship_secondaries_1
+					front_1_custom_slot = empty
+				}
+			}
+			hidden_effect = {
+				add_equipment_production = {
+					equipment = {
+						type = vnr_ship_hull_super_carrier
+						creator = ROOT
+						version_name = "心智魔方试作型航空母舰"
+					}
+					name = "心智魔方试作型航空母舰"
+					requested_factories = 1
+					progress = 1
+					amount = 1
+				}
 			}
 		}
 	}
