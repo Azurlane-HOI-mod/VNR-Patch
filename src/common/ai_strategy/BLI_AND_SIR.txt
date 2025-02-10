@@ -1,0 +1,425 @@
+naval_unit_role_ratios_BLI_AND_SIR_prewar = {
+    allowed = {
+        has_dlc = "Man the Guns"
+        OR = {
+			original_tag = BLI
+			original_tag = SIR
+			original_tag = SR1
+			original_tag = SR2
+			original_tag = SR3
+			original_tag = SR4
+		}
+    }
+	enable = {
+		date < 1939.6.1
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = 55
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 320
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 40
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_medium
+		value = 20
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = 30
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_carrier
+		value = 30
+	}
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 50
+	}
+}
+
+naval_unit_role_ratios_BLI_AND_SIR_atwar = {
+    allowed = {
+        has_dlc = "Man the Guns"
+        OR = {
+			original_tag = BLI
+			original_tag = SIR
+			original_tag = SR1
+			original_tag = SR2
+			original_tag = SR3
+			original_tag = SR4
+		}
+    }
+	enable = {
+		date > 1939.6.1
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = 90
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 350
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_medium
+		value = 30
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 60
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = 20
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_carrier
+		value = 45
+	}
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 60
+	}
+}
+
+naval_unit_role_ratios_BLI_AND_SIR_atwar_2 = {
+    allowed = {
+        has_dlc = "Man the Guns"
+        OR = {
+			original_tag = BLI
+			original_tag = SIR
+			original_tag = SR1
+			original_tag = SR2
+			original_tag = SR3
+			original_tag = SR4
+		}
+    }
+	enable = {
+		date > 1939.6.1
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = 90
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 350
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_medium
+		value = 30
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 60
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = 20
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_carrier
+		value = 45
+	}
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 80
+	}
+}
+
+### 地区
+
+BLI_AND_SIR_war_naval_tianjiang = {
+    allowed = {
+        has_dlc = "Man the Guns"
+        OR = {
+			original_tag = BLI
+			original_tag = SIR
+		}
+        has_global_flag = MOD_azurlane_tianjiangjianniang
+    }
+    enable = {
+        date > 1939.6.1
+        enable_vnr_naval_ai = yes
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 32
+        value = 200
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 57
+        value = 200
+    }
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 170
+        value = 150
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 53
+        value = 200
+    }
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 109
+        value = 150
+    }
+}
+
+BLI_AND_SIR_war_naval_global_pacific_tianjiang = {
+    allowed = {
+        has_dlc = "Man the Guns"
+        OR = {
+			original_tag = BLI
+			original_tag = SIR
+		}
+        has_global_flag = MOD_azurlane_tianjiangjianniang
+    }
+    enable = {
+		OR = {
+			date > 1945.3.1
+			OR = {
+				has_war_with = CHY
+				has_war_with = BYG
+			}
+		}
+        enable_vnr_naval_ai = yes
+    }
+    abort_when_not_enabled = yes
+
+	# 1
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 105
+        value = 200
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 172
+        value = 200
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 179
+        value = 200
+    }
+
+	# 2
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 178
+        value = 150
+    }
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 97
+        value = 150
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 95
+        value = 150
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 83
+        value = 150
+    }
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 86
+        value = 150
+    }
+
+	# 3
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 94
+        value = 100
+    }
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 84
+        value = 100
+    }
+
+	# 4
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 76
+        value = 80
+    }
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 90
+        value = 80
+    }
+}
+
+BLI_AND_SIR_war_naval_global_pacific_tianjiang = {
+    allowed = {
+        has_dlc = "Man the Guns"
+        OR = {
+			original_tag = BLI
+			original_tag = SIR
+		}
+        has_global_flag = MOD_azurlane_tianjiangjianniang
+    }
+    enable = {
+		OR = {
+			date > 1945.3.1
+			OR = {
+				has_war_with = CHY
+				has_war_with = BYG
+			}
+		}
+        enable_vnr_naval_ai = yes
+    }
+    abort_when_not_enabled = yes
+
+	# 1
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 105
+        value = 200
+    }
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 170
+        value = 200
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 172
+        value = 200
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 179
+        value = 200
+    }
+
+	# 2
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 178
+        value = 150
+    }
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 97
+        value = 150
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 95
+        value = 150
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 83
+        value = 150
+    }
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 86
+        value = 150
+    }
+
+	# 3
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 94
+        value = 100
+    }
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 84
+        value = 100
+    }
+
+	# 4
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 76
+        value = 80
+    }
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 90
+        value = 80
+    }
+}
+
+BLI_AND_SIR_war_naval_global_atlantic_tianjiang = {
+    allowed = {
+        has_dlc = "Man the Guns"
+        OR = {
+			original_tag = BLI
+			original_tag = SIR
+		}
+        has_global_flag = MOD_azurlane_tianjiangjianniang
+    }
+    enable = {
+		OR = {
+			date > 1945.3.1
+			OR = {
+				has_war_with = TIX
+				has_war_with = HUJ
+			}
+		}
+        enable_vnr_naval_ai = yes
+    }
+    abort_when_not_enabled = yes
+
+	# 1
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 43
+        value = 150
+    }
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 62
+        value = 200
+    }
+}
