@@ -57,3 +57,22 @@ is_ai_naval_major = {
 	}
 	is_ai = yes
 }
+
+allow_to_use_expert_navy = {
+	OR = {
+		AND = {
+			tag = HUJ
+			has_game_rule = { rule = eng_start_expert_navy option = FREE }
+		}
+		AND = {
+			tag = CHY
+			has_game_rule = { rule = jap_start_expert_navy option = FREE }
+		}
+		AND = {
+			tag = BYG
+			has_game_rule = { rule = usa_start_expert_navy option = FREE }
+		}
+	}
+	is_ai = yes
+	has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+}
