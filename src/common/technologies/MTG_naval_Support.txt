@@ -1596,7 +1596,9 @@ technologies = {
 	}
 
 	electric_torpedo = {
-
+		allow = {
+			NOT = { has_tech = oxygen_torpedo }
+		}
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
@@ -1641,7 +1643,9 @@ technologies = {
 	}
 
 	oxygen_torpedo = {
-
+		allow = {
+			NOT = { has_tech = electric_torpedo }
+		}
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
@@ -2738,7 +2742,7 @@ technologies = {
 				tag = CHY
 				OR = {
 					has_war_with = BYG
-					CHI = {
+					DOH = {
 						OR = {
 							has_capitulated = yes
 							exists = no
@@ -2760,7 +2764,7 @@ technologies = {
 					tag = BYG
 				}
 				has_war_with = TIX
-				GER = { has_war_with = BFL }
+				TIX = { has_war_with = BFL }
 			}
 		}
 
@@ -2993,8 +2997,8 @@ technologies = {
 			position = { x = 2 y = 12 }
 		}
 
-		repair_speed_naval_base_factor = 0.1
-		repair_speed_dockyard_factor = 0.1
+		repair_speed_naval_base_factor = 0.2
+		repair_speed_dockyard_factor = 0.2
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
@@ -3148,7 +3152,6 @@ technologies = {
 		auxiliary_ship = {
 			max_strength = 0.1
 		}
-		navy_submarine_detection_factor = 0.05
 
 		enable_equipment_modules = {
 			ship_cruiser_camo_2
@@ -3206,14 +3209,17 @@ technologies = {
 
 		repair_speed_factor = 0.05
 		naval_accidents_chance = -0.05
-		heavy_cruiser = {
-			reliability = 0.1
-		}
-		medium_cruiser = {
-			reliability = 0.1
-		}
-		light_cruiser = {
-			reliability = 0.1
+
+		on_research_complete = {
+			add_equipment_bonus = {
+				name = support_fleet
+				bonus = {
+					ship_hull_cruiser = {
+						reliability = 0.1
+						instant = yes
+					}
+				}
+			}
 		}
 		special_project_specialization = { specialization_naval }
 		categories = {
@@ -3238,14 +3244,16 @@ technologies = {
 
 		repair_speed_factor = 0.1
 		naval_accidents_chance = -0.05
-		battleship = {
-			reliability = 0.1
-		}
-		battle_cruiser = {
-			reliability = 0.1
-		}
-		SH_battleship = {
-			reliability = 0.1
+		on_research_complete = {
+			add_equipment_bonus = {
+				name = floating_dry_dock
+				bonus = {
+					ship_hull_heavy = {
+						reliability = 0.1
+						instant = yes
+					}
+				}
+			}
 		}
 
 		special_project_specialization = { specialization_naval }
@@ -3266,14 +3274,24 @@ technologies = {
 			position = { x = 8 y = 16 }
 		}
 
-		auxiliary_ship = {
-			build_cost_ic = -0.1
-		}
-		destroyer = {
-			reliability = 0.1
-		}
-		submarine = {
-			reliability = 0.1
+		on_research_complete = {
+			add_equipment_bonus = {
+				name = logistic_system_redundancy_ncns
+				bonus = {
+					ship_hull_light = {
+						reliability = 0.1
+						instant = yes
+					}
+					ship_hull_submarine = {
+						reliability = 0.1
+						instant = yes
+					}
+					ship_hull_civilian = {
+						build_cost_ic = -0.1
+						instant = yes
+					}
+				}
+			}
 		}
 
 		special_project_specialization = { specialization_naval }
@@ -3305,14 +3323,16 @@ technologies = {
 
 		repair_speed_factor = 0.05
 		naval_accidents_chance = -0.05
-		heavy_cruiser = {
-			reliability = 0.1
-		}
-		medium_cruiser = {
-			reliability = 0.1
-		}
-		light_cruiser = {
-			reliability = 0.1
+		on_research_complete = {
+			add_equipment_bonus = {
+				name = support_fleet_ncns
+				bonus = {
+					ship_hull_cruiser = {
+						reliability = 0.1
+						instant = yes
+					}
+				}
+			}
 		}
 		enable_equipments = {
 			support_ship_1
@@ -3341,14 +3361,16 @@ technologies = {
 
 		repair_speed_factor = 0.1
 		naval_accidents_chance = -0.05
-		battleship = {
-			reliability = 0.1
-		}
-		battle_cruiser = {
-			reliability = 0.1
-		}
-		SH_battleship = {
-			reliability = 0.1
+		on_research_complete = {
+			add_equipment_bonus = {
+				name = floating_dry_dock
+				bonus = {
+					ship_hull_heavy = {
+						reliability = 0.1
+						instant = yes
+					}
+				}
+			}
 		}
 
 		special_project_specialization = { specialization_naval }
@@ -3371,14 +3393,24 @@ technologies = {
 			position = { x = 8 y = 16 }
 		}
 
-		auxiliary_ship = {
-			build_cost_ic = -0.1
-		}
-		destroyer = {
-			reliability = 0.1
-		}
-		submarine = {
-			reliability = 0.1
+		on_research_complete = {
+			add_equipment_bonus = {
+				name = logistic_system_redundancy_ncns
+				bonus = {
+					ship_hull_light = {
+						reliability = 0.1
+						instant = yes
+					}
+					ship_hull_submarine = {
+						reliability = 0.1
+						instant = yes
+					}
+					ship_hull_civilian = {
+						build_cost_ic = -0.1
+						instant = yes
+					}
+				}
+			}
 		}
 		enable_equipments = {
 			support_ship_2
@@ -3392,7 +3424,7 @@ technologies = {
 		}
 	}
 	hospital_ship = {
-		research_cost = 0.35
+		research_cost = 0.15
 		start_year = 1918
 
 		ai_will_do = {
@@ -3509,7 +3541,7 @@ technologies = {
 		}
 	}
 	retardant_silo = {
-		research_cost = 0.75
+		research_cost = 0.4
 		start_year = 1936
 
 		ai_will_do = {
@@ -3527,7 +3559,7 @@ technologies = {
 		}
 	}
 	integrated_fuel_base = {
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1938
 
 		ai_will_do = {
@@ -3637,14 +3669,4 @@ technologies = {
 		}
 	}
 
-
-	vnr_less_fuel_consumption = {
-        research_cost = 1
-		start_year = 1900
-
-		allow = {
-			always = no
-		}
-        navy_fuel_consumption_factor = -0.15
-    }
 }

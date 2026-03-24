@@ -3,30 +3,79 @@ JAP_StrikeForce_1 = {
 		original_tag = CHY 
 	}
 	ai_will_do = {
-		factor = 15
+		factor = 30
 	}	
 	mission = { naval_strike }
 	min_composition = {
 		battleship = {
-			amount = 4
+			amount = 2
 		}
 		destroyer = {
-			amount = 12
+			amount = 8
 		}
 	}
 	
 	optimal_composition = {
 		carrier = {
-			amount = 6
+			amount = 4
+		}
+		SH_battleship = {
+			amount = 2
 		}
 		battleship = {
-			amount = 8
+			amount = 4
+		}
+		heavy_cruiser = {
+			amount = 2
 		}
 		light_cruiser = {
-			amount = 14
+			amount = 12
 		}
 		destroyer = {
-			amount = 25
+			amount = 18
+		}
+	}
+}
+
+JAP_StrikeForce_BC_1 = {
+	allowed = {
+		original_tag = CHY 
+	}
+	ai_will_do = {
+		factor = 0
+		modifier = {
+			add = 20
+			has_navy_size = {
+				unit = battle_cruiser
+				size > 1
+			}
+		}
+	}	
+	mission = { naval_strike }
+	min_composition = {
+		battle_cruiser = {
+			amount = 2
+		}
+		destroyer = {
+			amount = 8
+		}
+	}
+	
+	optimal_composition = {
+		carrier = {
+			amount = 4
+		}
+		battle_cruiser = {
+			amount = 4
+		}
+		heavy_cruiser = {
+			amount = 2
+		}
+		light_cruiser = {
+			amount = 12
+		}
+		destroyer = {
+			amount = 18
 		}
 	}
 }
@@ -38,6 +87,33 @@ JAP_PatrolReconForce_1 = {
 	ai_will_do = {
 		factor = 10
 	}
+	mission = { naval_patrol }
+	min_composition = {
+		destroyer = {
+			amount = 1
+		}
+	}	
+	optimal_composition = {
+		destroyer = {
+			amount = 5
+		}
+	}
+}
+
+JAP_PatrolReconForce_BC_1 = {
+	allowed = {
+		original_tag = CHY
+	}
+	ai_will_do = {
+		factor = 0
+		modifier = {
+			add = 10
+			has_navy_size = {
+				unit = battle_cruiser
+				size > 1
+			}
+		}
+	}	
 	mission = { naval_patrol }
 	min_composition = {
 		destroyer = {
@@ -64,88 +140,56 @@ JAP_PatrolDominanceForce_1 = {
 			amount = 2
 		}
 		destroyer = {
-			amount = 6
-		}
-	}
-
-	optimal_composition = {
-		battleship = {
 			amount = 4
-		}
-		medium_cruiser = {
-			amount = 2
-		}
-		light_cruiser = {
-			amount = 4
-		}
-		destroyer = {
-			amount = 10
-		}
-	}
-}
-
-JAP_PatrolDominanceForce_2 = {
-	allowed = {
-		original_tag = CHY
-	}
-	ai_will_do = {
-		factor = 10
-	}
-	mission = { naval_patrol }
-	min_composition = {
-		light_cruiser = {
-			amount = 2
-		}
-		destroyer = {
-			amount = 6
-		}
-	}
-
-	optimal_composition = {
-		battle_cruiser = {
-			amount = 2
-		}
-		medium_cruiser = {
-			amount = 2
-		}
-		light_cruiser = {
-			amount = 2
-		}
-		destroyer = {
-			amount = 10
-		}
-	}
-}
-
-JAP_PatrolDominanceForce_3 = {
-	allowed = {
-		original_tag = CHY
-	}
-	ai_will_do = {
-		factor = 5
-	}
-	mission = { naval_patrol }
-	min_composition = {
-		light_cruiser = {
-			amount = 2
-		}
-		destroyer = {
-			amount = 6
 		}
 	}
 
 	optimal_composition = {
 		heavy_cruiser = {
-			amount = 4
-		}
-		medium_cruiser = {
-			amount = 2
+			amount = 1
 		}
 		light_cruiser = {
 			amount = 4
 		}
 		destroyer = {
-			amount = 10
+			amount = 8
+		}
+	}
+}
+
+JAP_PatrolDominanceForce_BC_1 = {
+	allowed = {
+		original_tag = CHY
+	}
+	ai_will_do = {
+		factor = 0
+		modifier = {
+			add = 10
+			has_navy_size = {
+				unit = battle_cruiser
+				size > 1
+			}
+		}
+	}
+	mission = { naval_patrol }
+	min_composition = {
+		light_cruiser = {
+			amount = 2
+		}
+		destroyer = {
+			amount = 4
+		}
+	}
+
+	optimal_composition = {
+		heavy_cruiser = {
+			amount = 1
+		}
+		light_cruiser = {
+			amount = 4
+		}
+		destroyer = {
+			amount = 8
 		}
 	}
 }
@@ -181,13 +225,12 @@ JAP_ConvoyEscort_1 = {
 	mission = { convoy_escort }
 	min_composition = {
 		destroyer = {
-			amount = 4
+			amount = 2
 		}
 	}
-	
 	optimal_composition = {
 		destroyer = {
-			amount = 10
+			amount = 5
 		}
 	}
 }

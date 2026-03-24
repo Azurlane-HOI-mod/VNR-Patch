@@ -8,6 +8,26 @@ on_actions = {
 					days = 3
 				}
 			}
+            add_to_array = { global.vnr_naval_powers = BYG }
+            add_to_array = { global.vnr_naval_powers = BFL }
+            add_to_array = { global.vnr_naval_powers = HUJ }
+            add_to_array = { global.vnr_naval_powers = YUW }
+            add_to_array = { global.vnr_naval_powers = TIX }
+            add_to_array = { global.vnr_naval_powers = CHY }
+            add_to_array = { global.vnr_naval_powers = SAD }
+            add_to_array = { global.vnr_naval_powers = DOH }
+
+            add_to_array = { global.vnr_naval_powers = DH1 }
+            add_to_array = { global.vnr_naval_powers = WEX }
+
+            add_to_array = { global.vnr_naval_powers = BLI }
+            add_to_array = { global.vnr_naval_powers = SIR }
+
+            add_to_array = { global.vnr_naval_powers = SR1 }
+            add_to_array = { global.vnr_naval_powers = SR2 }
+            add_to_array = { global.vnr_naval_powers = SR3 }
+            add_to_array = { global.vnr_naval_powers = SR4 }
+
 			# every_country = {
 			# 	country_event = {
 			# 		id = az_vnr_patch.2

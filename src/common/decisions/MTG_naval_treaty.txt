@@ -21,6 +21,7 @@ MTG_naval_treaties = {
 				has_government = democratic
 				has_government = neutrality
 			}
+			NOT = { tag = CHY }
 		}
 	
 		complete_effect = {
@@ -137,6 +138,7 @@ MTG_naval_treaties = {
 			OR = {
 				has_government = fascism
 				has_government = communism
+				tag = CHY
 			}
 		}
 	
@@ -232,6 +234,7 @@ MTG_naval_treaties = {
 			OR = {
 				has_government = fascism
 				has_government = communism
+				tag = CHY
 			}
 		}
 	
@@ -766,6 +769,7 @@ MTG_naval_treaties = {
 					OR = {
 						has_government = fascism 
 						has_government = communism
+						tag = CHY
 					}
 				}
 				custom_effect_tooltip = fascism_renew_naval_treaty_tt

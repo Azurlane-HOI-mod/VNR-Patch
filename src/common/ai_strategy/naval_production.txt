@@ -3,7 +3,6 @@
 #You don't have to set all roles, not setting role == 0 or <0 value
 # naval_unit_role_ratios_XXX = {
 # 	allowed = {
-# 		has_dlc = "Man the Guns"
 # 		tag = XXX
 # 	}
 
@@ -77,7 +76,6 @@
 ##### MTG strategies ####
 no_old_navy_production = {
 	enable = {
-		has_dlc = "Man the Guns"
 		has_navy_size = { size > 0 }
 	}
 	abort_when_not_enabled = yes
@@ -151,7 +149,6 @@ no_old_navy_production = {
 ### Minors ###
 naval_unit_role_ratios_minors_coastal = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		NOT = {
 			tag = HUJ
 			tag = CHY
@@ -183,7 +180,6 @@ naval_unit_role_ratios_minors_coastal = {
 
 naval_unit_role_ratios_minors_defensive = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		NOT = {
 			tag = HUJ
 			tag = CHY
@@ -214,7 +210,7 @@ naval_unit_role_ratios_minors_defensive = {
 	
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
+		id = vnr_naval_cruiser_heavy
 		value = 20
 	}
 	
@@ -227,7 +223,6 @@ naval_unit_role_ratios_minors_defensive = {
 
 naval_unit_role_ratios_minors_offensive = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		NOT = {
 			tag = HUJ
 			tag = CHY
@@ -258,7 +253,7 @@ naval_unit_role_ratios_minors_offensive = {
 	
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
+		id = vnr_naval_cruiser_heavy
 		value = 20
 	}
 
@@ -277,7 +272,6 @@ naval_unit_role_ratios_minors_offensive = {
 
 naval_unit_role_ratios_minors_global = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		NOT = {
 			tag = HUJ
 			tag = CHY
@@ -308,7 +302,7 @@ naval_unit_role_ratios_minors_global = {
 	
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
+		id = vnr_naval_cruiser_heavy
 		value = 20
 	}
 
@@ -335,7 +329,6 @@ naval_unit_role_ratios_minors_global = {
 
 naval_unit_role_ratios_GER_prewar_early = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = TIX
 	}
 	enable = {
@@ -358,14 +351,14 @@ naval_unit_role_ratios_GER_prewar_early = {
 	
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
+		id = vnr_naval_cruiser_heavy
 		value = 20
 	}
 	
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 10
+		value = 100
 	}
 	
 	ai_strategy = {
@@ -383,7 +376,6 @@ naval_unit_role_ratios_GER_prewar_early = {
 
 naval_unit_role_ratios_GER_prewar_late = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = TIX
 	}
 	enable = {
@@ -402,19 +394,19 @@ naval_unit_role_ratios_GER_prewar_late = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 20
+		value = 40
 	}
 	
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
+		id = vnr_naval_cruiser_heavy
 		value = 20
 	}
 	
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 30
+		value = 100
 	}
 	
 	ai_strategy = {
@@ -426,13 +418,12 @@ naval_unit_role_ratios_GER_prewar_late = {
 	ai_strategy = {
 		type = building_target
 		id = dockyard
-		value = 35
+		value = 25
 	}
 }
 
 naval_unit_role_ratios_GER_atwar = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = TIX
 	}
 	enable = {
@@ -458,6 +449,12 @@ naval_unit_role_ratios_GER_atwar = {
 		id = vnr_naval_cruiser_light
 		value = 10
 	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = 10
+	}
 	
 	ai_strategy = {
 		type = role_ratio
@@ -474,7 +471,6 @@ naval_unit_role_ratios_GER_atwar = {
 
 naval_unit_role_ratios_GER_atwar_many_shipyard = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = TIX
 	}
 	enable = {
@@ -503,7 +499,7 @@ naval_unit_role_ratios_GER_atwar_many_shipyard = {
 	
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
+		id = vnr_naval_cruiser_heavy
 		value = 30
 	}
 	
@@ -522,7 +518,6 @@ naval_unit_role_ratios_GER_atwar_many_shipyard = {
 
 naval_unit_role_ratios_GER_atwar_knock_USA = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = TIX
 	}
 	enable = {
@@ -553,7 +548,7 @@ naval_unit_role_ratios_GER_atwar_knock_USA = {
 	
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
+		id = vnr_naval_cruiser_heavy
 		value = 30
 	}
 	
@@ -577,7 +572,6 @@ naval_unit_role_ratios_GER_atwar_knock_USA = {
 
 naval_unit_role_ratios_GER_atwar_No_Naval_Competitor = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = TIX
 	}
 	enable = {
@@ -609,7 +603,7 @@ naval_unit_role_ratios_GER_atwar_No_Naval_Competitor = {
 	
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
+		id = vnr_naval_cruiser_heavy
 		value = 30
 	}
 	
@@ -624,16 +618,10 @@ naval_unit_role_ratios_GER_atwar_No_Naval_Competitor = {
 		id = vnr_naval_carrier
 		value = 20
 	}
-
-	ai_strategy = {
-		type = dockyard_to_military_factory_ratio
-		value = 30
-	}
 }
 
 naval_unit_role_ratios_GER_late_peace = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = TIX
 	}
 	enable = {
@@ -668,14 +656,8 @@ naval_unit_role_ratios_GER_late_peace = {
 	
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
-		value = 10
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = vnr_naval_cruiser_large
-		value = 20
+		id = vnr_naval_cruiser_heavy
+		value = 30
 	}
 	
 	ai_strategy = {
@@ -683,12 +665,17 @@ naval_unit_role_ratios_GER_late_peace = {
 		id = vnr_naval_capital_bb
 		value = 20
 	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = 100
+	}
 }
 ### HUJ ###
 
 naval_unit_role_ratios_ENG_prewar_early = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = HUJ
 	}
 	enable = {
@@ -712,12 +699,12 @@ naval_unit_role_ratios_ENG_prewar_early = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 200
+		value = 300
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_screen_leader
+		id = vnr_naval_capital_bb
 		value = 10
 	}
 
@@ -729,18 +716,18 @@ naval_unit_role_ratios_ENG_prewar_early = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
-		value = -30
+		id = vnr_naval_cruiser_heavy
+		value = 30
 	}
 	ai_strategy = {
-		type = dockyard_to_military_factory_ratio
-		value = 100
+		type = building_target
+		id = dockyard
+		value = 30
 	}
 }
 
 naval_unit_role_ratios_ENG_prewar_late = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = HUJ
 	}
 	enable = {
@@ -753,7 +740,7 @@ naval_unit_role_ratios_ENG_prewar_late = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 100
+		value = 80
 	}
 
 	ai_strategy = {
@@ -771,7 +758,7 @@ naval_unit_role_ratios_ENG_prewar_late = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 250
+		value = 350
 	}
 
 	ai_strategy = {
@@ -782,19 +769,19 @@ naval_unit_role_ratios_ENG_prewar_late = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
-		value = 50
+		id = vnr_naval_cruiser_heavy
+		value = 80
 	}
 
 	ai_strategy = {
-		type = dockyard_to_military_factory_ratio
-		value = 150
+		type = building_target
+		id = dockyard
+		value = 45
 	}
 }
 
 naval_unit_role_ratios_ENG_atwar = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = HUJ
 	}
 	enable = {
@@ -811,13 +798,13 @@ naval_unit_role_ratios_ENG_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 120
+		value = 100
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 300
+		value = 450
 	}
 
 	ai_strategy = {
@@ -828,8 +815,8 @@ naval_unit_role_ratios_ENG_atwar = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
-		value = 20
+		id = vnr_naval_cruiser_heavy
+		value = 120
 	}
 
 	ai_strategy = {
@@ -839,14 +826,14 @@ naval_unit_role_ratios_ENG_atwar = {
 	}
 
 	ai_strategy = {
-		type = dockyard_to_military_factory_ratio
-		value = 180
+		type = building_target
+		id = dockyard
+		value = 55
 	}
 }
 
 naval_unit_role_ratios_ENG_late_peace = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = HUJ
 	}
 	enable = {
@@ -876,7 +863,13 @@ naval_unit_role_ratios_ENG_late_peace = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 20
+		value = 50
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = 30
 	}
 }
 
@@ -884,7 +877,6 @@ naval_unit_role_ratios_ENG_late_peace = {
 
 naval_unit_role_ratios_FRA_prewar = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = YUW
 	}
 	enable = {
@@ -915,7 +907,7 @@ naval_unit_role_ratios_FRA_prewar = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
+		id = vnr_naval_cruiser_heavy
 		value = 15
 	}
 	ai_strategy = {
@@ -927,7 +919,6 @@ naval_unit_role_ratios_FRA_prewar = {
 
 naval_unit_role_ratios_FRA_atwar = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = YUW
 	}
 	enable = {
@@ -957,19 +948,18 @@ naval_unit_role_ratios_FRA_atwar = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
+		id = vnr_naval_cruiser_heavy
 		value = 15
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = -100
+		value = 5
 	}
 }
 
 naval_unit_role_ratios_FRA_atwar_without_germany = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = YUW
 	}
 	enable = {
@@ -981,7 +971,7 @@ naval_unit_role_ratios_FRA_atwar_without_germany = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = 80
+		value = 280
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1012,7 +1002,6 @@ naval_unit_role_ratios_FRA_atwar_without_germany = {
 
 naval_unit_role_ratios_FRA_late_peace = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = YUW
 	}
 	enable = {
@@ -1024,7 +1013,7 @@ naval_unit_role_ratios_FRA_late_peace = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = 10
+		value = 100
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1043,7 +1032,7 @@ naval_unit_role_ratios_FRA_late_peace = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_large
+		id = vnr_naval_cruiser_heavy
 		value = 20
 	}
 	ai_strategy = {
@@ -1063,7 +1052,6 @@ naval_unit_role_ratios_FRA_late_peace = {
 
 naval_unit_role_ratios_SOV_need_to_watch_germany_peace = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = BFL
 	}
 	enable = {
@@ -1090,14 +1078,13 @@ naval_unit_role_ratios_SOV_need_to_watch_germany_peace = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
+		id = vnr_naval_cruiser_heavy
 		value = 10
 	}
 }
 
 naval_unit_role_ratios_SOV_no_need_to_watch_germany_peace = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = BFL
 	}
 	enable = {
@@ -1113,7 +1100,7 @@ naval_unit_role_ratios_SOV_no_need_to_watch_germany_peace = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = 40
+		value = 140
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1127,7 +1114,7 @@ naval_unit_role_ratios_SOV_no_need_to_watch_germany_peace = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
+		id = vnr_naval_cruiser_heavy
 		value = 20
 	}
 	ai_strategy = {
@@ -1148,7 +1135,6 @@ naval_unit_role_ratios_SOV_no_need_to_watch_germany_peace = {
 
 naval_unit_role_ratios_SOV_atwar_with_Germany = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = BFL
 	}
 	enable = {
@@ -1159,7 +1145,7 @@ naval_unit_role_ratios_SOV_atwar_with_Germany = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = 10
+		value = 30
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1173,7 +1159,7 @@ naval_unit_role_ratios_SOV_atwar_with_Germany = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
+		id = vnr_naval_cruiser_heavy
 		value = -100
 	}
 	ai_strategy = {
@@ -1190,7 +1176,6 @@ naval_unit_role_ratios_SOV_atwar_with_Germany = {
 
 naval_unit_role_ratios_SOV_atwar_with_major = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = BFL
 	}
 	enable = {
@@ -1216,8 +1201,8 @@ naval_unit_role_ratios_SOV_atwar_with_major = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
-		value = 20
+		id = vnr_naval_cruiser_heavy
+		value = 30
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1239,7 +1224,6 @@ naval_unit_role_ratios_SOV_atwar_with_major = {
 
 naval_unit_role_ratios_JAP_prewar_naval_treaty = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = CHY
 	}
 	enable = {
@@ -1272,7 +1256,7 @@ naval_unit_role_ratios_JAP_prewar_naval_treaty = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_heavy
-		value = 20
+		value = 35
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1284,19 +1268,23 @@ naval_unit_role_ratios_JAP_prewar_naval_treaty = {
 		id = vnr_naval_carrier_light
 		value = 15
 	}
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = 20
+	}
 }
 
 naval_unit_role_ratios_JAP_prewar_enough_carrier = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = CHY
 	}
 	enable = {
 		date < 1942.1.1
-		NOT = { 
-			any_enemy_country = {
-				is_literally_china = no
-				is_major = yes
+		OR = {
+			has_war_with_major = no
+			all_enemy_country = {
+				has_navy_size = { size < 100 }
 			}
 		}
 		has_naval_treaty_trigger = no
@@ -1311,17 +1299,17 @@ naval_unit_role_ratios_JAP_prewar_enough_carrier = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 300
+		value = 350
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 80
+		value = 120
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
-		value = 30
+		id = vnr_naval_cruiser_heavy
+		value = 100
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1331,24 +1319,26 @@ naval_unit_role_ratios_JAP_prewar_enough_carrier = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 150
+		value = 60
 	}
 	ai_strategy = {
-		type = dockyard_to_military_factory_ratio
-		value = 80
+		type = building_target
+		id = dockyard
+		value = 25
 	}
 }
 
 naval_unit_role_ratios_JAP_atwar = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = CHY
 	}
 	enable = {
-		date > 1942.1.1
-		any_enemy_country = {
-			is_literally_china = no
-			is_major = yes
+		date > 1941.12.31
+		OR = {
+			has_war_with_major = yes
+			any_enemy_country = {
+				has_navy_size = { size > 99 }
+			}
 		}
 	}
 	abort_when_not_enabled = yes
@@ -1361,12 +1351,12 @@ naval_unit_role_ratios_JAP_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 350
+		value = 400
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
-		value = 30
+		id = vnr_naval_cruiser_heavy
+		value = 80
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1381,26 +1371,25 @@ naval_unit_role_ratios_JAP_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 150
+		value = 120
 	}
 	ai_strategy = {
-		type = dockyard_to_military_factory_ratio
-		value = 150
+		type = building_target
+		id = dockyard
+		value = 50
 	}
 }
 
 naval_unit_role_ratios_JAP_late_peace = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = CHY
 	}
 	enable = {
 		date > 1941.12.31
 		OR = {
 			has_war_with_major = no
-			any_enemy_country = {
-				is_literally_china = yes
-				is_major = yes
+			all_enemy_country = {
+				has_navy_size = { size < 100 }
 			}
 		}
 	}
@@ -1414,7 +1403,7 @@ naval_unit_role_ratios_JAP_late_peace = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 250
+		value = 300
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1423,13 +1412,8 @@ naval_unit_role_ratios_JAP_late_peace = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
-		value = 30
-	}
-	ai_strategy = {
-		type = role_ratio
 		id = vnr_naval_cruiser_heavy
-		value = 10
+		value = 35
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1442,8 +1426,9 @@ naval_unit_role_ratios_JAP_late_peace = {
 		value = 50
 	}
 	ai_strategy = {
-		type = dockyard_to_military_factory_ratio
-		value = 100
+		type = building_target
+		id = dockyard
+		value = 45
 	}
 }
 
@@ -1451,7 +1436,6 @@ naval_unit_role_ratios_JAP_late_peace = {
 
 naval_unit_role_ratios_USA_great_depression = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = BYG
 	}
 	enable = {
@@ -1481,7 +1465,7 @@ naval_unit_role_ratios_USA_great_depression = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 200
+		value = 400
 	}
 
 	ai_strategy = {
@@ -1492,14 +1476,13 @@ naval_unit_role_ratios_USA_great_depression = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
-		value = 30
+		id = vnr_naval_cruiser_heavy
+		value = 80
 	}
 }
 
 naval_unit_role_ratios_USA_go_to_war = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = BYG
 	}
 	enable = {
@@ -1516,19 +1499,19 @@ naval_unit_role_ratios_USA_go_to_war = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 250
+		value = 450
 	}
 	
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 250
+		value = 200
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
-		value = 40
+		id = vnr_naval_cruiser_heavy
+		value = 90
 	}
 
 	ai_strategy = {
@@ -1540,13 +1523,13 @@ naval_unit_role_ratios_USA_go_to_war = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 150
+		value = 120
 	}
 	
 	ai_strategy = {
 		type = building_target
 		id = dockyard
-		value = 50
+		value = 75
 	}
 	ai_strategy = {
 		type = building_target
@@ -1557,7 +1540,6 @@ naval_unit_role_ratios_USA_go_to_war = {
 
 naval_unit_role_ratios_USA_atwar = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = BYG
 	}
 	enable = {
@@ -1573,52 +1555,71 @@ naval_unit_role_ratios_USA_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 350
+		value = 600
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 200
+		value = 250
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
-		value = 35
+		id = vnr_naval_cruiser_heavy
+		value = 100
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 120
+		value = 80
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 150
+		value = 130
 	}
 	
 	ai_strategy = {
 		type = building_target
 		id = dockyard
-		value = 100
+		value = 150
 	}
 	ai_strategy = {
 		type = building_target
 		id = arms_factory
 		value = 300
 	}
+	ai_strategy = {
+		type = build_ship
+		id = capital_ship
+		value = 100
+	}
+	ai_strategy = {
+		type = build_ship
+		id = carrier
+		value = 100
+	}
+	ai_strategy = {
+		type = build_ship
+		id = submarine
+		value = 100
+	}
+	ai_strategy = {
+		type = build_ship
+		id = screen_ship
+		value = 100
+	}
 }
 
 naval_unit_role_ratios_ITA_prewar_build_battleships = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = SAD
 	}
 	enable = {
 		date < 1941.1.1
 		has_war_with_major = no
-		has_navy_size = { size < 8 type = capital_ship archetype = ship_hull_heavy }
+		has_navy_size = { size < 8 archetype = ship_hull_heavy }
 	}
 	abort_when_not_enabled = yes
 	
@@ -1644,7 +1645,7 @@ naval_unit_role_ratios_ITA_prewar_build_battleships = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
+		id = vnr_naval_cruiser_heavy
 		value = 25
 	}
 
@@ -1657,13 +1658,12 @@ naval_unit_role_ratios_ITA_prewar_build_battleships = {
 
 naval_unit_role_ratios_ITA_prewar_enough_battleships = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = SAD
 	}
 	enable = {
 		date < 1941.1.1
 		has_war_with_major = no
-		has_navy_size = { size > 7 type = capital_ship archetype = ship_hull_heavy }
+		has_navy_size = { size > 7 archetype = ship_hull_heavy }
 	}
 	abort_when_not_enabled = yes
 	
@@ -1689,8 +1689,8 @@ naval_unit_role_ratios_ITA_prewar_enough_battleships = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
-		value = 30
+		id = vnr_naval_cruiser_heavy
+		value = 50
 	}
 
 	ai_strategy = {
@@ -1707,7 +1707,6 @@ naval_unit_role_ratios_ITA_prewar_enough_battleships = {
 
 naval_unit_role_ratios_ITA_atwar_with_England = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = SAD
 	}
 	enable = {
@@ -1738,9 +1737,13 @@ naval_unit_role_ratios_ITA_atwar_with_England = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 40
+		value = 60
 	}
-
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = 20
+	}
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
@@ -1748,13 +1751,12 @@ naval_unit_role_ratios_ITA_atwar_with_England = {
 	}
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 75
+		value = 45
 	}
 }
 
 naval_unit_role_ratios_ITA_atwar_with_major = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = SAD
 	}
 	enable = {
@@ -1790,7 +1792,7 @@ naval_unit_role_ratios_ITA_atwar_with_major = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
+		id = vnr_naval_cruiser_heavy
 		value = 30
 	}
 	ai_strategy = {
@@ -1811,11 +1813,10 @@ naval_unit_role_ratios_ITA_atwar_with_major = {
 
 naval_unit_role_ratios_ITA_late_peace = {
 	allowed = {
-		has_dlc = "Man the Guns"
 		tag = SAD
 	}
 	enable = {
-		date > 1941.1.1
+		date > 1940.12.31
 		has_war_with_major = no
 	}
 	abort_when_not_enabled = yes
@@ -1823,7 +1824,7 @@ naval_unit_role_ratios_ITA_late_peace = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = 40
+		value = 140
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1842,7 +1843,7 @@ naval_unit_role_ratios_ITA_late_peace = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
+		id = vnr_naval_cruiser_heavy
 		value = 25
 	}
 
@@ -1860,7 +1861,6 @@ naval_unit_role_ratios_ITA_late_peace = {
 
 # naval_unit_role_ratios_majors_lategame = {
 	# allowed = {
-		# has_dlc = "Man the Guns"
 		# OR = {
 			# tag = TIX
 			# tag = YUW
@@ -1902,7 +1902,6 @@ naval_unit_role_ratios_ITA_late_peace = {
 
 # high_convoy_threat = {
 	# allowed = {
-		# has_dlc = "Man the Guns"
 		# OR = {
 			# tag = TIX
 			# tag = YUW
@@ -1971,7 +1970,6 @@ naval_unit_role_ratios_ITA_late_peace = {
 
 # high_mine_threat_1 = {
 	# allowed = {
-		# has_dlc = "Man the Guns"
 		# OR = {
 			# tag = TIX
 			# tag = HUJ
@@ -2000,7 +1998,6 @@ naval_unit_role_ratios_ITA_late_peace = {
 
 # high_mine_threat_2 = {
 	# allowed = {
-		# has_dlc = "Man the Guns"
 		# OR = {
 			# tag = TIX
 			# tag = HUJ
@@ -2213,21 +2210,56 @@ we_need_screen_1 = {
 	allowed = {
 		OR = {
 			tag = HUJ
-			tag = YUW
 			tag = CHY
-			tag = TIX
 			tag = BYG
-			tag = SAD
-			tag = BFL
 		}
 	}
-	enable = { has_navy_size = { size < 50 type = screen_ship archetype = ship_hull_light } }
+	enable = { has_navy_size = { size < 100 archetype = ship_hull_light } }
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 300
+		value = 2000
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = -200
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_carrier
+		value = -200
+	}
+}
+
+we_need_screen_2 = {
+	allowed = {
+		OR = {
+			tag = YUW
+			tag = TIX
+			tag = SAD
+			tag = BFL
+		}
+	}
+	enable = { has_navy_size = { size < 50 archetype = ship_hull_light } }
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 1000
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = -200
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_carrier
+		value = -200
 	}
 }
 
@@ -2242,42 +2274,6 @@ we_need_cv_planes_1 = {
 	abort_when_not_enabled = yes
 	
 	ai_strategy = {
-		type = unit_ratio
-		id = cv_fighter
-		value = 25
-	}
-
-	ai_strategy = {
-		type = unit_ratio
-		id = cv_naval_bomber
-		value = 20
-	}
-	
-	ai_strategy = {
-		type = unit_ratio
-		id = cv_cas
-		value = 15
-	}
-	
-	ai_strategy = {
-		type = equipment_production_factor
-		id = cv_fighter
-		value = 30
-	}
-
-	ai_strategy = {
-		type = equipment_production_factor
-		id = cv_naval_bomber
-		value = 50
-	}
-	
-	ai_strategy = {
-		type = equipment_production_factor
-		id = cv_cas
-		value = 30
-	}
-
-	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_fighter
 		value = 3
@@ -2293,12 +2289,6 @@ we_need_cv_planes_1 = {
 		type = equipment_production_min_factories
 		id = cv_cas
 		value = 3
-	}
-
-	ai_strategy = {
-		type = equipment_variant_production_factor
-		id = cv_small_plane_airframe
-		value = 20
 	}
 }
 
@@ -2313,63 +2303,21 @@ we_need_cv_planes_2 = {
 	abort_when_not_enabled = yes
 	
 	ai_strategy = {
-		type = unit_ratio
-		id = cv_fighter
-		value = 30
-	}
-
-	ai_strategy = {
-		type = unit_ratio
-		id = cv_naval_bomber
-		value = 45
-	}
-	
-	ai_strategy = {
-		type = unit_ratio
-		id = cv_cas
-		value = 30
-	}
-	
-	ai_strategy = {
-		type = equipment_production_factor
-		id = cv_fighter
-		value = 35
-	}
-
-	ai_strategy = {
-		type = equipment_production_factor
-		id = cv_naval_bomber
-		value = 50
-	}
-	
-	ai_strategy = {
-		type = equipment_production_factor
-		id = cv_cas
-		value = 35
-	}
-
-	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_fighter
-		value = 4
+		value = 5
 	}
 
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_naval_bomber
-		value = 4
+		value = 5
 	}
 	
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_cas
-		value = 4
-	}
-
-	ai_strategy = {
-		type = equipment_variant_production_factor
-		id = cv_small_plane_airframe
-		value = 40
+		value = 5
 	}
 }
 
@@ -2383,63 +2331,21 @@ we_need_cv_planes_3 = {
 	abort_when_not_enabled = yes
 	
 	ai_strategy = {
-		type = unit_ratio
-		id = cv_fighter
-		value = 45
-	}
-
-	ai_strategy = {
-		type = unit_ratio
-		id = cv_naval_bomber
-		value = 60
-	}
-	
-	ai_strategy = {
-		type = unit_ratio
-		id = cv_cas
-		value = 45
-	}
-	
-	ai_strategy = {
-		type = equipment_production_factor
-		id = cv_fighter
-		value = 60
-	}
-
-	ai_strategy = {
-		type = equipment_production_factor
-		id = cv_naval_bomber
-		value = 100
-	}
-	
-	ai_strategy = {
-		type = equipment_production_factor
-		id = cv_cas
-		value = 50
-	}
-
-	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_fighter
-		value = 5
+		value = 7
 	}
 
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_naval_bomber
-		value = 5
+		value = 8
 	}
 	
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_cas
-		value = 5
-	}
-
-	ai_strategy = {
-		type = equipment_variant_production_factor
-		id = cv_small_plane_airframe
-		value = 50
+		value = 8
 	}
 }
 
@@ -2455,8 +2361,8 @@ build_more_missile_cruisers = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_medium
-		value = 120
+		id = vnr_naval_cruiser_heavy
+		value = 150
 	}
 
 	ai_strategy = {
@@ -2570,5 +2476,21 @@ upgrade_cv_plane_strategy_3 = {
 		type = production_upgrade_desire_offset
 		id = cv_small_plane_cas_airframe_4
 		value = 1000
+	}
+}
+
+we_dont_need_ocean_liner = {
+	allowed = {
+		always = yes
+	}
+	enable = {
+		always = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = equipment_variant_production_factor
+		id = ocean_liner_equipment
+		value = -1000
 	}
 }

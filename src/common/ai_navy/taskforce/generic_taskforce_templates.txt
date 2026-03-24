@@ -11,10 +11,13 @@ StrikeForce_1 = {
 		}		
 	}
 	ai_will_do = {
-		factor = 1
+		factor = 10
 	}	
 	mission = { naval_strike }
 	min_composition = {
+		light_cruiser = {
+			amount = 2
+		}
 		destroyer = {
 			amount = 8
 		}
@@ -34,7 +37,7 @@ StrikeForce_1 = {
 			amount = 4
 		}
 		destroyer = {
-			amount = 28
+			amount = 15
 		}
 	}
 }
@@ -55,11 +58,6 @@ PatrolReconForce_1 = {
 		factor = 5
 	}
 	mission = { naval_patrol }
-	min_composition = {
-		destroyer = {
-			amount = 1
-		}
-	}	
 	optimal_composition = {
 		destroyer = {
 			amount = 5
@@ -83,7 +81,11 @@ PatrolDominanceForce_CA_1 = {
 		factor = 5
 	}	
 	mission = { naval_patrol }
+
 	min_composition = {
+		light_cruiser = {
+			amount = 1
+		}
 		destroyer = {
 			amount = 4
 		}
@@ -93,36 +95,7 @@ PatrolDominanceForce_CA_1 = {
 		heavy_cruiser = {
 			amount = 3
 		}
-		destroyer = {
-			amount = 12
-		}
-	}
-}
-
-PatrolDominanceForce_BC_1 = {
-	allowed = {
-		NOT = {
-			original_tag = CHY
-			original_tag = HUJ
-			original_tag = BFL
-			original_tag = BYG
-			original_tag = SAD
-			original_tag = TIX
-			original_tag = YUW
-		}		
-	}
-	ai_will_do = {
-		factor = 5
-	}	
-	mission = { naval_patrol }
-	min_composition = {
-		destroyer = {
-			amount = 4
-		}
-	}
-
-	optimal_composition = {
-		battle_cruiser = {
+		light_cruiser = {
 			amount = 3
 		}
 		destroyer = {
@@ -147,11 +120,6 @@ ConvoyRaiding_1 = {
 		factor = 1
 	}	
 	mission = { convoy_raiding }
-	min_composition = {
-		submarine = {
-			amount = 4
-		}
-	}
 
 	optimal_composition = {
 		submarine = {
@@ -176,11 +144,6 @@ ConvoySurfaceRaiding_1 = {
 		factor = 1
 	}
 	mission = { convoy_raiding }
-	min_composition = {
-		battle_cruiser = {
-			amount = 1
-		}
-	}
 
 	optimal_composition = {
 		battle_cruiser = {
@@ -205,51 +168,10 @@ ConvoyEscort_1 = {
 		factor = 5
 	}	
 	mission = { convoy_escort }
-	min_composition = {
-		destroyer = {
-			amount = 4
-		}
-	}
-	
-	optimal_composition = {
-		destroyer = {
-			amount = 10
-		}
-	}
-}
 
-MineLaying_1 = {
-	allowed = {
-		NOT = {
-			original_tag = CHY
-			original_tag = HUJ
-			original_tag = BFL
-			original_tag = BYG
-			original_tag = SAD
-			original_tag = TIX
-			original_tag = YUW
-		}		
-	}
-	ai_will_do = {
-		factor = 1
-	}	
-	mission = { mines_planting }
-	min_composition = {
-		destroyer = {
-			amount = 1
-			role = 4
-		}
-	}
-	
 	optimal_composition = {
 		destroyer = {
-			amount = 4
-			role = 4
-		}
-		
-		light_cruiser = {
-			amount = 2
-			role = 4
+			amount = 5
 		}
 	}
 }

@@ -3,7 +3,7 @@ GER_StrikeForce_1 = {
 		original_tag = TIX
 	}
 	ai_will_do = {
-		factor = 1
+		factor = 5
 	}	
 	mission = { naval_strike }
 	min_composition = {
@@ -26,7 +26,7 @@ GER_StrikeForce_1 = {
 			amount = 4
 		}
 		destroyer = {
-			amount = 22
+			amount = 14
 		}
 	}
 }
@@ -36,10 +36,20 @@ GER_StrikeForceCarrier_1 = {
 		original_tag = TIX
 	}
 	ai_will_do = {
-		factor = 1
+		factor = 0
+		modifier = {
+			add = 10
+			has_navy_size = {
+				unit = carrier
+				size > 0
+			}
+		}
 	}		
 	mission = { naval_strike }
 	min_composition = {
+		battleship = {
+			amount = 2
+		}
 		destroyer = {
 			amount = 8
 		}
@@ -56,7 +66,7 @@ GER_StrikeForceCarrier_1 = {
 			amount = 10
 		}
 		destroyer = {
-			amount = 20
+			amount = 14
 		}
 	}
 }
@@ -127,7 +137,7 @@ GER_ConvoyRaiding_1 = {
 
 	optimal_composition = {
 		submarine = {
-			amount = 12
+			amount = 8
 		}
 	}
 }
@@ -139,7 +149,7 @@ GER_ConvoySurfaceRaiding_1 = {
 	ai_will_do = {
 		factor = 1
 	}	
-	mission = { convoy_raiding}
+	mission = { convoy_raiding }
 	min_composition = {
 		battle_cruiser = {
 			amount = 1
@@ -169,7 +179,7 @@ GER_ConvoyEscort_1 = {
 	
 	optimal_composition = {
 		destroyer = {
-			amount = 10
+			amount = 6
 		}
 	}
 }
