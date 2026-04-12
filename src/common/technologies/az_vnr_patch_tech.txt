@@ -1,0 +1,8 @@
+technologies = {
+	keyantech_az_vnr_patch = {     
+		enable_equipment_modules = { 
+			ship_damagecontrol_xzmf_vnr
+			cruiser_ship_engine_xzmf_vnr
+		}
+	}
+}

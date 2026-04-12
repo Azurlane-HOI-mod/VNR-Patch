@@ -1,0 +1,39 @@
+equipment_modules = {
+	ship_damagecontrol_xzmf_vnr = {
+		category = ship_dp_secondaries
+		gfx = ship_manjiusunguan_xzmf
+		
+		add_stats = {
+			reliability = 0.1
+			
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			max_strength = 0.15
+			reliability = 0.15
+			
+		}
+		build_cost_resources = {
+			
+		}
+		
+	}
+	cruiser_ship_engine_xzmf_vnr = {
+		category = civilian_ship_engine
+		gfx = ship_engine_xzmf
+
+		
+		add_stats = {
+			naval_speed = 10
+			fuel_consumption = 5
+			build_cost_ic = 1000
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.55
+			reliability = -0.05
+		}	
+	}
+}

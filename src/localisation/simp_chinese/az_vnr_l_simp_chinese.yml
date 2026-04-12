@@ -82,3 +82,7 @@
   NAME_THEME_DOH_HISTORY_SHIP: "历史舰船（30）"
   NAME_THEME_DOH_HISTORY_BATTLE: "古战场（37）"
   NAME_THEME_MOUNTAINS: "山岳（67）"
+  cruiser_ship_engine_xzmf_vnr: "中型魔方动力引擎"
+  cruiser_ship_engine_xzmf_vnr_desc: "心智魔方作为动力源动力强劲，同时大量减少了燃油需求。中型魔方动力引擎适用于巡洋舰。"
+  ship_damagecontrol_xzmf_vnr: "蛮啾精锐损管"
+  ship_damagecontrol_xzmf_vnr_desc: "这群训练有素的蛮啾学习了来自白鹰联邦的损管技术，维修速度极快。"

@@ -249,6 +249,7 @@ keyan_category = {
 				}
 			}
 			hidden_effect = {
+				set_technology = { keyantech_az_vnr_patch = 1 }
 				add_equipment_production = {
 					equipment = {
 						type = vnr_ship_hull_cruiser_6
