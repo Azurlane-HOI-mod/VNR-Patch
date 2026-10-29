@@ -24,7 +24,7 @@ carrier_battlegroups = {
     }
 
     # EFFECTS
-	port_strike = 0.20
+	naval_coordination = 0.1
     carrier_capacity_penalty_reduction = -0.1
 
     rewards = {
@@ -46,6 +46,7 @@ carrier_battlegroups = {
             }
             modifier = {
 				naval_strike_agility_factor = 0.1
+                port_strike = 0.25
             }
 		}
 		professional_deck_management = {
@@ -54,6 +55,7 @@ carrier_battlegroups = {
 			}
             modifier = {
                 sortie_efficiency = 0.15
+                fighter_sortie_efficiency = 0.1
             }
 		}
 		early_warning_system = {
@@ -70,6 +72,7 @@ carrier_battlegroups = {
                 sortie_efficiency = 0.15
                 naval_strike_targetting_factor = 0.15
                 carrier_capacity_penalty_reduction = -0.1
+                port_strike = 0.25
             }
 		}
     }
@@ -118,9 +121,9 @@ floating_airfields = {
     # EFFECTS
     carrier = {
         surface_detection = 0.05
-        sub_detection = 0.05
     }
-	navy_carrier_air_attack_factor = 0.10
+    port_strike = 0.35
+	navy_carrier_air_attack_factor = 0.05
 	
     rewards = {
        enclosed_hangar = {
@@ -136,24 +139,34 @@ floating_airfields = {
 	   }
 	   fleet_antiair = {
 			carrier = {
-				max_organisation = 15
+				max_organisation = 5
                 anti_air_attack = 0.15
 			}
+            modifier = {
+                fighter_sortie_efficiency = 0.15
+            }
 	   }
 	   reserved_fighters = {
-			fighter_sortie_efficiency = 0.15
+			modifier = {
+                sortie_efficiency = 0.05
+                fighter_sortie_efficiency = 0.15
+            }
 	   }
 	   dogfight_training = {
-			navy_carrier_air_agility_factor = 0.1
-            navy_carrier_air_attack_factor = 0.05
-            sortie_efficiency = 0.05
+            modifier = {
+                navy_carrier_air_agility_factor = 0.1
+                navy_carrier_air_attack_factor = 0.1
+                sortie_efficiency = 0.05
+            }
 	   }
 	   all_weather_combat = {
-            sortie_efficiency = 0.1
-			equipment_bonus = {
-                carrier = {
-				    naval_weather_penalty_factor = -0.15
-			    }
+            carrier = {
+                max_organisation = 10
+            }
+            modifier = {
+                air_carrier_night_penalty_reduction_factor = 0.1
+                carrier_night_traffic = 0.1
+                sortie_efficiency = 0.05
             }
 	   }
     }
@@ -212,9 +225,12 @@ subsidiary_carrier_support = {
     	}
     	fleet_antiair = {
             carrier = {
-				max_organisation = 15
+				max_organisation = 5
                 anti_air_attack = 0.15
 			}
+            modifier = {
+                fighter_sortie_efficiency = 0.15
+            }
         }
     	integrated_convoy_escorts = {
             carrier = {
@@ -227,9 +243,11 @@ subsidiary_carrier_support = {
     	carrier_support_groups = {
             carrier = {
                 patrol_coordination = 0.1
+                max_organisation = 10
             }
             modifier = {
-                fighter_sortie_efficiency = 0.15
+                sortie_efficiency = 0.05
+                fighter_sortie_efficiency = 0.05
             }
     	}
    	}
@@ -281,6 +299,7 @@ carrier_concentration = {
             }
             modifier = {
                 naval_strike_targetting_factor = 0.1
+                port_strike = 0.5
             }
     	}
     	improved_mission_oriented = {
@@ -293,10 +312,10 @@ carrier_concentration = {
     	efficient_rearming = {
     		carrier = {
                 max_organisation = 10
-                fuel_consumption = -0.1
     		}
             modifier = {
                 sortie_efficiency = 0.1
+                fighter_sortie_efficiency = 0.05
             }
     	}
     	massed_air_raid = {
@@ -304,6 +323,7 @@ carrier_concentration = {
                 carrier_capacity_penalty_reduction = -0.1
                 naval_strike_attack_factor = 0.1
                 naval_strike_agility_factor = 0.1
+                fighter_sortie_efficiency = 0.05
             }
     	}
     }
@@ -339,13 +359,13 @@ naval_airfoce = {
     rewards = {
     	direct_fire_avoidance = {
     		carrier = {
-    			surface_visibility = -0.1
+    			surface_visibility = -0.15
     		}
     	}
     	land_based_support = {
     		category_nav_bomber = {
                 air_range = 0.25
-                naval_strike_attack = 0.05
+                naval_strike_attack = 0.1
             }
     	}
     	air_raiders = {
@@ -362,13 +382,18 @@ naval_airfoce = {
     			max_organisation = 10
                 surface_visibility = -0.1
     		}
-            naval_enemy_fleet_size_ratio_penalty_factor = 0.1
+            modifier = {
+                naval_retreat_speed_after_initial_combat = 0.1
+            }
     	}
     	airpower = {
     		category_nav_bomber = {
-                naval_strike_attack = 0.1
                 naval_strike_targetting = 0.1
                 air_agility = 0.1
+            }
+            modifier = {
+                port_strike = 0.25
+                air_nav_efficiency = 0.15
             }
     	}
     }
@@ -412,13 +437,14 @@ airspace_denial = {
     rewards = {
         scout_carrier = {
             carrier = {
+                max_organisation = 5
                 surface_detection = 0.1
                 sub_detection = 0.1
             }
         }
         airspace_competition = {
             modifier = {
-                fighter_sortie_efficiency = 0.1
+                fighter_sortie_efficiency = 0.15
                 navy_carrier_air_attack_factor = 0.15
             }
         }
@@ -434,7 +460,7 @@ airspace_denial = {
         land_based_support = {
     		category_nav_bomber = {
                 air_range = 0.25
-                naval_strike_attack = 0.05
+                naval_strike_attack = 0.1
             }
     	}
         land_sea_coordination = {

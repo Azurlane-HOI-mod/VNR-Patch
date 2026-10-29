@@ -7,13 +7,9 @@ add_starting_techs = {
 			early_ship_hull_carrier = 1
             large_destroyer_trend = 1
             searchlight = 1
-            treaty_cruiser_trend = 1
+            cruiser_propulsion_revolution = 1
             early_cruiser_armor = 1
             basic_cruiser_armor = 1
-            incremental_armor_scheme = 1
-            mixed_armor_scheme = 1
-            basic_torpedo_defense = 1
-            improved_torpedo_defense = 1
             enhanced_horizontal_defense = 1
             basic_heavy_armor = 1
             improved_conning_tower = 1
@@ -28,6 +24,7 @@ add_starting_techs = {
             ger_11in_c34 = 1
             ita_extra_armor = 1
             magnetic_detonator = 1
+            electric_torpedo = 1
 			popup = no
         }
     }
@@ -40,17 +37,11 @@ add_starting_techs = {
 			ship_hull_super_heavy = 1
             searchlight = 1
 			large_destroyer_trend = 1
-            treaty_cruiser_trend = 1
+            cruiser_propulsion_revolution = 1
             early_cruiser_armor = 1
             basic_cruiser_armor = 1
-            incremental_armor_scheme = 1
-            mixed_armor_scheme = 1
-            all_or_nothing_armor_scheme = 1
-            basic_torpedo_defense = 1
-            improved_torpedo_defense = 1
             enhanced_horizontal_defense = 1
             basic_heavy_armor = 1
-            dry_dock_expansion = 1
             improved_conning_tower = 1
 			early_carrier_study = 1
             prototype_airplane_launcher = 1
@@ -65,6 +56,7 @@ add_starting_techs = {
             improved_airplane_launcher = 1
             sonar = 1
             magnetic_detonator = 1
+            oxygen_torpedo = 1
 
             basic_super_heavy_battery = 1
             bb_conversion_carrier = 1
@@ -80,18 +72,12 @@ add_starting_techs = {
             large_destroyer_trend = 1
             sonar = 1
             searchlight = 1
-            treaty_cruiser_trend = 1
+            cruiser_propulsion_revolution = 1
             early_cruiser_armor = 1
             basic_cruiser_armor = 1
             cruiser_gun_upgrade = 1
-            incremental_armor_scheme = 1
-            mixed_armor_scheme = 1
-            all_or_nothing_armor_scheme = 1
-            basic_torpedo_defense = 1
-            improved_torpedo_defense = 1
             enhanced_horizontal_defense = 1
             basic_heavy_armor = 1
-            dry_dock_expansion = 1
             improved_conning_tower = 1
 			early_carrier_study = 1
             prototype_airplane_launcher = 1
@@ -104,9 +90,9 @@ add_starting_techs = {
             cruiser_submarines = 1
             improved_ship_torpedo_launcher = 1
             magnetic_detonator = 1
+            escort_destroyer_trend = 1
 
             basic_super_heavy_battery = 1
-            usa_8in_mk9 = 1
             bb_conversion_carrier = 1
 			popup = no
         }
@@ -121,18 +107,12 @@ add_starting_techs = {
             large_destroyer_trend = 1
             sonar = 1
             searchlight = 1
-            treaty_cruiser_trend = 1
-			colony_cruiser = 1
+            cruiser_propulsion_revolution = 1
+			specialization_doctrine = 1
             early_cruiser_armor = 1
             basic_cruiser_armor = 1
-            incremental_armor_scheme = 1
-            mixed_armor_scheme = 1
-            all_or_nothing_armor_scheme = 1
-            basic_torpedo_defense = 1
-            improved_torpedo_defense = 1
             enhanced_horizontal_defense = 1
             basic_heavy_armor = 1
-			dry_dock_expansion = 1
             improved_conning_tower = 1
 			early_carrier_study = 1
             prototype_airplane_launcher = 1
@@ -145,9 +125,9 @@ add_starting_techs = {
             cruiser_submarines = 1
             improved_ship_torpedo_launcher = 1
             magnetic_detonator = 1
+            escort_destroyer_trend = 1
 
             basic_super_heavy_battery = 1
-            eng_14in_mk7 = 1
             bb_conversion_carrier = 1
 			popup = no
         }
@@ -163,20 +143,16 @@ add_starting_techs = {
 			large_destroyer_trend = 1
 			sonar = 1
             searchlight = 1
-            treaty_cruiser_trend = 1
+            cruiser_propulsion_revolution = 1
             early_cruiser_armor = 1
             basic_cruiser_armor = 1
-            incremental_armor_scheme = 1
-            mixed_armor_scheme = 1
-            all_or_nothing_armor_scheme = 1
-            basic_torpedo_defense = 1
-            improved_torpedo_defense = 1
             enhanced_horizontal_defense = 1
             basic_heavy_armor = 1
             improved_conning_tower = 1
             prototype_airplane_launcher = 1
             basic_periscope = 1
             magnetic_detonator = 1
+            escort_destroyer_trend = 1
 			popup = no
         }
     }
@@ -191,20 +167,16 @@ add_starting_techs = {
 			large_destroyer_trend = 1
 			sonar = 1
             searchlight = 1
-            treaty_cruiser_trend = 1
+            cruiser_propulsion_revolution = 1
             early_cruiser_armor = 1
             basic_cruiser_armor = 1
-            incremental_armor_scheme = 1
-            mixed_armor_scheme = 1
-            all_or_nothing_armor_scheme = 1
-            basic_torpedo_defense = 1
-            improved_torpedo_defense = 1
             enhanced_horizontal_defense = 1
             basic_heavy_armor = 1
             improved_conning_tower = 1
             prototype_airplane_launcher = 1
             basic_periscope = 1
             magnetic_detonator = 1
+            escort_destroyer_trend = 1
 			popup = no
         }
     }
@@ -217,16 +189,10 @@ add_starting_techs = {
             large_destroyer_trend = 1
 			high_speed_light_engine = 1
             searchlight = 1
-            treaty_cruiser_trend = 1
+            cruiser_propulsion_revolution = 1
             early_cruiser_armor = 1
             basic_cruiser_armor = 1
-            incremental_armor_scheme = 1
-            mixed_armor_scheme = 1
-            all_or_nothing_armor_scheme = 1
 			enhanced_horizontal_defense = 1
-			dry_dock_expansion = 1
-            basic_torpedo_defense = 1
-            improved_torpedo_defense = 1
             basic_heavy_armor = 1
             improved_conning_tower = 1
 			early_carrier_study = 1
@@ -237,7 +203,6 @@ add_starting_techs = {
             basic_ballast_tank = 1
             cruiser_submarines = 1
             midget_submarines = 1
-            fra_13in_1931 = 1
             bb_conversion_carrier = 1
             magnetic_detonator = 1
 
@@ -251,13 +216,9 @@ add_starting_techs = {
             interwar_ship_hull_heavy = 1
             searchlight = 1
 			large_destroyer_trend = 1
-            treaty_cruiser_trend = 1
+            cruiser_propulsion_revolution = 1
             early_cruiser_armor = 1
             basic_cruiser_armor = 1
-            incremental_armor_scheme = 1
-            mixed_armor_scheme = 1
-            basic_torpedo_defense = 1
-            improved_torpedo_defense = 1
             enhanced_horizontal_defense = 1
             basic_heavy_armor = 1
             improved_conning_tower = 1
@@ -286,11 +247,9 @@ add_starting_techs = {
             enhanced_horizontal_defense = 1
             krupp_steel = 1
 			high_speed_light_engine = 1
-            treaty_cruiser_trend = 1
+            cruiser_propulsion_revolution = 1
             early_cruiser_armor = 1
             basic_cruiser_armor = 1
-            incremental_armor_scheme = 1
-            basic_torpedo_defense = 1
             basic_heavy_armor = 1
 			early_carrier_study = 1
             prototype_airplane_launcher = 1
@@ -308,7 +267,7 @@ add_starting_techs = {
             basic_ship_hull_light = 1
             interwar_ship_hull_cruiser = 1
             searchlight = 1
-            treaty_cruiser_trend = 1
+            cruiser_propulsion_revolution = 1
             early_cruiser_armor = 1
             prototype_airplane_launcher = 1
             basic_periscope = 1
@@ -433,16 +392,13 @@ makeup_starting_techs = {
         limit = { has_tech = early_ship_hull_heavy }
         set_technology = {
 			pre_dreadnoughts = 1
-			basic_torpedo_defense = 1
 			harvey_steel = 1
-			incremental_armor_scheme = 1
 			popup = no
 		}
     }
 	every_country = {
 		limit = { has_tech = basic_ship_hull_heavy }
 		set_technology = {
-            mixed_armor_scheme = 1
 			basic_heavy_armor = 1
 			krupp_steel = 1
             fuel_oil_boiler = 1
@@ -454,7 +410,7 @@ makeup_starting_techs = {
     every_country = {
         limit = { has_tech = basic_ship_hull_cruiser }
         set_technology = {
-			treaty_cruiser_trend = 1
+			cruiser_propulsion_revolution = 1
 			basic_cruiser_armor = 1
 			popup = no
 		}
@@ -480,6 +436,7 @@ makeup_starting_techs = {
 			diesel_electric_transmission = 1
 			teardrop_hull = 1
             improved_ship_torpedo_launcher = 1
+            acoustic_signature = 1
 			popup = no
         }
     }
@@ -553,12 +510,15 @@ makeup_starting_techs = {
 special_project_workaround = {
 	BYG = {
 		complete_special_project = sp:sp_super_heavy_guns
+        complete_special_project = sp:sp_naval_super_heavy_battleship
 	}
 	CHY = {
 		complete_special_project = sp:sp_super_heavy_guns
+        complete_special_project = sp:sp_naval_super_heavy_battleship
 	}
 	HUJ = {
 		complete_special_project = sp:sp_super_heavy_guns
+        complete_special_project = sp:sp_naval_super_heavy_battleship
 	}
 	YUW = {
 		complete_special_project = sp:sp_high_speed_light_engine
@@ -566,25 +526,24 @@ special_project_workaround = {
 	BFL = {
 		complete_special_project = sp:sp_high_speed_light_engine
 	}
+    HOL = {
+        complete_special_project = sp:sp_submarine_snorkel
+    }
 
 	every_country = {
-		limit = { has_technology = basic_ship_hull_submarine }
+		limit = { has_tech = basic_ship_hull_submarine }
 		complete_special_project = sp:sp_naval_fleet_submarine
 	}
 	every_country = {
-		limit = { has_technology = cruiser_submarines }
+		limit = { has_tech = cruiser_submarines }
 		complete_special_project = sp:sp_naval_cruiser_submarine
 	}
 	every_country = {
-		limit = { has_technology = ship_hull_super_heavy }
-		complete_special_project = sp:sp_naval_super_heavy_battleship
-	}
-	every_country = {
-		limit = { has_technology = midget_submarines }
+		limit = { has_tech = midget_submarines }
 		complete_special_project = sp:sp_naval_midget_submarine
 	}
 	every_country = {
-		limit = { has_technology = support_fleet_ncns }
-		complete_special_project = sp:sp_naval_support_ship
+		limit = { has_tech = support_fleet_ncns }
+		complete_special_project = sp:sp_naval_support_ships
 	}
 }

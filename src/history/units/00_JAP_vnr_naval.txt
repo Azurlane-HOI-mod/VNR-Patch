@@ -231,127 +231,127 @@
       name = "第一潜水战队"  # 1 Sensui Sentai
       location = 9998
       ship = {
-        name = "伊-51"  # I-51
+        name = "I-51"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
           vnr_ship_hull_submarine_1 = {
             amount = 1
             owner = CHY
-            version_name = "海大I级"  # Kaidai I Class
+            version_name = "海大级"  # Kaidai Class
           }
         }
       }
       ship = {
-        name = "伊-152"  # I-152
+        name = "I-152"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
           vnr_ship_hull_submarine_1 = {
             amount = 1
             owner = CHY
-            version_name = "海大II级"  # Kaidai II Class
+            version_name = "海大级"  # Kaidai Class
           }
         }
       }
       ship = {
-        name = "伊-153"  # I-153
+        name = "I-153"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
           vnr_ship_hull_submarine_1 = {
             amount = 1
             owner = CHY
-            version_name = "海大III级"  # Kaidai III Class
+            version_name = "海大级"  # Kaidai Class
           }
         }
       }
       ship = {
-        name = "伊-154"  # I-154
+        name = "I-154"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
           vnr_ship_hull_submarine_1 = {
             amount = 1
             owner = CHY
-            version_name = "海大III级"  # Kaidai III Class
+            version_name = "海大级"  # Kaidai Class
           }
         }
       }
       ship = {
-        name = "伊-155"  # I-155
+        name = "I-155"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
           vnr_ship_hull_submarine_1 = {
             amount = 1
             owner = CHY
-            version_name = "海大III级"  # Kaidai III Class
+            version_name = "海大级"  # Kaidai Class
           }
         }
       }
       ship = {
-        name = "伊-156"  # I-156
+        name = "I-156"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
           vnr_ship_hull_submarine_1 = {
             amount = 1
             owner = CHY
-            version_name = "海大III级"  # Kaidai III Class
+            version_name = "海大级"  # Kaidai Class
           }
         }
       }
       ship = {
-        name = "伊-157"  # I-157
+        name = "I-157"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
           vnr_ship_hull_submarine_1 = {
             amount = 1
             owner = CHY
-            version_name = "海大III级"  # Kaidai III Class
+            version_name = "海大级"  # Kaidai Class
           }
         }
       }
       ship = {
-        name = "伊-158"  # I-158
+        name = "I-158"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
           vnr_ship_hull_submarine_1 = {
             amount = 1
             owner = CHY
-            version_name = "海大III级"  # Kaidai III Class
+            version_name = "海大级"  # Kaidai Class
           }
         }
       }
       ship = {
-        name = "伊-159"  # I-159
+        name = "I-159"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
           vnr_ship_hull_submarine_1 = {
             amount = 1
             owner = CHY
-            version_name = "海大III级"  # Kaidai III Class
+            version_name = "海大级"  # Kaidai Class
           }
         }
       }
       ship = {
-        name = "伊-60"  # I-60
+        name = "I-60"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
           vnr_ship_hull_submarine_1 = {
             amount = 1
             owner = CHY
-            version_name = "海大III级"  # Kaidai III Class
+            version_name = "海大级"  # Kaidai Class
           }
         }
       }
       ship = {
-        name = "伊-61"  # I-61
+        name = "I-61"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
@@ -363,7 +363,7 @@
         }
       }
       ship = {
-        name = "伊-162"  # I-162
+        name = "I-162"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
@@ -375,19 +375,19 @@
         }
       }
       ship = {
-        name = "伊-63"  # I-63
+        name = "I-63"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
           vnr_ship_hull_submarine_1 = {
             amount = 1
             owner = CHY
-            version_name = "海大III级"  # Kaidai III Class
+            version_name = "海大级"  # Kaidai Class
           }
         }
       }
       ship = {
-        name = "伊-164"  # I-164
+        name = "I-164"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
@@ -399,86 +399,86 @@
         }
       }
       ship = {
-        name = "伊-165"  # I-165
+        name = "I-165"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
           vnr_ship_hull_submarine_2 = {
             amount = 1
             owner = CHY
-            version_name = "海大V级"  # Kaidai V Class
+            version_name = "海大IV级"  # Kaidai IV Class
           }
         }
       }
       ship = {
-        name = "伊-166"  # I-166
+        name = "I-166"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
           vnr_ship_hull_submarine_2 = {
             amount = 1
             owner = CHY
-            version_name = "海大V级"  # Kaidai V Class
+            version_name = "海大IV级"  # Kaidai IV Class
           }
         }
       }
       ship = {
-        name = "伊-67"  # I-67
+        name = "I-67"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
           vnr_ship_hull_submarine_2 = {
             amount = 1
             owner = CHY
-            version_name = "海大V级"  # Kaidai V Class
+            version_name = "海大IV级"  # Kaidai IV Class
           }
         }
       }
       ship = {
-        name = "伊-168"  # I-168
+        name = "I-168"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
           vnr_ship_hull_submarine_2 = {
             amount = 1
             owner = CHY
-            version_name = "海大VI级"  # Kaidai VI Class
+            version_name = "海大IV级"  # Kaidai IV Class
           }
         }
       }
       ship = {
-        name = "伊-169"  # I-169
+        name = "I-169"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
           vnr_ship_hull_submarine_2 = {
             amount = 1
             owner = CHY
-            version_name = "海大VI级"  # Kaidai VI Class
+            version_name = "海大IV级"  # Kaidai IV Class
           }
         }
       }
       ship = {
-        name = "伊-70"  # I-70
+        name = "I-70"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
           vnr_ship_hull_submarine_2 = {
             amount = 1
             owner = CHY
-            version_name = "海大VI级"  # Kaidai VI Class
+            version_name = "海大IV级"  # Kaidai IV Class
           }
         }
       }
       ship = {
-        name = "伊-171"  # I-171
+        name = "I-171"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
           vnr_ship_hull_submarine_2 = {
             amount = 1
             owner = CHY
-            version_name = "海大VI级"  # Kaidai VI Class
+            version_name = "海大IV级"  # Kaidai IV Class
           }
         }
       }
@@ -1011,7 +1011,7 @@
         }
       }
       ship = {
-        name = "伊-1"  # I-1
+        name = "I-1"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
@@ -1023,7 +1023,7 @@
         }
       }
       ship = {
-        name = "伊-2"  # I-2
+        name = "I-2"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
@@ -1035,7 +1035,7 @@
         }
       }
       ship = {
-        name = "伊-3"  # I-3
+        name = "I-3"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
@@ -1047,7 +1047,7 @@
         }
       }
       ship = {
-        name = "伊-4"  # I-4
+        name = "I-4"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
@@ -1059,7 +1059,7 @@
         }
       }
       ship = {
-        name = "伊-5"  # I-5
+        name = "I-5"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
@@ -1071,7 +1071,7 @@
         }
       }
       ship = {
-        name = "伊-6"  # I-6
+        name = "I-6"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
@@ -1087,7 +1087,7 @@
       name = "第三潜水战队"  # 3 Sensui Sentai
       location = 9950
       ship = {
-        name = "伊-121"  # I-121
+        name = "I-121"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
@@ -1099,7 +1099,7 @@
         }
       }
       ship = {
-        name = "伊-122"  # I-122
+        name = "I-122"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
@@ -1111,7 +1111,7 @@
         }
       }
       ship = {
-        name = "伊-123"  # I-123
+        name = "I-123"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
@@ -1123,7 +1123,7 @@
         }
       }
       ship = {
-        name = "伊-124"  # I-124
+        name = "I-124"
         definition = submarine
         start_experience_factor = 0.075
         equipment = {
@@ -2106,7 +2106,7 @@
           vnr_ship_hull_submarine_1 = {
             amount = 1
             owner = CHY
-            version_name = "海中IV级"  # Kaichū IV Class
+            version_name = "海中级"  # Kaichū Class
           }
         }
       }
@@ -2118,7 +2118,7 @@
           vnr_ship_hull_submarine_1 = {
             amount = 1
             owner = CHY
-            version_name = "海中IV级"  # Kaichū IV Class
+            version_name = "海中级"  # Kaichū Class
           }
         }
       }
@@ -2130,7 +2130,7 @@
           vnr_ship_hull_submarine_1 = {
             amount = 1
             owner = CHY
-            version_name = "海中IV级"  # Kaichū IV Class
+            version_name = "海中级"  # Kaichū Class
           }
         }
       }
@@ -2142,7 +2142,7 @@
           vnr_ship_hull_submarine_1 = {
             amount = 1
             owner = CHY
-            version_name = "海中V级"  # Kaichū V Class
+            version_name = "海中级"  # Kaichū Class
           }
         }
       }
@@ -2154,7 +2154,7 @@
           vnr_ship_hull_submarine_1 = {
             amount = 1
             owner = CHY
-            version_name = "海中V级"  # Kaichū V Class
+            version_name = "海中级"  # Kaichū Class
           }
         }
       }
@@ -2166,7 +2166,7 @@
           vnr_ship_hull_submarine_1 = {
             amount = 1
             owner = CHY
-            version_name = "海中V级"  # Kaichū V Class
+            version_name = "海中级"  # Kaichū Class
           }
         }
       }
@@ -2178,7 +2178,7 @@
           vnr_ship_hull_submarine_1 = {
             amount = 1
             owner = CHY
-            version_name = "海中V级"  # Kaichū V Class
+            version_name = "海中级"  # Kaichū Class
           }
         }
       }
@@ -2572,7 +2572,7 @@ instant_effect = {
     requested_factories = 5
     progress = 0.95
     amount = 1
-    industrial_manufacturer = mio:JAP_sasebo_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_sasebo_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -2584,7 +2584,7 @@ instant_effect = {
     requested_factories = 3
     progress = 0.36
     amount = 1
-    industrial_manufacturer = mio:JAP_yokosuka_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_yokosuka_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -2596,7 +2596,7 @@ instant_effect = {
     requested_factories = 3
     progress = 0.10
     amount = 1
-    industrial_manufacturer = mio:JAP_yokosuka_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_yokosuka_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -2608,7 +2608,7 @@ instant_effect = {
     requested_factories = 3
     progress = 0.26
     amount = 1
-    industrial_manufacturer = mio:JAP_yokosuka_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_yokosuka_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -2620,7 +2620,7 @@ instant_effect = {
     requested_factories = 2
     progress = 0.53
     amount = 1
-    industrial_manufacturer = mio:JAP_yokosuka_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_yokosuka_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -2632,7 +2632,7 @@ instant_effect = {
     requested_factories = 2
     progress = 0.49
     amount = 1
-    industrial_manufacturer = mio:JAP_yokosuka_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_yokosuka_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -2644,7 +2644,7 @@ instant_effect = {
     requested_factories = 2
     progress = 0.27
     amount = 1
-    industrial_manufacturer = mio:JAP_yokosuka_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_yokosuka_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -2656,7 +2656,7 @@ instant_effect = {
     requested_factories = 2
     progress = 0.07
     amount = 1
-    industrial_manufacturer = mio:JAP_yokosuka_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_yokosuka_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -2668,7 +2668,7 @@ instant_effect = {
     requested_factories = 2
     progress = 0.75
     amount = 1
-    industrial_manufacturer = mio:JAP_yokosuka_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_yokosuka_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -2680,7 +2680,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.79
     amount = 1
-    industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_maizuru_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -2692,7 +2692,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.76
     amount = 1
-    industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_maizuru_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -2704,7 +2704,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.66
     amount = 1
-    industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_maizuru_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -2716,7 +2716,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.56
     amount = 1
-    industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_maizuru_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -2728,7 +2728,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.42
     amount = 1
-    industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_maizuru_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -2740,7 +2740,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.37
     amount = 1
-    industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_maizuru_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -2752,7 +2752,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.31
     amount = 1
-    industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_maizuru_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -2764,7 +2764,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.38
     amount = 1
-    industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_maizuru_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -2776,7 +2776,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.34
     amount = 1
-    industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_maizuru_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -2788,7 +2788,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.24
     amount = 1
-    industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_maizuru_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -2800,7 +2800,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.17
     amount = 1
-    industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_maizuru_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -2812,7 +2812,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.09
     amount = 1
-    industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_maizuru_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -2824,7 +2824,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.14
     amount = 1
-    industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_maizuru_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -2836,7 +2836,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.14
     amount = 1
-    industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_maizuru_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -2848,7 +2848,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.05
     amount = 1
-    industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_maizuru_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -2860,7 +2860,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.05
     amount = 1
-    industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_maizuru_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -2872,51 +2872,51 @@ instant_effect = {
     requested_factories = 1
     progress = 0.01
     amount = 1
-    industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_maizuru_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
       type = vnr_ship_hull_submarine_2
       creator = "CHY"
-      version_name = "海大VI级"  # Kaidai VI Class
+      version_name = "海大IV级"  # Kaidai IV Class
     }
     requested_factories = 1
     progress = 0.68
     amount = 1
-    industrial_manufacturer = mio:JAP_sasebo_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_sasebo_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
       type = vnr_ship_hull_submarine_2
       creator = "CHY"
-      version_name = "海大VI级"  # Kaidai VI Class
+      version_name = "海大IV级"  # Kaidai IV Class
     }
     requested_factories = 1
     progress = 0.64
     amount = 1
-    industrial_manufacturer = mio:JAP_sasebo_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_sasebo_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
       type = vnr_ship_hull_submarine_2
       creator = "CHY"
-      version_name = "海大VI级"  # Kaidai VI Class
+      version_name = "海大IV级"  # Kaidai IV Class
     }
     requested_factories = 1
     progress = 0.33
     amount = 1
-    industrial_manufacturer = mio:JAP_sasebo_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_sasebo_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
       type = vnr_ship_hull_submarine_2
       creator = "CHY"
-      version_name = "海大VI级"  # Kaidai VI Class
+      version_name = "海大IV级"  # Kaidai IV Class
     }
     requested_factories = 1
     progress = 0.29
     amount = 1
-    industrial_manufacturer = mio:JAP_sasebo_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_sasebo_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -2927,7 +2927,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.53
     amount = 1
-    industrial_manufacturer = mio:JAP_yokosuka_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_yokosuka_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -2938,17 +2938,17 @@ instant_effect = {
     requested_factories = 1
     progress = 0.3
     amount = 1
-    industrial_manufacturer = mio:JAP_yokosuka_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_yokosuka_naval_arsenal_organization"
   }
   add_equipment_production = {
     equipment = {
       type = vnr_ship_hull_submarine_1
       creator = "CHY"
-      version_name = "海中V级"  # Kaichū V Class
+      version_name = "海中级"  # Kaichū Class
     }
     requested_factories = 1
     progress = 0.57
     amount = 1
-    industrial_manufacturer = mio:JAP_sasebo_naval_arsenal_organization
+    industrial_manufacturer = "mio:JAP_sasebo_naval_arsenal_organization"
   }
 }

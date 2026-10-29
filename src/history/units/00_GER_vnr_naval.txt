@@ -11,7 +11,7 @@
         definition = heavy_cruiser
         start_experience_factor = 0.04
         equipment = {
-          vnr_ship_hull_cruiser_panzerschiff = {
+          vnr_ship_hull_cruiser_2 = {
             amount = 1
             owner = TIX
             version_name = "德意志级"  # Deutschland Class
@@ -23,7 +23,7 @@
         definition = heavy_cruiser
         start_experience_factor = 0.04
         equipment = {
-          vnr_ship_hull_cruiser_panzerschiff = {
+          vnr_ship_hull_cruiser_2 = {
             amount = 1
             owner = TIX
             version_name = "德意志级"  # Deutschland Class
@@ -35,7 +35,7 @@
         definition = heavy_cruiser
         start_experience_factor = 0.04
         equipment = {
-          vnr_ship_hull_cruiser_panzerschiff = {
+          vnr_ship_hull_cruiser_2 = {
             amount = 1
             owner = TIX
             version_name = "德意志级"  # Deutschland Class
@@ -295,7 +295,7 @@
       name = "第一潜艇分队"  # I. U-Boots Flottille Weddigen
       location = 6389
       ship = {
-        name = ""  # U-7
+        name = "U-7"
         definition = submarine
         start_experience_factor = 0.04
         equipment = {
@@ -307,7 +307,7 @@
         }
       }
       ship = {
-        name = ""  # U-8
+        name = "U-8"
         definition = submarine
         start_experience_factor = 0.04
         equipment = {
@@ -319,7 +319,7 @@
         }
       }
       ship = {
-        name = ""  # U-9
+        name = "U-9"
         definition = submarine
         start_experience_factor = 0.04
         equipment = {
@@ -331,7 +331,7 @@
         }
       }
       ship = {
-        name = ""  # U-10
+        name = "U-10"
         definition = submarine
         start_experience_factor = 0.04
         equipment = {
@@ -343,7 +343,7 @@
         }
       }
       ship = {
-        name = ""  # U-11
+        name = "U-11"
         definition = submarine
         start_experience_factor = 0.04
         equipment = {
@@ -355,7 +355,7 @@
         }
       }
       ship = {
-        name = ""  # U-12
+        name = "U-12"
         definition = submarine
         start_experience_factor = 0.04
         equipment = {
@@ -367,7 +367,7 @@
         }
       }
       ship = {
-        name = ""  # U-13
+        name = "U-13"
         definition = submarine
         start_experience_factor = 0.04
         equipment = {
@@ -379,7 +379,7 @@
         }
       }
       ship = {
-        name = ""  # U-17
+        name = "U-17"
         definition = submarine
         start_experience_factor = 0.04
         equipment = {
@@ -391,7 +391,7 @@
         }
       }
       ship = {
-        name = ""  # U-18
+        name = "U-18"
         definition = submarine
         start_experience_factor = 0.04
         equipment = {
@@ -407,7 +407,7 @@
       name = "第二潜艇分队"  # II. U-Boots-Ausbildungs-Gruppe
       location = 241
       ship = {
-        name = ""  # U-1
+        name = "U-1"
         definition = submarine
         start_experience_factor = 0.04
         equipment = {
@@ -419,7 +419,7 @@
         }
       }
       ship = {
-        name = ""  # U-2
+        name = "U-2"
         definition = submarine
         start_experience_factor = 0.04
         equipment = {
@@ -431,7 +431,7 @@
         }
       }
       ship = {
-        name = ""  # U-3
+        name = "U-3"
         definition = submarine
         start_experience_factor = 0.04
         equipment = {
@@ -443,7 +443,7 @@
         }
       }
       ship = {
-        name = ""  # U-4
+        name = "U-4"
         definition = submarine
         start_experience_factor = 0.04
         equipment = {
@@ -455,7 +455,7 @@
         }
       }
       ship = {
-        name = ""  # U-5
+        name = "U-5"
         definition = submarine
         start_experience_factor = 0.04
         equipment = {
@@ -467,7 +467,7 @@
         }
       }
       ship = {
-        name = ""  # U-6
+        name = "U-6"
         definition = submarine
         start_experience_factor = 0.04
         equipment = {
@@ -492,7 +492,7 @@ instant_effect = {
     requested_factories = 5
     progress = 0.15
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -504,7 +504,7 @@ instant_effect = {
     requested_factories = 5
     progress = 0.21
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -516,7 +516,7 @@ instant_effect = {
     requested_factories = 3
     progress = 0.13
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -527,7 +527,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.54
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -538,7 +538,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.50
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -549,7 +549,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.44
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -560,7 +560,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.41
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -571,7 +571,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.24
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -582,7 +582,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.26
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -593,7 +593,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.16
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -604,7 +604,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.00
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -615,7 +615,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.24
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -626,7 +626,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.22
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -637,7 +637,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.19
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -648,7 +648,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.17
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -659,7 +659,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.06
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -670,7 +670,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.21
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -681,7 +681,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.20
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -692,7 +692,7 @@ instant_effect = {
     requested_factories = 1
     progress = 0.06
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -700,11 +700,11 @@ instant_effect = {
       creator = "TIX"
       version_name = "Type IA级"  # Type IA Class
     }
-    name = ""  # U-25
+    name = "U-25"
     requested_factories = 1
     progress = 0.66
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -712,11 +712,11 @@ instant_effect = {
       creator = "TIX"
       version_name = "Type IA级"  # Type IA Class
     }
-    name = ""  # U-26
+    name = "U-26"
     requested_factories = 1
     progress = 0.54
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -724,11 +724,11 @@ instant_effect = {
       creator = "TIX"
       version_name = "Type IIB级"  # Type IIB Class
     }
-    name = ""  # U-14
+    name = "U-14"
     requested_factories = 1
     progress = 0.91
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -736,11 +736,11 @@ instant_effect = {
       creator = "TIX"
       version_name = "Type IIB级"  # Type IIB Class
     }
-    name = ""  # U-15
+    name = "U-15"
     requested_factories = 1
     progress = 0.60
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -748,11 +748,11 @@ instant_effect = {
       creator = "TIX"
       version_name = "Type IIB级"  # Type IIB Class
     }
-    name = ""  # U-16
+    name = "U-16"
     requested_factories = 1
     progress = 0.52
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -760,11 +760,11 @@ instant_effect = {
       creator = "TIX"
       version_name = "Type IIB级"  # Type IIB Class
     }
-    name = ""  # U-19
+    name = "U-19"
     requested_factories = 1
     progress = 0.92
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -772,11 +772,11 @@ instant_effect = {
       creator = "TIX"
       version_name = "Type IIB级"  # Type IIB Class
     }
-    name = ""  # U-20
+    name = "U-20"
     requested_factories = 1
     progress = 0.83
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -784,11 +784,11 @@ instant_effect = {
       creator = "TIX"
       version_name = "Type VIIA级"  # Type VIIA Class
     }
-    name = ""  # U-33
+    name = "U-33"
     requested_factories = 1
     progress = 0.37
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -796,11 +796,11 @@ instant_effect = {
       creator = "TIX"
       version_name = "Type VIIA级"  # Type VIIA Class
     }
-    name = ""  # U-34
+    name = "U-34"
     requested_factories = 1
     progress = 0.30
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -808,11 +808,11 @@ instant_effect = {
       creator = "TIX"
       version_name = "Type VIIA级"  # Type VIIA Class
     }
-    name = ""  # U-27
+    name = "U-27"
     requested_factories = 1
     progress = 0.19
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -820,11 +820,11 @@ instant_effect = {
       creator = "TIX"
       version_name = "Type VIIA级"  # Type VIIA Class
     }
-    name = ""  # U-28
+    name = "U-28"
     requested_factories = 1
     progress = 0.11
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -832,11 +832,11 @@ instant_effect = {
       creator = "TIX"
       version_name = "Type VIIA级"  # Type VIIA Class
     }
-    name = ""  # U-29
+    name = "U-29"
     requested_factories = 1
     progress = 0
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -844,11 +844,11 @@ instant_effect = {
       creator = "TIX"
       version_name = "Type VIIA级"  # Type VIIA Class
     }
-    name = ""  # U-30
+    name = "U-30"
     requested_factories = 1
     progress = 0.0
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -856,11 +856,11 @@ instant_effect = {
       creator = "TIX"
       version_name = "Type VIIA级"  # Type VIIA Class
     }
-    name = ""  # U-32
+    name = "U-32"
     requested_factories = 1
     progress = 0.0
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -868,11 +868,11 @@ instant_effect = {
       creator = "TIX"
       version_name = "Type VIIA级"  # Type VIIA Class
     }
-    name = ""  # U-31
+    name = "U-31"
     requested_factories = 1
     progress = 0.0
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -880,11 +880,11 @@ instant_effect = {
       creator = "TIX"
       version_name = "Type VIIA级"  # Type VIIA Class
     }
-    name = ""  # U-36
+    name = "U-36"
     requested_factories = 1
     progress = 0.0
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -892,11 +892,11 @@ instant_effect = {
       creator = "TIX"
       version_name = "Type VIIA级"  # Type VIIA Class
     }
-    name = ""  # U-35
+    name = "U-35"
     requested_factories = 1
     progress = 0.0
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -904,11 +904,11 @@ instant_effect = {
       creator = "TIX"
       version_name = "Type IIB级"  # Type IIB Class
     }
-    name = ""  # U-21
+    name = "U-21"
     requested_factories = 1
     progress = 0.0
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -916,11 +916,11 @@ instant_effect = {
       creator = "TIX"
       version_name = "Type IIB级"  # Type IIB Class
     }
-    name = ""  # U-22
+    name = "U-22"
     requested_factories = 1
     progress = 0.0
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -928,11 +928,11 @@ instant_effect = {
       creator = "TIX"
       version_name = "Type IIB级"  # Type IIB Class
     }
-    name = ""  # U-23
+    name = "U-23"
     requested_factories = 1
     progress = 0.0
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
   add_equipment_production = {
     equipment = {
@@ -940,10 +940,10 @@ instant_effect = {
       creator = "TIX"
       version_name = "Type IIB级"  # Type IIB Class
     }
-    name = ""  # U-24
+    name = "U-24"
     requested_factories = 1
     progress = 0.0
     amount = 1
-    industrial_manufacturer = mio:GER_blohm_und_voss_organization
+    industrial_manufacturer = "mio:GER_blohm_und_voss_organization"
   }
 }

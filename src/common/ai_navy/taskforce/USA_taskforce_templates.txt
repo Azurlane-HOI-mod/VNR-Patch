@@ -11,8 +11,8 @@ USA_StrikeForce_1 = {
 		battleship = {
 			amount = 2
 		}
-		destroyer = {
-			amount = 8
+		light_cruiser = {
+			amount = 3
 		}
 	}
 	
@@ -21,7 +21,7 @@ USA_StrikeForce_1 = {
 			amount = 4
 		}
 		battleship = {
-			amount = 5
+			amount = 6
 		}
 		heavy_cruiser = {
 			amount = 2
@@ -68,7 +68,7 @@ USA_PatrolDominanceForce_1 = {
 		heavy_cruiser = {
 			amount = 2
 		}
-		destroyer = {
+		light_cruiser = {
 			amount = 4
 		}
 	}
@@ -125,6 +125,29 @@ USA_ConvoyEscort_1 = {
 	optimal_composition = {
 		destroyer = {
 			amount = 5
+		}
+	}
+}
+
+USA_ConvoyEscort_2 = {
+	allowed = {
+		original_tag = BYG
+	}
+	ai_will_do = {
+		factor = 5
+	}	
+	mission = { convoy_escort }
+	min_composition = {
+		destroyer = {
+			amount = 5
+			role = 35
+		}
+	}
+	
+	optimal_composition = {
+		destroyer = {
+			amount = 5
+			role = 35
 		}
 	}
 }
